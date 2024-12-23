@@ -1,6 +1,6 @@
 ---
 name: Feiyu Zhao
-image: images/feiyu_Zhao.JPG
+image: images/Feiyu_Zhao.JPG
 description: Graduate Student
 status: active
 ---
