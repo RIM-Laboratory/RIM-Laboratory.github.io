@@ -1,0 +1,47 @@
+/*
+	This font software is the property of Commercial Type.
+
+	You may not modify the font software, use it on another website, or install it on a computer.
+
+	License information is available at http://commercialtype.com/eula
+	For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+	Copyright (C) 2016 Schwartzco Inc.
+	
+*/
+
+.MSKSans-Upright-VF-Web {
+    font-family: 'MSK Sans Web';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.MSKSans-Italic-VF-Web {
+    font-family: 'MSK Sans Web';
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MSK Sans Web';
+    src: url('MSKSans-Upright-VF-Web.woff2') format('woff2'),
+         url('MSKSans-Upright-VF-Web.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MSK Sans Web Bold';
+    src: url('MSKSans-Upright-VF-Web.woff2') format('woff2'),
+         url('MSKSans-Upright-VF-Web.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MSK Sans Web';
+    src: url('MSKSans-Italic-VF-Web.woff2') format('woff2'),
+         url('MSKSans-Italic-VF-Web.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
