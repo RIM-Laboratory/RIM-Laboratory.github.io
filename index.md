@@ -5,37 +5,47 @@ Welcome to the Robot Interaction and Manipulation Lab! We strive to advance the 
 
 欢迎来到机器人交互与操作实验室！我们致力于推动具身智能的发展，通过研发先进的触觉传感技术和新型人机交互范式，使机器人能够在非结构化环境中高效完成复杂操作任务。
 
-**Open Positions【硕博招生、助研招聘、博后招聘】**  
-- **[Master’s Program] 【硕士研究生】**  
-  We have 2-3 Master’s student openings annually (欢迎2024-2025统考、九推，专业方向：计算机、电子).  
-  For inquiries, please contact Prof. Xiao (xiaochx [AT] shanghaitech.edu.cn) or submit your application here: [应聘 APPLY](https://l1l6pvkmmmw.feishu.cn/share/base/form/shrcnSqulK34HeHeSwWuzwVkxMd){: .button}.
-
-- **[PhD Program] 【博士研究生】**  
-  We are collaborating with BIGAI (北京通用人工智能研究院) to recruit PhD students for 2025.  
-  **New 20241218**: Applications are currently open via [通计划招生简章及报名方式](https://yanzhao.shanghaitech.edu.cn/2024/1218/c2420a1104755/page.htm). 
-
-- **[Research Assistant & Postdoctoral Positions] 【助研、博后】**  
-  We have two full-time positions available: Research Assistant and Research Assistant Professor (or Postdoctoral Fellow).  
-  To apply, please visit: [应聘 APPLY](https://l1l6pvkmmmw.feishu.cn/share/base/form/shrcnSqulK34HeHeSwWuzwVkxMd){: .button}.
-
 ---
 
 Our research interests include but are not limited to:
 
-🖐️ **Tactile sensors**. Developing tactile sensors for dexterous robotic hands.
+🖐️ **Tactile Sensing and Multimodal Perception**. 
+We design novel **tactile sensors** and **multimodal sensing systems** (e.g., vision-tactile fusion) to equip robotic hands with human-like touch capabilities. Research spans sensor hardware development, signal processing algorithms, and applications in deformable object manipulation.
 
-🧠 **Learning manipulation skills**. Enabling robots to learn object manipulation through tactile feedback.
+🧠 **Embodied Intelligence and Skill Learning**. 
+We explore **reinforcement learning**, **imitation learning**, and **tactile-guided policy optimization** to enable robots to adaptively grasp, manipulate, and collaborate with humans in unstructured environments.
 
-🌐 **Human-robot interaction**. Exploring techniques (e.g., teleoperation) that facilitate seamless human-robot collaboration.
+🤖 **Robotic Systems and Advanced End-effector Design**
+From soft robotics to dexterous manipulators, we build **integrated robotic systems** with an emphasis on real-world applicability. Projects include dynamic control architectures, sensorimotor coordination, and hardware-software co-design for robust robotic operations.
 
-实验室主要方向：多模态传感器、触觉、具身智能、机器人系统及控制、操作技能学习。
+🌐 **Human-robot Interaction**. 
+We investigate **teleoperation interfaces**, **shared autonomy frameworks**, and **intuitive communication protocols** to bridge human intent with robotic execution. Applications range from industrial cobots to assistive robotics for healthcare scenarios.
 
-## 2024
-<p align="center">
-  <img src="images/lab-photo-2024.jpg" style="max-width:768px; height:auto;">
-</p>
+---
 
-## 2023
-<p align="center">
-  <img src="images/lab-photo-2023.PNG" style="max-width:768px; height:auto;">
-</p>
+🔍 **Why Join Us?**
+
+**我们致力于营造一个自由而理性的研究环境，团队既充满团结与活力，又保持严谨与高效。**
+
+- 🔄 灵活的合作形式：组会采用一对一和小组讨论两种形式，具体安排会根据大家的实际需求灵活调整，确保每位同学都能充分表达想法，同时也能从集体智慧中汲取灵感。
+- 📚 追求卓越的学术目标：在学术研究方面，我们鼓励大家瞄准机器学习和机器人领域的顶尖会议和期刊，例如 IROS、ICRA、CoRL、RSS、IJRR 和 T-RO 等。这些平台不仅是展示你们研究成果的舞台，更是提升学术水平、拓宽视野的重要机会。
+- 🤝 与工业界的紧密合作：我们与众多知名企业和团队保持着密切合作，积极推动研究成果的落地应用。同时，我们也会为大家提供宝贵的实习机会，推荐优秀同学前往人工智能和机器人领域的顶尖企业，如腾讯、华为、傅立叶智能等，让你们在实践中积累经验，拓宽未来的职业道路。
+
+---
+🌟 **Open Positions【硕博招生、助研招聘、博后招聘】**  
+- **[Research Assistant & Visitors] [研究助理 & 访问实习生]**
+  我们持续欢迎并接纳本科生加入我们的研究项目。通过提前参与，你将有机会在学术生涯的早期阶段共同撰写具有国际影响力的优秀论文。这样的经历不仅能提升你的学术能力，还将显著增加你被 RIMLab 或其他顶尖国际研究机构录取为研究生的机会。
+  [应聘 APPLY](https://l1l6pvkmmmw.feishu.cn/share/base/form/shrcnSqulK34HeHeSwWuzwVkxMd){: .button}.
+
+- **[Master’s Program] [硕士研究生]**  
+  We have 2-3 Master’s student openings annually (欢迎2024-2025统考、九推，专业方向：计算机、电子).  
+  For inquiries, please contact Prof. Xiao (xiaochx [AT] shanghaitech.edu.cn) or submit your application here: [应聘 APPLY](https://l1l6pvkmmmw.feishu.cn/share/base/form/shrcnSqulK34HeHeSwWuzwVkxMd){: .button}.
+
+- **[PhD Program]  [博士研究生]**  
+  We are collaborating with BIGAI (北京通用人工智能研究院) to recruit PhD students for 2025.  
+  **New 20241218**: Applications are currently open via [通计划招生简章及报名方式](https://yanzhao.shanghaitech.edu.cn/2024/1218/c2420a1104755/page.htm). 
+
+- **[Postdoctoral Positions]  [博后]**  
+  We have two full-time positions available: Research Assistant and Research Assistant Professor (or Postdoctoral Fellow).  
+  [应聘 APPLY](https://l1l6pvkmmmw.feishu.cn/share/base/form/shrcnSqulK34HeHeSwWuzwVkxMd){: .button}.
+
