@@ -14,4 +14,3 @@ package-lock.json
 yarn.lock
 node_modules
 .env
-# .bundle
