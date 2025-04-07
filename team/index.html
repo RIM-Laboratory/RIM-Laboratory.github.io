@@ -17,7 +17,7 @@
 
 <title>Team | Robot Interaction and Manipulation Lab</title>
 
-<link rel="icon" href="">
+<link rel="icon" href="/images/rim-favicon.png">
 
 <meta name="title" content="Team">
 <meta name="description" content="School of Information Science and Technology, ShanghaiTech University. ">
@@ -50,7 +50,7 @@
     "headline": "Team",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "" }
+      "logo": { "@type": "ImageObject", "url": "/images/rim-favicon.png" }
     },
     "url": ""
   }
@@ -370,7 +370,7 @@
     
     
       
-        <a href="/research/" data-tooltip="Published works">
+        <a href="/projects/" data-tooltip="Software, datasets, and more">
           Research
         </a>
       
@@ -378,6 +378,18 @@
       
         <a href="/team/" data-tooltip="About our team">
           Team
+        </a>
+      
+    
+      
+        <a href="/research/" data-tooltip="Published works">
+          Publication
+        </a>
+      
+    
+      
+        <a href="/blog/" data-tooltip="Musings and miscellany">
+          Openning
         </a>
       
     
@@ -418,6 +430,8 @@
   size: ;
 -->
 
+<h3 id="principal-investigator">Principal Investigator</h3>
+
 <div class="portrait-wrapper">
   <a href="/members/chenxi-xiao.html" class="portrait" data-style="" aria-label="Chenxi Xiao, PhD">
     <img src="/images/chenxi_bio.PNG" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -441,6 +455,20 @@
     
   </a>
 </div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h3 id="students">Students</h3>
 
 <div class="portrait-wrapper">
   <a href="/members/feiyu-zhao.html" class="portrait" data-style="" aria-label="Feiyu Zhao">
@@ -459,6 +487,30 @@
             
             
             <span>Graduate Student</span>
+          </span>
+        
+      </span>
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/pei-lin.html" class="portrait" data-style="" aria-label="Pei Lin">
+    <img src="/images/default_images.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-text">
+        
+          <span class="portrait-name">
+            Pei Lin
+          </span>
+        
+
+        
+          <span class="portrait-role">
+            
+            
+            <span>Ph.D Student</span>
           </span>
         
       </span>
@@ -491,14 +543,38 @@
 </div>
 
 <div class="portrait-wrapper">
-  <a href="/members/xi-zhang.html" class="portrait" data-style="" aria-label="xi zhang">
+  <a href="/members/shengcheng-luo.html" class="portrait" data-style="" aria-label="Shengcheng Luo">
+    <img src="/images/default_images.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-text">
+        
+          <span class="portrait-name">
+            Shengcheng Luo
+          </span>
+        
+
+        
+          <span class="portrait-role">
+            
+            
+            <span>Ph.D Student</span>
+          </span>
+        
+      </span>
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/xi-zhang.html" class="portrait" data-style="" aria-label="Xi Zhang">
     <img src="/images/xi_zhang.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-text">
         
           <span class="portrait-name">
-            xi zhang
+            Xi Zhang
           </span>
         
 
@@ -635,6 +711,30 @@
 </div>
 
 <div class="portrait-wrapper">
+  <a href="/members/yitian-guo.html" class="portrait" data-style="" aria-label="Yitian Guo">
+    <img src="/images/default_images.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-text">
+        
+          <span class="portrait-name">
+            Yitian Guo
+          </span>
+        
+
+        
+          <span class="portrait-role">
+            
+            
+            <span>Undergraduate Student</span>
+          </span>
+        
+      </span>
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
   <a href="/members/youyou-zhang.html" class="portrait" data-style="" aria-label="Youyou Zhang">
     <img src="/images/Youyou_Zhang.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
@@ -694,17 +794,111 @@
   size: ;
 -->
 
-<h2 id="2024">2024</h2>
-<p align="center">
-  <img src="../images/lab-photo-2024.jpg" style="max-width:768px; height:auto;">
-</p>
+<style>
+.photo-carousel {
+    overflow: hidden;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.carousel-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    gap: 20px;
+    padding: 20px 0;
+}
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+.carousel-nav {
+    text-align: center;
+    padding: 10px;
+}
+.dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.dot.active {
+    background: #666;
+}
+</style>
 
-<h2 id="2023">2023</h2>
-<p align="center">
-  <img src="../images/lab-photo-2023.PNG" style="max-width:768px; height:auto;">
-</p>
+<div class="photo-carousel">
+    <div class="carousel-track">
+        <!-- 2024 照片 -->
+        <img src="../images/lab-photo-2024.jpg" style="height: 300px; width: auto;">
+        <img src="../images/lab-photo2024.png" style="height: 300px; width: auto;">
+        <img src="../images/lab-photo2024-2.png" style="height: 300px; width: auto;">
+        <img src="../images/lab-photo-2024-3.png" style="height: 300px; width: auto;">
+        
+        <!-- 2023 照片 -->
+        <img src="../images/lab-photo-2023.PNG" style="height: 300px; width: auto;">
+        
+        <!-- 复制图片实现无缝循环 -->
+        <img src="../images/lab-photo-2024.jpg" style="height: 300px; width: auto;">
+        <img src="../images/lab-photo2024.png" style="height: 300px; width: auto;">
+        <img src="../images/lab-photo2024-2.png" style="height: 300px; width: auto;">
+        <img src="../images/lab-photo-2024-3.png" style="height: 300px; width: auto;">
+        <img src="../images/lab-photo-2023.PNG" style="height: 300px; width: auto;">
+    </div>
+    
+</div>
 
 <h4 id="alumni">Alumni</h4>
+
+<div class="portrait-wrapper">
+  <a href="/members/Mujing-Li.html" class="portrait" data-style="" aria-label="Mujing Li">
+    <img src="/images/default_images.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-text">
+        
+          <span class="portrait-name">
+            Mujing Li
+          </span>
+        
+
+        
+          <span class="portrait-role">
+            
+            
+            <span></span>
+          </span>
+        
+      </span>
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/Zengfan-XIng.html" class="portrait" data-style="" aria-label="Zengfan Xing">
+    <img src="/images/default_images.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-text">
+        
+          <span class="portrait-name">
+            Zengfan Xing
+          </span>
+        
+
+        
+          <span class="portrait-role">
+            
+            
+            <span></span>
+          </span>
+        
+      </span>
+    
+  </a>
+</div>
 
 <div class="grid" data-style="square">
   
