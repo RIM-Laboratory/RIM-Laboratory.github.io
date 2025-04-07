@@ -1,0 +1,48 @@
+section {
+  padding: 40px max(40px, (100% - 1000px) / 2);
+  transition-property: background, color;
+}
+
+section[data-size=wide] {
+  padding: 40px;
+}
+
+section[data-size=full] {
+  padding: 0;
+}
+
+section[data-size=full] > * {
+  margin: 0;
+  border-radius: 0;
+}
+
+section[data-size=full] img {
+  border-radius: 0;
+}
+
+main > section:last-of-type {
+  flex-grow: 1;
+}
+
+main > section:nth-of-type(even) {
+  background: var(--background);
+}
+
+main > section:nth-of-type(odd) {
+  background: var(--background-alt);
+}
+
+span.highlighted-text {
+  text-decoration: underline;
+  text-decoration-color: var(--primary);
+  text-decoration-thickness: 2px;
+  text-underline-position: under;
+}
+
+.icon.fa-solid.fa-link.anchor {
+  font-size: 20px;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=section.css.map */
