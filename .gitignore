@@ -14,8 +14,4 @@ package-lock.json
 yarn.lock
 node_modules
 .env
-Gemfile
 .bundle
-.docker
-Gemfile.lock
-docker-compose.yml
