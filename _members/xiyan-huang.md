@@ -3,6 +3,7 @@ name: Xiyan Huang
 image: images/xiyan_huang.JPG
 description: Graduate Student
 status: active
+role: student
 ---
 
 ### Biography

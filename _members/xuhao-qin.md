@@ -3,6 +3,7 @@ name: Xuhao Qin
 image: images/xuhao_bio.jpg
 description: Graduate Student
 status: active
+role: student
 links:
   email: qinxh2024[at]shanghaitech.edu.cn
   github: helloXqin

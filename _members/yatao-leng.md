@@ -3,6 +3,7 @@ name: Yatao Leng
 image: images/lyt.png
 description: Graduate Student
 status: active
+role: student
 ---
 
 ### Yatao Leng

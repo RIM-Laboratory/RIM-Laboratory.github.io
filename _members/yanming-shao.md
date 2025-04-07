@@ -3,6 +3,7 @@ name: Yanming Shao
 image: images/yanming_bio.jpg
 description: Graduate Student
 status: active
+role: student
 links:
     github: Tsunami-kun
     google scholar: gHy232gAAAAJ

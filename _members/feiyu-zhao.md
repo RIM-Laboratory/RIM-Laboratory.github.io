@@ -3,6 +3,7 @@ name: Feiyu Zhao
 image: images/Feiyu_Zhao.JPG
 description: Graduate Student
 status: active
+role: student
 ---
 
 ### Biography

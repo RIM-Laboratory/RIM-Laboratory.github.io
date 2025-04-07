@@ -1,8 +1,9 @@
 ---
-name: xi zhang
+name: Xi Zhang
 image: images/xi_zhang.png
 description: Graduate Student
 status: active
+role: student
 links:
   email: zhangxi2024[at]shanghaitech.edu.cn
 
