@@ -3,6 +3,7 @@ name: Runze Hu
 image: images/Runze_Hu.jpg
 description: Graduate Student
 status: active
+role: student
 ---
 
 ### Biography

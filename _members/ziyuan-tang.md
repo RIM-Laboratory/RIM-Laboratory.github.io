@@ -3,6 +3,7 @@ name: Ziyuan Tang
 image: images/ziyuan-tang.jpg
 description: Undergraduate Student
 status: active
+role: student
 links:
   email: tangzy2022[at]shanghaitech.edu.cn
 ---
