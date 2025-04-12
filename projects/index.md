@@ -32,22 +32,16 @@ We investigate **teleoperation interfaces**, **shared autonomy frameworks**, and
 ### Equipments
 
 
-🛠️ **Computational & Hardware Infrastructure**
-- Robotics Platforms:
-
-  - Dexterous manipulators (e.g., LeapHand, Star Hand).
-
-  - Tactile sensor preparation equipment (such as visual touch, air pressure, etc.).
-
-  - VR/AR systems for human-robot interaction studies.
+🛠️ **Hardware Infrastructure**
+- We have various robots, VR equipments, sensors, fabrication devices, etc. 
 <div style="text-align: center; margin: 20px 0;">
     <img src="../images/equipment.jpg" alt="实验室设备" style="width: 80%; max-width: 1000px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 - Compute Power:
 
-  - 10× NVIDIA RTX 4090-tier GPUs for rapid prototyping.
+  - Students have 4090 desktops, 4 x Nvidia A40 server.
 
-  - SIST have clusters for large-scale training (LLMs, physics-based simulation, multi-modal foundation models).
+  - Besides, SIST have clusters for large-scale training.
 
 
 

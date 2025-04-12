@@ -6,7 +6,7 @@ nav:
 ---
 
 <!-- # {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog -->
-## For perspective students
+## For prospective students
 
 🔍 **实验室欢迎具有机器人、具身智能等相关领域经验，具备科研竞赛经历，热爱动手实践的同学加入。**
 For inquiries, please contact Prof. Xiao (xiaochx [AT] shanghaitech.edu.cn) or submit your application here: [应聘 APPLY](https://l1l6pvkmmmw.feishu.cn/share/base/form/shrcnSqulK34HeHeSwWuzwVkxMd){: .button}
@@ -33,7 +33,7 @@ For inquiries, please contact Prof. Xiao (xiaochx [AT] shanghaitech.edu.cn) or s
 
 🔍 **Why Partner With Us?**
 
-实验室有多款尚未商业化的的触觉传感器、遥操作系统、机器人操作算法。欢迎探讨产业合作机会。
+实验室有多款有望商业化的新型触觉传感器、遥操作系统、机器人操作算法。欢迎探讨产业合作机会。
 
 **Contact Details**  
 📧 Email: [xiaochx[at]shanghaitech.edu.cn] ｜
