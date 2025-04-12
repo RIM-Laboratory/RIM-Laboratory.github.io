@@ -10,9 +10,9 @@ Welcome to the Robot Interaction and Manipulation Lab! We strive to advance the 
 ## 📢 Latest News
 
 - **2025.03** - Welcome Shegncheng Luo to join RIM Lab!  
-- **2025.02** - Our paper on biotic tactile sensor has been accepted to ICRA 2025.
-- **2024.10** - Our paper on image color transfer has bee accepted to WACV 2025. 
-
+- **2025.02** - One paper accepted to ICRA 2025.
+- **2024.10** - One paper accepted to WACV 2025. 
+- **2024.09** - One paper accepted to RA-L. 
 {% include section.html %}
 
 <style>

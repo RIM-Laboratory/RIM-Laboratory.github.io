@@ -1,0 +1,121 @@
+# DO NOT EDIT, GENERATED AUTOMATICALLY
+
+- id: doi:10.1109/WACV48630.2021.00087
+  title: 'Triangle-Net: Towards Robustness in Point Cloud Learning'
+  authors:
+  - C Xiao
+  - J Wachs
+  publisher: "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer\
+    \ \u2026, 0"
+  date: ''
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Qhiy3doAAAAJ&pagesize=100&citation_for_view=Qhiy3doAAAAJ:YsMSGLbcyi4C
+  gsid: Qhiy3doAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/ROBIO49542.2019.8961790
+  title: Dynamic Obstacle Avoidance for UAVs Using a Fast Trajectory Planning Approach
+  authors:
+  - H Chen
+  - P Lu
+  - C Xiao
+  publisher: "2019 IEEE International Conference on Robotics and Biomimetics (ROBIO),\
+    \ 1459 \u2026, 2019"
+  date: '2019-01-01'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Qhiy3doAAAAJ&pagesize=100&citation_for_view=Qhiy3doAAAAJ:qjMakFHDy7sC
+  gsid: Qhiy3doAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TNNLS.2021.3107742
+  title: Flying Through a Narrow Gap Using End-to-end Deep Reinforcement Learning
+    Augmented with Curriculum Learning and Sim2Real
+  authors:
+  - C Xiao
+  - P Lu
+  - Q He
+  publisher: IEEE Transactions on Neural Networks and Learning Systems, 1-8, 2021
+  date: '2021-01-01'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Qhiy3doAAAAJ&pagesize=100&citation_for_view=Qhiy3doAAAAJ:roLk4NBRz8UC
+  gsid: Qhiy3doAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/LRA.2022.3141458
+  title: Nonmyopic Informative Path Planning Based on Global Kriging Variance Minimization
+  authors:
+  - C Xiao
+  - J Wachs
+  publisher: IEEE Robotics and Automation Letters 7 (2), 1768-1775, 2022
+  date: '2022-01-01'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Qhiy3doAAAAJ&pagesize=100&citation_for_view=Qhiy3doAAAAJ:8k81kl-MbHgC
+  gsid: Qhiy3doAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/WACV48630.2021.00230
+  title: One-Shot Image Recognition Using Prototypical Encoders With Reduced Hubness
+  authors:
+  - C Xiao
+  - N Madapana
+  - J Wachs
+  publisher: "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer\
+    \ \u2026, 2021"
+  date: '2021-01-01'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Qhiy3doAAAAJ&pagesize=100&citation_for_view=Qhiy3doAAAAJ:eQOLeE2rZwMC
+  gsid: Qhiy3doAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TRO.2022.3182487
+  title: Active multiobject exploration and recognition via tactile whiskers
+  authors:
+  - C Xiao
+  - S Xu
+  - W Wu
+  - J Wachs
+  publisher: IEEE Transactions on Robotics 38 (6), 3479-3497, 2022
+  date: '2022-01-01'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Qhiy3doAAAAJ&pagesize=100&citation_for_view=Qhiy3doAAAAJ:UebtZRa9Y70C
+  gsid: Qhiy3doAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/IHMSC.2012.87
+  title: Intelligent Decision System Based on SOM-LVQ Neural Network for Soccer Robot
+  authors:
+  - B Chen
+  - C Xiao
+  - X Song
+  publisher: "2012 4th International Conference on Intelligent Human-Machine Systems\
+    \ and \u2026, 2012"
+  date: '2012-01-01'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Qhiy3doAAAAJ&pagesize=100&citation_for_view=Qhiy3doAAAAJ:UeHWp8X0CEIC
+  gsid: Qhiy3doAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/LRA.2021.3064211
+  title: 'Fingers See Things Differently (FIST-D): An Object Aware Visualization and
+    Manipulation Framework Based on Tactile Observations'
+  authors:
+  - C Xiao
+  - N Madapana
+  - J Wachs
+  publisher: IEEE Robotics and Automation Letters 6 (3), 4249-4256, 2021
+  date: '2021-01-01'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Qhiy3doAAAAJ&pagesize=100&citation_for_view=Qhiy3doAAAAJ:ufrVoPGSRksC
+  gsid: Qhiy3doAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TRO.2023.3278455
+  title: Tactile and Chemical Sensing With Haptic Feedback for a Telepresence Explosive
+    Ordnance Disposal Robot
+  authors:
+  - C Xiao
+  - AB Woeppel
+  - GM Clepper
+  - S Gao
+  - S Xu
+  - JF Rueschen
+  - D Kruse
+  - '...'
+  publisher: IEEE Transactions on Robotics, 2023
+  date: '2023-01-01'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Qhiy3doAAAAJ&pagesize=100&citation_for_view=Qhiy3doAAAAJ:kNdYIx-mwKoC
+  gsid: Qhiy3doAAAAJ
+  plugin: sources.py
+  file: sources.yaml
