@@ -24,7 +24,8 @@ For inquiries, please contact Prof. Xiao (xiaochx [AT] shanghaitech.edu.cn) or s
   We have two full-time positions available.  
 
 - **[PhD Program]  [博士研究生]**  
-  ~~We are collaborating with BIGAI (北京通用人工智能研究院) to recruit PhD students for 2025.~~  2025年度博士生招生名额已全部确定，暂不接收申请。2026年度博士招生待通知，有兴趣的同学可申请访问实习生项目。
+急招博士生一名，要求硕士学位、或即将毕业的应届生，学制3年。详见：上海科技大学信息科学与技术学院2025年学术型博士研究生（申请-考核制）报名通知 [简章](https://sist.shanghaitech.edu.cn/2025/0430/c2826a1110629/page.htm){: .button}
+  <!-- ~~We are collaborating with BIGAI (北京通用人工智能研究院) to recruit PhD students for 2025.~~  2025年度博士生招生名额已全部确定，暂不接收申请。2026年度博士招生待通知，有兴趣的同学可申请访问实习生项目。 -->
 
 
 {% include section.html %}

@@ -8,8 +8,8 @@ Welcome to the Robot Interaction and Manipulation Lab! We strive to advance the 
 {% include section.html %}
 
 ## 📢 Latest News
-
-- **2025.03** - Welcome Shegncheng Luo to join RIM Lab!  
+- **2025.05** - 招博士生一名（申请考核制，3年学制），欢迎邮件详询。[简章](https://sist.shanghaitech.edu.cn/2025/0430/c2826a1110629/page.htm){: .button}
+- **2025.03** - Welcome Shengcheng Luo to join RIM Lab!  
 - **2025.02** - One paper accepted to ICRA 2025.
 - **2024.10** - One paper accepted to WACV 2025. 
 - **2024.09** - One paper accepted to RA-L. 
