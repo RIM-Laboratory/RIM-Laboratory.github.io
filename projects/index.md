@@ -47,26 +47,43 @@ We investigate **teleoperation interfaces**, **shared autonomy frameworks**, and
 
 ### Featured
 
-<div class="project-grid">
-{% include list.html component="card" data="projects" filters="group: featured" %}
+
+<div class="image-grid">
+    <figure>
+        <img src="../images/bimanual.jpg" class="responsive-image">
+        <figcaption>Bimanual Grasping</figcaption>
+    </figure>
+    <figure>
+        <img src="../images/biotac.jpg" class="responsive-image">
+        <figcaption>Bionic Tactile Sensor</figcaption>
+    </figure>
+    <figure>
+        <img src="../images/tactileperception.jpg" class="responsive-image">
+        <figcaption>Tactile Perception</figcaption>
+    </figure>
 </div>
-
 <style>
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2rem;
+.image-grid {
+    display: block;  /* 改为块级布局 */
+    margin: 40px 0;
 }
 
-.project-card img {
+.image-grid figure {
     width: 100%;
-    height: 200px;
-    object-fit: contain;
-    padding: 1rem;
-    background: #f5f5f5;
-    border-radius: 8px;
+    margin-bottom: 40px;  /* 增加垂直间距 */
+    text-align: center;
+    width: 100%;
 }
-</style>
+
+.image-grid img {
+    max-width: 600px;
+    height: 300px;       /* 固定高度 */
+    object-fit: contain; /* 保持比例 */
+    margin: 0 auto;
+    display: block;      /* 解决底部间隙 */
+    background: #f8f9fa;/* 统一背景色 */
+    padding: 10px;
+}
 
 {% include section.html %}
 
