@@ -119,3 +119,10 @@
   gsid: Qhiy3doAAAAJ
   plugin: google-scholar.py
   file: google-scholar.yaml
+
+- id: doi:10.1109/WACV61041.2025.00892 # DLUT
+- id: doi:10.1109/LRA.2024.3490393 # BimanGrasp
+- id: doi:10.1109/IROS55552.2023.10341547 # COMPlacent: A Compliant Whisker Manipulator for Object Tactile Exploration
+- id: doi:10.1109/ICARM62033.2024.10715971 #E3 Net
+- id: arXiv:2410.10353 # HumanFT
+- id: arXiv:2504.16649 # PP-Tac

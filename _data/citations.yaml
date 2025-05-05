@@ -119,3 +119,80 @@
   gsid: Qhiy3doAAAAJ
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1109/WACV61041.2025.00892
+  title: 'D-LUT: Photorealistic Style Transfer via Diffusion Process'
+  authors:
+  - Mujing Li
+  - Guanjie Wang
+  - Xingguang Zhang
+  - Qifeng Liao
+  - Chenxi Xiao
+  publisher: 2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+  date: '2025-02-26'
+  link: https://doi.org/g9hdjc
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/LRA.2024.3490393
+  title: Bimanual Grasp Synthesis for Dexterous Robot Hands
+  authors:
+  - Yanming Shao
+  - Chenxi Xiao
+  publisher: IEEE Robotics and Automation Letters
+  date: '2024-12-01'
+  link: https://doi.org/g9hdjd
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/IROS55552.2023.10341547
+  title: 'COMPlacent: A Compliant Whisker Manipulator for Object Tactile Exploration'
+  authors:
+  - Chenxi Xiao
+  - Juan Wachs
+  publisher: 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    (IROS)
+  date: '2023-10-01'
+  link: https://doi.org/g9hdjg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/ICARM62033.2024.10715971
+  title: 'E<sup>3</sup>-Net: Event-Guided Edge-Enhancement Network for UAV-based Crack
+    Detection'
+  authors:
+  - Ran Duan
+  - Bo Wu
+  - Hao Zhou
+  - Haobo Zuo
+  - Zhengshu He
+  - Chenxi Xiao
+  - Changhong Fu
+  publisher: 2024 International Conference on Advanced Robotics and Mechatronics (ICARM)
+  date: '2024-07-08'
+  link: https://doi.org/g9hdjh
+  plugin: sources.py
+  file: sources.yaml
+- id: arXiv:2410.10353
+  title: 'HumanFT: A Human-like Fingertip Multimodal Visuo-Tactile Sensor'
+  authors:
+  - Yifan Wu
+  - Yuzhou Chen
+  - Zhengying Zhu
+  - Xuhao Qin
+  - Chenxi Xiao
+  publisher: arXiv
+  date: '2024-10-22'
+  link: https://arxiv.org/abs/2410.10353
+  plugin: sources.py
+  file: sources.yaml
+- id: arXiv:2504.16649
+  title: 'PP-Tac: Paper Picking Using Tactile Feedback in Dexterous Robotic Hands'
+  authors:
+  - Pei Lin
+  - Yuzhe Huang
+  - Wanlin Li
+  - Jianpeng Ma
+  - Chenxi Xiao
+  - Ziyuan Jiao
+  publisher: arXiv
+  date: '2025-04-24'
+  link: https://arxiv.org/abs/2504.16649
+  plugin: sources.py
+  file: sources.yaml
