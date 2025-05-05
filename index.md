@@ -20,6 +20,10 @@ Welcome to the Robot Interaction and Manipulation Lab!
 - **2024.09** - One paper accepted to RA-L. 
 {% include section.html %}
 
+**Contact Details**  
+📧 Email: [xiaochx[at]shanghaitech.edu.cn] ｜
+📍 Address: SIST 1D-303, ShanghaiTech University, 393 Middle Huaxia Road  
+
 <style>
 /* 新闻列表样式 */
 .news-list {
