@@ -3,7 +3,7 @@
 Welcome to the Robot Interaction and Manipulation Lab! 
 <!-- We strive to advance the field of Embodied AI by developing cutting-edge tactile sensing technologies and pioneering new human-robot interaction paradigms. Our goal is to empower robots to perform complex manipulation tasks in unstructured real-world environments. -->
 
-欢迎来到机器人交互与操作实验室！
+欢迎来到上海科技大学机器人交互与操作实验室！
 
 研究主题：灵巧手（硬件、操作策略）、具身遥操作、触觉多模态感知
 

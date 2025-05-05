@@ -37,7 +37,7 @@ We investigate **teleoperation interfaces**, **shared autonomy frameworks**, and
 <div style="text-align: center; margin: 20px 0;">
     <img src="../images/equipment.jpg" alt="实验室设备" style="width: 80%; max-width: 1000px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
-- Compute Power:
+- Computational Power:
 
   - Students have 4090 desktops, 4 x Nvidia A40 server.
 
