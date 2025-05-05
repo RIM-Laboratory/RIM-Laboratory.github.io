@@ -472,133 +472,100 @@ We investigate <strong>teleoperation interfaces</strong>, <strong>shared autonom
 
 <h3 id="featured">Featured</h3>
 
-<div class="project-grid">
-
-
-
-
-
-
-  
-
-  
-
-  
-    
-
-     
-<div class="card" data-style="">
-  <a aria-label="Bionic Tactile" class="card-image" target="_blank">
-    <img src="/images/biotac.jpg" alt="Bionic Tactile" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Bionic Tactile
-    </a>
-    
-
-    
-
-    
-
-    
-  </div>
+<div class="image-grid">
+    <figure>
+        <img src="../images/bimanual.jpg" class="responsive-image">
+        <figcaption>Bimanual Grasping</figcaption>
+    </figure>
+    <figure>
+        <img src="../images/biotac.jpg" class="responsive-image">
+        <figcaption>Bionic Tactile Sensor</figcaption>
+    </figure>
+    <figure>
+        <img src="../images/tactileperception.jpg" class="responsive-image">
+        <figcaption>Tactile Perception</figcaption>
+    </figure>
 </div>
-
-  
-    
-
-     
-<div class="card" data-style="">
-  <a aria-label="Bimanual Grasping" class="card-image" target="_blank">
-    <img src="/images/bimanual.jpg" alt="Bimanual Grasping" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Bimanual Grasping
-    </a>
-    
-
-    
-
-    
-
-    
-  </div>
-</div>
-
-  
-    
-
-     
-<div class="card" data-style="">
-  <a aria-label="Tactile Perception" class="card-image" target="_blank">
-    <img src="/images/tactileperception.jpg" alt="Tactile Perception" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a class="card-title">
-        Tactile Perception
-    </a>
-    
-
-    
-
-    
-
-    
-  </div>
-</div>
-
-  
-
-
-</div>
-
 <style>
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2rem;
+.image-grid {
+    display: block;  /* 改为块级布局 */
+    margin: 40px 0;
 }
 
-.project-card img {
+.image-grid figure {
     width: 100%;
-    height: 200px;
-    object-fit: contain;
-    padding: 1rem;
-    background: #f5f5f5;
-    border-radius: 8px;
+    margin-bottom: 40px;  /* 增加垂直间距 */
+    text-align: center;
+    width: 100%;
 }
-</style>
+
+.image-grid img {
+    max-width: 600px;
+    height: 300px;       /* 固定高度 */
+    object-fit: contain; /* 保持比例 */
+    margin: 0 auto;
+    display: block;      /* 解决底部间隙 */
+    background: #f8f9fa;/* 统一背景色 */
+    padding: 10px;
+}
   </section>
 
   
   
   
 
-  <section class="background" data-size="page">
+  <section
+    class="background"
+    data-size="page"
+    
+    
+  >
     <!--
   background: ;
   dark: ;
   size: ;
 -->
 
-<h3 id="teaching">Teaching</h3>
 
+### Teaching
+
+
+
+
+
+
+
+  
+
+  
+
+  
+    
+
+     
 <div class="card" data-style="half-width">
-  <a aria-label="EE151B" class="card-image" target="_blank">
-    <img src="/images/EE151.png" alt="EE151B" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  <a
+    
+    aria-label="EE151B"
+    class="card-image"
+    target="_blank"
+  >
+    <img
+      src="/images/EE151.png"
+      alt="EE151B"
+      loading="lazy"
+      onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
+
+    >
   </a>
 
   <div class="card-text">
     
-      <a class="card-title">
+      <a
+        
+        
+        class="card-title"
+      >
         EE151B
     </a>
     
@@ -613,14 +580,33 @@ We investigate <strong>teleoperation interfaces</strong>, <strong>shared autonom
   </div>
 </div>
 
+  
+    
+
+     
 <div class="card" data-style="half-width">
-  <a aria-label="EE291H" class="card-image" target="_blank">
-    <img src="/images/EE291.png" alt="EE291H" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  <a
+    
+    aria-label="EE291H"
+    class="card-image"
+    target="_blank"
+  >
+    <img
+      src="/images/EE291.png"
+      alt="EE291H"
+      loading="lazy"
+      onerror="this.src = '/images/fallback.svg'; this.onerror = null;"
+
+    >
   </a>
 
   <div class="card-text">
     
-      <a class="card-title">
+      <a
+        
+        
+        class="card-title"
+      >
         EE291H
     </a>
     
@@ -634,6 +620,11 @@ We investigate <strong>teleoperation interfaces</strong>, <strong>shared autonom
     
   </div>
 </div>
+
+  
+
+
+</style>
   </section>
 
 </main>
