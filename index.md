@@ -20,25 +20,97 @@ Welcome to the Robot Interaction and Manipulation Lab!
 - **2024.09** - One paper accepted to RA-L. 
 {% include section.html %}
 
-**Contact Details**  
-📧 Email: [xiaochx[at]shanghaitech.edu.cn] ｜
-📍 Address: SIST 1D-303, ShanghaiTech University, 393 Middle Huaxia Road  
+## 🚀 Research 
 
 <style>
-/* 新闻列表样式 */
-.news-list {
-    max-width: 800px;
+.photo-carousel {
+    overflow: hidden;
+    position: relative;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
-    background: #f8f9fa;
-    border-radius: 8px;
+}
+.carousel-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    gap: 20px;
+    padding: 20px 0;
+}
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+.carousel-nav {
+    text-align: center;
+    padding: 10px;
+}
+.dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.dot.active {
+    background: #666;
 }
 
-.news-list li {
-    margin: 15px 0;
-    padding: 10px;
-    background: white;
-    border-left: 4px solid #2c3e50;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+figure {
+    position: relative;
+    margin: 0 15px;
+    flex-shrink: 0;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    font-size: 16px;
+    text-align: center;
+    padding: 8px 12px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 0 0 8px 8px;
 }
 </style>
+
+<div class="photo-carousel">
+    <div class="carousel-track">
+        <!-- 2024 照片 -->
+        <figure>
+            <img src="../images/bimanual.jpg" style="height: 300px; width: auto;">
+            <figcaption>双手机器人协同操作平台</figcaption>
+        </figure>
+        <figure>
+            <img src="../images/biotac.jpg" style="height: 300px; width: auto;">
+            <figcaption>仿生触觉传感器阵列</figcaption>
+        </figure>
+        <figure>
+            <img src="../images/tactileperception.jpg" style="height: 300px; width: auto;">
+            <figcaption>触觉感知实验场景</figcaption>
+        </figure>
+        
+        <!-- 复制图片实现无缝循环 -->
+        <figure>
+            <img src="../images/bimanual.jpg" style="height: 300px; width: auto;">
+            <figcaption>双手机器人协同操作平台</figcaption>
+        </figure>
+        <figure>
+            <img src="../images/biotac.jpg" style="height: 300px; width: auto;">
+            <figcaption>仿生触觉传感器阵列</figcaption>
+        </figure>
+        <figure>
+            <img src="../images/tactileperception.jpg" style="height: 300px; width: auto;">
+            <figcaption>触觉感知实验场景</figcaption>
+        </figure>
+    </div>
+</div>
+
+{% include section.html %}
+
+## ☎️ Contact Details
+📧 Email: [xiaochx[at]shanghaitech.edu.cn] ｜
+📍 Address: SIST 1D-303, ShanghaiTech University, 393 Middle Huaxia Road  
