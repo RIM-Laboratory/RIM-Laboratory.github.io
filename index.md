@@ -13,6 +13,7 @@ Welcome to the Robot Interaction and Manipulation Lab!
 ## 📢 Latest News
 - **2025.05** - 招保研推免生（暑期夏令营、九月推免），欢迎邮件详询。[简章](https://sist.shanghaitech.edu.cn/2025/0504/c7339a1110662/page.htm){: .button}
 - **2025.05** - 招博士生一名（申请考核制，3年学制），欢迎邮件详询。[简章](https://sist.shanghaitech.edu.cn/2025/0430/c2826a1110629/page.htm){: .button}
+- **2025.06** - Three papers accepted to IROS 2025. 
 - **2025.04** - One paper accepted to RSS 2025.  
 - **2025.03** - Welcome Shengcheng Luo to join RIM Lab!  
 - **2025.02** - One paper accepted to ICRA 2025.
