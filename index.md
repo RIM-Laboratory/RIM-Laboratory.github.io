@@ -5,7 +5,7 @@ Welcome to the Robot Interaction and Manipulation Lab!
 
 欢迎来到上海科技大学机器人交互与操作实验室！
 
-研究主题：灵巧手（硬件、操作策略）、具身遥操作、触觉多模态感知
+研究主题：视触觉结合感知、灵巧手操作、触觉传感器、具身数据采集与合成、遥操作
 
 <!-- 新增新闻栏目 -->
 {% include section.html %}
