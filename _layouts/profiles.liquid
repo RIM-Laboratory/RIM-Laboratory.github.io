@@ -1,0 +1,40 @@
+---
+layout: page
+---
+
+<div class="post">
+  <article>
+    {% if page.profiles %}
+      {% for profile in page.profiles %}
+        <div class="card hoverable mb-4">
+          <div class="row no-gutters">
+            
+            <div class="col-md-3">
+              {% if profile.image %}
+                {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+                {% capture sizes %}(min-width: 576px) 25vw, 95vw"{% endcapture %}
+                {% include figure.liquid loading="eager" path=profile_image_path class="card-img" sizes=sizes alt=profile.image %}
+              {% endif %}
+            </div>
+
+            <div class="col-md-9">
+              <div class="card-body">
+                {% if profile.content %}
+                  {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+                  {{ profile_content | markdownify }}
+                {% else %}
+                  {{ content }}
+                {% endif %}
+                
+                {% if profile.more_info %}
+                  <div class="more-info">{{ profile.more_info }}</div>
+                {% endif %}
+              </div>
+            </div>
+
+          </div>
+        </div>
+      {% endfor %}
+    {% endif %}
+  </article>
+</div>
