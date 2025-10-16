@@ -27,92 +27,81 @@ Welcome to the Robot Interaction and Manipulation Lab!
 ## 🚀 Research 
 
 <style>
-.photo-carousel {
-    overflow: hidden;
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.carousel-track {
+.photo-list {
+    max-width: 800px;
+    margin: 20px auto;
     display: flex;
-    animation: scroll 40s linear infinite;
-    gap: 20px;
-    padding: 20px 0;
+    flex-direction: column;
+    gap: 40px;
 }
-@keyframes scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
+.photo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
 }
-.carousel-nav {
+.photo-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.photo-details {
     text-align: center;
-    padding: 10px;
-}
-.dot {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: #ccc;
-    margin: 0 5px;
-    cursor: pointer;
-}
-.dot.active {
-    background: #666;
-}
-
-figure {
-    position: relative;
-    margin: 0 15px;
-    flex-shrink: 0;
-}
-
-figcaption {
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    right: 0;
-    color: white;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
     font-size: 16px;
-    text-align: center;
-    padding: 8px 12px;
-    background: rgba(0,0,0,0.6);
-    border-radius: 0 0 8px 8px;
+    line-height: 1.6;
+    color: #333;
+}
+.photo-details p {
+    margin: 8px 0;
+}
+.photo-details .title {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+.photo-details .author {
+    font-style: italic;
+    color: #555;
+}
+.photo-details .arxiv-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.photo-details .arxiv-link a:hover {
+    text-decoration: underline;
 }
 </style>
 
-<div class="photo-carousel">
-    <div class="carousel-track">
-        <!-- 2024 照片 -->
-        <figure>
-            <img src="../images/bimanual.jpg" style="height: 300px; width: auto;">
-            <figcaption>双手机器人协同操作平台</figcaption>
-        </figure>
-        <figure>
-            <img src="../images/biotac.jpg" style="height: 300px; width: auto;">
-            <figcaption>仿生触觉传感器阵列</figcaption>
-        </figure>
-        <figure>
-            <img src="../images/tactileperception.jpg" style="height: 300px; width: auto;">
-            <figcaption>触觉感知实验场景</figcaption>
-        </figure>
-        
-        <!-- 复制图片实现无缝循环 -->
-        <figure>
-            <img src="../images/bimanual.jpg" style="height: 300px; width: auto;">
-            <figcaption>双手机器人协同操作平台</figcaption>
-        </figure>
-        <figure>
-            <img src="../images/biotac.jpg" style="height: 300px; width: auto;">
-            <figcaption>仿生触觉传感器阵列</figcaption>
-        </figure>
-        <figure>
-            <img src="../images/tactileperception.jpg" style="height: 300px; width: auto;">
-            <figcaption>触觉感知实验场景</figcaption>
-        </figure>
+<div class="photo-list">
+    <div class="photo-item">
+        <img src="../images/bimanual.jpg" alt="双手机器人协同操作平台">
+        <div class="photo-details">
+            <p class="title">双手机器人协同操作平台</p>
+            <p class="author">作者：张三, 李四</p>
+            <p class="arxiv-link">
+                <a href="https://arxiv.org/abs/xxxx.xxxx" target="_blank">arXiv: xxxx.xxxx</a>
+            </p>
+        </div>
     </div>
-</div>
 
+    <div class="photo-item">
+        <img src="../images/biotac.jpg" alt="仿生触觉传感器阵列">
+        <div class="photo-details">
+            <p class="title">仿生触觉传感器阵列</p>
+            <p class="author">作者：王五, 赵六</p>
+            <p class="arxiv-link">
+                <a href="https://arxiv.org/abs/yyyy.yyyy" target="_blank">arXiv: yyyy.yyyy</a>
+            </p>
+        </div>
+    </div>
+    
+    </div>
 {% include section.html %}
 
 ## ☎️ Contact Details
