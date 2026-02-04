@@ -17,7 +17,7 @@ Welcome to the Robot Interaction and Manipulation Lab!
 - **2026.01** - One paper accepted to RA-L. 
 - **2026.01** - One paper accepted to ICLR. 
 - **2025.12** - One paper accepted to RA-L. 
-- **2025.09** - Welcome Hongyi Yang, Jiaming Jiang to join RIM Lab!  
+- **2025.09** - Welcome Ziyuan Tang, Hongyi Yang, Jiaming Jiang to join RIM Lab!  
 - **2025.09** - One paper accepted to ROBIO 2025.
 - **2025.08** - One paper accepted to Humanoid 2025. 
 - **2025.07** - Welcome Kefei Wu to join RIM Lab!  
@@ -29,6 +29,7 @@ Welcome to the Robot Interaction and Manipulation Lab!
 - **2024.10** - One paper accepted to WACV 2025. 
 - **2024.09** - One paper accepted to RA-L. 
 {% include section.html %}
+
 
 ## 🚀 Research 
 
