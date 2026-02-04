@@ -11,9 +11,16 @@ Welcome to the Robot Interaction and Manipulation Lab!
 {% include section.html %}
 
 ## 📢 Latest News
-- **2025.05** - 招保研推免生（暑期夏令营、九月推免），欢迎邮件详询。[简章](https://sist.shanghaitech.edu.cn/2025/0504/c7339a1110662/page.htm){: .button}
-- **2025.05** - 招博士生一名（申请考核制，3年学制），欢迎邮件详询。[简章](https://sist.shanghaitech.edu.cn/2025/0430/c2826a1110629/page.htm){: .button}
+- 实验室常年招收招保研推免生（暑期夏令营、九月推免），欢迎邮件详询。[参考2025简章](https://sist.shanghaitech.edu.cn/2025/0504/c7339a1110662/page.htm){: .button}
+- **2026.02** - 招博士生一名（申请考核制，3年学制，截止2026年2月28日），欢迎邮件详询。[简章](https://sist.shanghaitech.edu.cn/2026/0130/c2826a1119292/page.htm){: .button}
+- **2026.01** - Three paper accepted to ICRA. 
+- **2026.01** - One paper accepted to RA-L. 
+- **2026.01** - One paper accepted to ICLR. 
+- **2025.12** - One paper accepted to RA-L. 
+- **2025.09** - Welcome Hongyi Yang, Jiaming Jiang to join RIM Lab!  
+- **2025.09** - One paper accepted to ROBIO 2025.
 - **2025.08** - One paper accepted to Humanoid 2025. 
+- **2025.07** - Welcome Kefei Wu to join RIM Lab!  
 - **2025.07** - One paper accepted to ACM MM 2025. 
 - **2025.06** - Three papers accepted to IROS 2025. 
 - **2025.04** - One paper accepted to RSS 2025.  
@@ -22,7 +29,6 @@ Welcome to the Robot Interaction and Manipulation Lab!
 - **2024.10** - One paper accepted to WACV 2025. 
 - **2024.09** - One paper accepted to RA-L. 
 {% include section.html %}
-
 
 ## 🚀 Research 
 
