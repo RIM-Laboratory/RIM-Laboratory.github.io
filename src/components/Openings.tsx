@@ -14,7 +14,7 @@ export default function Openings() {
           <div className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Openings</h2>
             <p className="text-lg text-gray-600 max-w-2xl">
-              We are always looking for motivated students and researchers to join our team.
+              We are always looking for motivated students to join our team.
             </p>
           </div>
 
