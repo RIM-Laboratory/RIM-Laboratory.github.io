@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "title": "MFE: A Multimodal Hand Exoskeleton With Interactive Force, Pressure and Thermo-Haptic Feedback",
+    "authors": "Ziyuan Tang, Yitian Guo, Chenxi Xiao",
+    "venue": "IEEE Robotics Autom. Lett.",
+    "year": 2026,
+    "image": "/images/pub_1.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1109/LRA.2026.3662616",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 2,
+    "title": "Autonomous Exploration for Shape Reconstruction and Measurement via Informative Contact-Guided Planning",
+    "authors": "Feiyu Zhao, Chenxi Xiao",
+    "venue": "IEEE Robotics Autom. Lett.",
+    "year": 2026,
+    "image": "/images/pub_2.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1109/LRA.2025.3641100",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 3,
+    "title": "TaF-VLA: Tactile-Force Alignment in Vision-Language-Action Models for Force-aware Manipulation",
+    "authors": "Yuzhe Huang, Pei Lin, Wanlin Li, Daohan Li, Jiajun Li, Jiaming Jiang, Chenxi Xiao, Ziyuan Jiao",
+    "venue": "CoRR",
+    "year": 2026,
+    "image": "/images/pub_3.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.48550/arXiv.2601.20321",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 4,
+    "title": "Inquiring the Next Location and Travel Time: A Deep-Learning-Based Temporal Point Process for Vehicle Trajectory Prediction",
+    "authors": "Jie Zeng 0002, Chenxi Xiao, Jinjun Tang, Cheng Hu",
+    "venue": "IEEE Internet Things J.",
+    "year": 2025,
+    "image": "/images/pub_4.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1109/JIOT.2024.3523497",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 5,
+    "title": "SynPolDex: Synergizing Fingers via Bi-Level Policy Learning for Dexterous Robotic Hands",
+    "authors": "Yanming Shao, Yan Ding, Chenxi Xiao",
+    "venue": "Humanoids",
+    "year": 2025,
+    "image": "/images/pub_5.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1109/Humanoids65713.2025.11203017",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 6,
+    "title": "HumanFT: A Human-Like Fingertip Multimodal Visuo-Tactile Sensor",
+    "authors": "Yifan Wu 0035, Yuzhou Chen, Zhengying Zhu, Xuhao Qin, Chenxi Xiao",
+    "venue": "ICRA",
+    "year": 2025,
+    "image": "/images/pub_6.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1109/ICRA55743.2025.11128300",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 7,
+    "title": "TwinTac: A Wide-Range, Highly Sensitive Tactile Sensor with Real-To-Sim Digital Twin Sensor Model",
+    "authors": "Xiyan Huang, Zhe Xu, Chenxi Xiao",
+    "venue": "IROS",
+    "year": 2025,
+    "image": "/images/pub_7.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1109/IROS60139.2025.11247002",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 8,
+    "title": "Touch-Linked Sleeve: A Haptic Interface for Augmented Tactile Perception in Robotic Teleoperation",
+    "authors": "Yatao Leng, Yuzhou Chen, Ziyuan Tang, Chenxi Xiao",
+    "venue": "IROS",
+    "year": 2025,
+    "image": "/images/pub_8.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1109/IROS60139.2025.11245835",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 9,
+    "title": "R-Tac0: A Rounded High-Frequency Transferable Monochrome Vision-based Tactile Sensor for Shape Reconstruction",
+    "authors": "Wanlin Li, Pei Lin, Meng Wang 0051, Chenxi Xiao, Kaspar Althoefer, Yao Su 0001, Ziyuan Jiao, Hangxin Liu",
+    "venue": "IROS",
+    "year": 2025,
+    "image": "/images/pub_9.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1109/IROS60139.2025.11246144",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 10,
+    "title": "HandCraft: Tactile-Informed Hand-Object Dynamics Capture and Realistic Rendering",
+    "authors": "Hongyang Lin, Kuixiang Shao, Peijun Xu, Zhuoyang Bu, Yuyang Jiao, Ziyuan Tang, Chenxi Xiao, Jingyi Yu 0002",
+    "venue": "ACM Multimedia",
+    "year": 2025,
+    "image": "/images/pub_10.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1145/3746027.3755822",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 11,
+    "title": "HydroGrasp: A Hydraulic Multi-Fingered Gripper",
+    "authors": "Peiran Zhang, Ziyuan Tang, Runze Hu, Chenxi Xiao",
+    "venue": "ROBIO",
+    "year": 2025,
+    "image": "/images/pub_11.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1109/ROBIO66223.2025.11377340",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 12,
+    "title": "D-LUT: Photorealistic Style Transfer via Diffusion Process",
+    "authors": "Mujing Li, Guanjie Wang, Xingguang Zhang, Qifeng Liao, Chenxi Xiao",
+    "venue": "WACV",
+    "year": 2025,
+    "image": "/images/pub_12.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1109/WACV61041.2025.00892",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 13,
+    "title": "PP-Tac: Paper Picking Using Tactile Feedback in Dexterous Robotic Hands",
+    "authors": "Pei Lin, Yuzhe Huang, Wanlin Li, Jianpeng Ma, Chenxi Xiao, Ziyuan Jiao",
+    "venue": "CoRR",
+    "year": 2025,
+    "image": "/images/pub_13.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.48550/arXiv.2504.16649",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 14,
+    "title": "TwinTac: A Wide-Range, Highly Sensitive Tactile Sensor with Real-to-Sim Digital Twin Sensor Model",
+    "authors": "Xiyan Huang, Zhe Xu, Chenxi Xiao",
+    "venue": "CoRR",
+    "year": 2025,
+    "image": "/images/pub_14.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.48550/arXiv.2509.10063",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 15,
+    "title": "Bimanual Grasp Synthesis for Dexterous Robot Hands",
+    "authors": "Yanming Shao, Chenxi Xiao",
+    "venue": "IEEE Robotics Autom. Lett.",
+    "year": 2024,
+    "image": "/images/pub_15.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1109/LRA.2024.3490393",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 16,
+    "title": "E3-Net: Event-Guided Edge-Enhancement Network for UAV-based Crack Detection",
+    "authors": "Ran Duan 0002, Bo Wu 0004, Hao Zhou, Haobo Zuo, Zhengshu He, Chenxi Xiao, Changhong Fu 0001",
+    "venue": "ICARM",
+    "year": 2024,
+    "image": "/images/pub_16.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1109/ICARM62033.2024.10715971",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 17,
+    "title": "HumanFT: A Human-like Fingertip Multimodal Visuo-Tactile Sensor",
+    "authors": "Yifan Wu, Yuzhou Chen, Zhengying Zhu, Xuhao Qin, Chenxi Xiao",
+    "venue": "CoRR",
+    "year": 2024,
+    "image": "/images/pub_17.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.48550/arXiv.2410.10353",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 18,
+    "title": "Bimanual Grasp Synthesis for Dexterous Robot Hands",
+    "authors": "Yanming Shao, Chenxi Xiao",
+    "venue": "CoRR",
+    "year": 2024,
+    "image": "/images/pub_18.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.48550/arXiv.2411.15903",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 19,
+    "title": "Flying Through a Narrow Gap Using End-to-End Deep Reinforcement Learning Augmented With Curriculum Learning and Sim2Real",
+    "authors": "Chenxi Xiao, Peng Lu 0003, Qizhi He",
+    "venue": "IEEE Trans. Neural Networks Learn. Syst.",
+    "year": 2023,
+    "image": "/images/pub_19.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1109/TNNLS.2021.3107742",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 20,
+    "title": "Tactile and Chemical Sensing With Haptic Feedback for a Telepresence Explosive Ordnance Disposal Robot",
+    "authors": "Chenxi Xiao, Aaron Benjamin Woeppel, Gina M. Clepper, Shengjie Gao, Shujia Xu, Johannes F. Rueschen, Daniel Kruse, Wenzhuo Wu, Hong Z. Tan, Thomas Low, Stephen P. Beaudoin, Bryan W. Boudouris, William G. Haris, Juan P. Wachs",
+    "venue": "IEEE Trans. Robotics",
+    "year": 2023,
+    "image": "/images/pub_20.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1109/TRO.2023.3278455",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 21,
+    "title": "COMPlacent: A Compliant Whisker Manipulator for Object Tactile Exploration",
+    "authors": "Chenxi Xiao, Juan P. Wachs",
+    "venue": "IROS",
+    "year": 2023,
+    "image": "/images/pub_21.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1109/IROS55552.2023.10341547",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 22,
+    "title": "Encountered-Type Haptic Display via Tracking Calibrated Robot",
+    "authors": "Chenxi Xiao, Yuan Tian",
+    "venue": "CoRR",
+    "year": 2023,
+    "image": "/images/pub_22.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.48550/arXiv.2309.16768",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 23,
+    "title": "Research on Site Selection of Changsha-Zhuzhou-Xiangtan Railway Logistics Center Based on Grey Wolf Optimization Algorithm",
+    "authors": "Xin Chen, Chenxi Xiao, Huiwen Shi, Fangyu Hong",
+    "venue": "J. Uncertain Syst.",
+    "year": 2022,
+    "image": "/images/pub_23.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1142/S1752890922500088",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 24,
+    "title": "Nonmyopic Informative Path Planning Based on Global Kriging Variance Minimization",
+    "authors": "Chenxi Xiao, Juan P. Wachs",
+    "venue": "IEEE Robotics Autom. Lett.",
+    "year": 2022,
+    "image": "/images/pub_24.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1109/LRA.2022.3141458",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 25,
+    "title": "Active Multiobject Exploration and Recognition via Tactile Whiskers",
+    "authors": "Chenxi Xiao, Shujia Xu, Wenzhuo Wu, Juan P. Wachs",
+    "venue": "IEEE Trans. Robotics",
+    "year": 2022,
+    "image": "/images/pub_25.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1109/TRO.2022.3182487",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 26,
+    "title": "Fingers See Things Differently (FIST-D): An Object Aware Visualization and Manipulation Framework Based on Tactile Observations",
+    "authors": "Chenxi Xiao, Naveen Madapana, Juan P. Wachs",
+    "venue": "IEEE Robotics Autom. Lett.",
+    "year": 2021,
+    "image": "/images/pub_26.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1109/LRA.2021.3064211",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 27,
+    "title": "One-Shot Image Recognition Using Prototypical Encoders with Reduced Hubness",
+    "authors": "Chenxi Xiao, Naveen Madapana, Juan P. Wachs",
+    "venue": "WACV",
+    "year": 2021,
+    "image": "/images/pub_27.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1109/WACV48630.2021.00230",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 28,
+    "title": "Triangle-Net: Towards Robustness in Point Cloud Learning",
+    "authors": "Chenxi Xiao, Juan P. Wachs",
+    "venue": "WACV",
+    "year": 2021,
+    "image": "/images/pub_28.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://doi.org/10.1109/WACV48630.2021.00087",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 29,
+    "title": "Flying Through a Narrow Gap Using End-to-end Deep Reinforcement Learning Augmented with Curriculum Learning and Sim2Real",
+    "authors": "Chenxi Xiao, Peng Lu 0003, Qizhi He",
+    "venue": "CoRR",
+    "year": 2021,
+    "image": "/images/pub_29.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2108.12869",
+      "code": "",
+      "video": ""
+    }
+  },
+  {
+    "id": 30,
+    "title": "Active Multi-Object Exploration and Recognition via Tactile Whiskers",
+    "authors": "Chenxi Xiao, Shujia Xu, Wenzhuo Wu, Juan P. Wachs",
+    "venue": "CoRR",
+    "year": 2021,
+    "image": "/images/pub_30.jpg",
+    "abstract": "Abstract not available from DBLP. Please update manually.",
+    "links": {
+      "pdf": "https://arxiv.org/abs/2109.03976",
+      "code": "",
+      "video": ""
+    }
+  }
+]

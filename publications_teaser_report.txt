@@ -1,0 +1,23 @@
+Generated at 2026-03-18T20:28:21.752776
+Updated: 8/29
+FAIL	no_og_image	MFE: A Multimodal Hand Exoskeleton With Interactive Force, Pressure and Thermo-Haptic Feedback
+FAIL	no_og_image	Autonomous Exploration for Shape Reconstruction and Measurement via Informative Contact-Guided Planning
+FAIL	no_og_image	Inquiring the Next Location and Travel Time: A Deep-Learning-Based Temporal Point Process for Vehicle Trajectory Prediction
+FAIL	no_og_image	SynPolDex: Synergizing Fingers via Bi-Level Policy Learning for Dexterous Robotic Hands
+FAIL	no_og_image	HumanFT: A Human-Like Fingertip Multimodal Visuo-Tactile Sensor
+FAIL	no_og_image	TwinTac: A Wide-Range, Highly Sensitive Tactile Sensor with Real-To-Sim Digital Twin Sensor Model
+FAIL	no_og_image	Touch-Linked Sleeve: A Haptic Interface for Augmented Tactile Perception in Robotic Teleoperation
+FAIL	no_og_image	R-Tac0: A Rounded High-Frequency Transferable Monochrome Vision-based Tactile Sensor for Shape Reconstruction
+FAIL	no_og_image	HandCraft: Tactile-Informed Hand-Object Dynamics Capture and Realistic Rendering
+FAIL	no_og_image	HydroGrasp: A Hydraulic Multi-Fingered Gripper
+FAIL	no_og_image	D-LUT: Photorealistic Style Transfer via Diffusion Process
+FAIL	no_og_image	Bimanual Grasp Synthesis for Dexterous Robot Hands
+FAIL	no_og_image	E3-Net: Event-Guided Edge-Enhancement Network for UAV-based Crack Detection
+FAIL	no_og_image	Flying Through a Narrow Gap Using End-to-End Deep Reinforcement Learning Augmented With Curriculum Learning and Sim2Real
+FAIL	no_og_image	Tactile and Chemical Sensing With Haptic Feedback for a Telepresence Explosive Ordnance Disposal Robot
+FAIL	no_og_image	COMPlacent: A Compliant Whisker Manipulator for Object Tactile Exploration
+FAIL	no_og_image	Nonmyopic Informative Path Planning Based on Global Kriging Variance Minimization
+FAIL	no_og_image	Active Multiobject Exploration and Recognition via Tactile Whiskers
+FAIL	no_og_image	Fingers See Things Differently (FIST-D): An Object Aware Visualization and Manipulation Framework Based on Tactile Observations
+FAIL	no_og_image	One-Shot Image Recognition Using Prototypical Encoders with Reduced Hubness
+FAIL	no_og_image	Triangle-Net: Towards Robustness in Point Cloud Learning

@@ -1,0 +1,1193 @@
+{
+  "result": {
+    "query": ":facetid:author:\"Chenxi_Xiao\"",
+    "status": {
+      "@code": "200",
+      "text": "OK"
+    },
+    "time": {
+      "@unit": "msecs",
+      "text": "23.10"
+    },
+    "completions": {
+      "@total": "1",
+      "@computed": "1",
+      "@sent": "1",
+      "c": {
+        "@sc": "32",
+        "@dc": "32",
+        "@oc": "32",
+        "@id": "20880623",
+        "text": ":facetid:author:Chenxi_Xiao"
+      }
+    },
+    "hits": {
+      "@total": "32",
+      "@computed": "32",
+      "@sent": "30",
+      "@first": "0",
+      "hit": [
+        {
+          "@score": "1",
+          "@id": "40351",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "262/0322",
+                  "text": "Ziyuan Tang"
+                },
+                {
+                  "@pid": "422/2142",
+                  "text": "Yitian Guo"
+                },
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                }
+              ]
+            },
+            "title": "MFE: A Multimodal Hand Exoskeleton With Interactive Force, Pressure and Thermo-Haptic Feedback.",
+            "venue": "IEEE Robotics Autom. Lett.",
+            "volume": "11",
+            "number": "3",
+            "pages": "3756-3763",
+            "year": "2026",
+            "type": "Journal Articles",
+            "access": "closed",
+            "key": "journals/ral/TangGX26",
+            "doi": "10.1109/LRA.2026.3662616",
+            "ee": "https://doi.org/10.1109/LRA.2026.3662616",
+            "url": "https://dblp.org/rec/journals/ral/TangGX26"
+          },
+          "url": "URL#40351"
+        },
+        {
+          "@score": "1",
+          "@id": "40495",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "231/1622",
+                  "text": "Feiyu Zhao"
+                },
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                }
+              ]
+            },
+            "title": "Autonomous Exploration for Shape Reconstruction and Measurement via Informative Contact-Guided Planning.",
+            "venue": "IEEE Robotics Autom. Lett.",
+            "volume": "11",
+            "number": "2",
+            "pages": "1250-1257",
+            "year": "2026",
+            "type": "Journal Articles",
+            "access": "closed",
+            "key": "journals/ral/ZhaoX26",
+            "doi": "10.1109/LRA.2025.3641100",
+            "ee": "https://doi.org/10.1109/LRA.2025.3641100",
+            "url": "https://dblp.org/rec/journals/ral/ZhaoX26"
+          },
+          "url": "URL#40495"
+        },
+        {
+          "@score": "1",
+          "@id": "70302",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "227/2274",
+                  "text": "Yuzhe Huang"
+                },
+                {
+                  "@pid": "05/8234",
+                  "text": "Pei Lin"
+                },
+                {
+                  "@pid": "157/9072",
+                  "text": "Wanlin Li"
+                },
+                {
+                  "@pid": "427/9736",
+                  "text": "Daohan Li"
+                },
+                {
+                  "@pid": "86/8514",
+                  "text": "Jiajun Li"
+                },
+                {
+                  "@pid": "168/2078",
+                  "text": "Jiaming Jiang"
+                },
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                },
+                {
+                  "@pid": "217/7660",
+                  "text": "Ziyuan Jiao"
+                }
+              ]
+            },
+            "title": "TaF-VLA: Tactile-Force Alignment in Vision-Language-Action Models for Force-aware Manipulation.",
+            "venue": "CoRR",
+            "volume": "abs/2601.20321",
+            "year": "2026",
+            "type": "Informal and Other Publications",
+            "access": "open",
+            "key": "journals/corr/abs-2601-20321",
+            "doi": "10.48550/ARXIV.2601.20321",
+            "ee": "https://doi.org/10.48550/arXiv.2601.20321",
+            "url": "https://dblp.org/rec/journals/corr/abs-2601-20321"
+          },
+          "url": "URL#70302"
+        },
+        {
+          "@score": "1",
+          "@id": "182404",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "00/2446-2",
+                  "text": "Jie Zeng 0002"
+                },
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                },
+                {
+                  "@pid": "99/8490",
+                  "text": "Jinjun Tang"
+                },
+                {
+                  "@pid": "63/7026",
+                  "text": "Cheng Hu"
+                }
+              ]
+            },
+            "title": "Inquiring the Next Location and Travel Time: A Deep-Learning-Based Temporal Point Process for Vehicle Trajectory Prediction.",
+            "venue": "IEEE Internet Things J.",
+            "volume": "12",
+            "number": "9",
+            "pages": "11874-11889",
+            "year": "2025",
+            "type": "Journal Articles",
+            "access": "closed",
+            "key": "journals/iotj/ZengXTH25",
+            "doi": "10.1109/JIOT.2024.3523497",
+            "ee": "https://doi.org/10.1109/JIOT.2024.3523497",
+            "url": "https://dblp.org/rec/journals/iotj/ZengXTH25"
+          },
+          "url": "URL#182404"
+        },
+        {
+          "@score": "1",
+          "@id": "369164",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "392/9923",
+                  "text": "Yanming Shao"
+                },
+                {
+                  "@pid": "57/4533",
+                  "text": "Yan Ding"
+                },
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                }
+              ]
+            },
+            "title": "SynPolDex: Synergizing Fingers via Bi-Level Policy Learning for Dexterous Robotic Hands.",
+            "venue": "Humanoids",
+            "pages": "704-711",
+            "year": "2025",
+            "type": "Conference and Workshop Papers",
+            "access": "closed",
+            "key": "conf/humanoids/ShaoDX25",
+            "doi": "10.1109/HUMANOIDS65713.2025.11203017",
+            "ee": "https://doi.org/10.1109/Humanoids65713.2025.11203017",
+            "url": "https://dblp.org/rec/conf/humanoids/ShaoDX25"
+          },
+          "url": "URL#369164"
+        },
+        {
+          "@score": "1",
+          "@id": "397657",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "25/7019-35",
+                  "text": "Yifan Wu 0035"
+                },
+                {
+                  "@pid": "221/3320",
+                  "text": "Yuzhou Chen"
+                },
+                {
+                  "@pid": "259/3734",
+                  "text": "Zhengying Zhu"
+                },
+                {
+                  "@pid": "326/8620",
+                  "text": "Xuhao Qin"
+                },
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                }
+              ]
+            },
+            "title": "HumanFT: A Human-Like Fingertip Multimodal Visuo-Tactile Sensor.",
+            "venue": "ICRA",
+            "pages": "244-250",
+            "year": "2025",
+            "type": "Conference and Workshop Papers",
+            "access": "closed",
+            "key": "conf/icra/WuCZQX25",
+            "doi": "10.1109/ICRA55743.2025.11128300",
+            "ee": "https://doi.org/10.1109/ICRA55743.2025.11128300",
+            "url": "https://dblp.org/rec/conf/icra/WuCZQX25"
+          },
+          "url": "URL#397657"
+        },
+        {
+          "@score": "1",
+          "@id": "409784",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "193/8612",
+                  "text": "Xiyan Huang"
+                },
+                {
+                  "@pid": "97/3701",
+                  "text": "Zhe Xu"
+                },
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                }
+              ]
+            },
+            "title": "TwinTac: A Wide-Range, Highly Sensitive Tactile Sensor with Real-To-Sim Digital Twin Sensor Model.",
+            "venue": "IROS",
+            "pages": "12286-12292",
+            "year": "2025",
+            "type": "Conference and Workshop Papers",
+            "access": "closed",
+            "key": "conf/iros/HuangXX25",
+            "doi": "10.1109/IROS60139.2025.11247002",
+            "ee": "https://doi.org/10.1109/IROS60139.2025.11247002",
+            "url": "https://dblp.org/rec/conf/iros/HuangXX25"
+          },
+          "url": "URL#409784"
+        },
+        {
+          "@score": "1",
+          "@id": "409974",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "422/3025",
+                  "text": "Yatao Leng"
+                },
+                {
+                  "@pid": "221/3320",
+                  "text": "Yuzhou Chen"
+                },
+                {
+                  "@pid": "262/0322",
+                  "text": "Ziyuan Tang"
+                },
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                }
+              ]
+            },
+            "title": "Touch-Linked Sleeve: A Haptic Interface for Augmented Tactile Perception in Robotic Teleoperation.",
+            "venue": "IROS",
+            "pages": "i-vii",
+            "year": "2025",
+            "type": "Conference and Workshop Papers",
+            "access": "closed",
+            "key": "conf/iros/LengCTX25",
+            "doi": "10.1109/IROS60139.2025.11245835",
+            "ee": "https://doi.org/10.1109/IROS60139.2025.11245835",
+            "url": "https://dblp.org/rec/conf/iros/LengCTX25"
+          },
+          "url": "URL#409974"
+        },
+        {
+          "@score": "1",
+          "@id": "410024",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "157/9072",
+                  "text": "Wanlin Li"
+                },
+                {
+                  "@pid": "05/8234",
+                  "text": "Pei Lin"
+                },
+                {
+                  "@pid": "93/6765-51",
+                  "text": "Meng Wang 0051"
+                },
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                },
+                {
+                  "@pid": "53/4315",
+                  "text": "Kaspar Althoefer"
+                },
+                {
+                  "@pid": "221/1044-1",
+                  "text": "Yao Su 0001"
+                },
+                {
+                  "@pid": "217/7660",
+                  "text": "Ziyuan Jiao"
+                },
+                {
+                  "@pid": "184/0677",
+                  "text": "Hangxin Liu"
+                }
+              ]
+            },
+            "title": "R-Tac0: A Rounded High-Frequency Transferable Monochrome Vision-based Tactile Sensor for Shape Reconstruction.",
+            "venue": "IROS",
+            "pages": "10400-10407",
+            "year": "2025",
+            "type": "Conference and Workshop Papers",
+            "access": "closed",
+            "key": "conf/iros/LiLWXASJL25",
+            "doi": "10.1109/IROS60139.2025.11246144",
+            "ee": "https://doi.org/10.1109/IROS60139.2025.11246144",
+            "url": "https://dblp.org/rec/conf/iros/LiLWXASJL25"
+          },
+          "url": "URL#410024"
+        },
+        {
+          "@score": "1",
+          "@id": "429030",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "256/4509",
+                  "text": "Hongyang Lin"
+                },
+                {
+                  "@pid": "336/3223",
+                  "text": "Kuixiang Shao"
+                },
+                {
+                  "@pid": "162/2034",
+                  "text": "Peijun Xu"
+                },
+                {
+                  "@pid": "425/0004",
+                  "text": "Zhuoyang Bu"
+                },
+                {
+                  "@pid": "368/6170",
+                  "text": "Yuyang Jiao"
+                },
+                {
+                  "@pid": "262/0322",
+                  "text": "Ziyuan Tang"
+                },
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                },
+                {
+                  "@pid": "58/4808-2",
+                  "text": "Jingyi Yu 0002"
+                }
+              ]
+            },
+            "title": "HandCraft: Tactile-Informed Hand-Object Dynamics Capture and Realistic Rendering.",
+            "venue": "ACM Multimedia",
+            "pages": "2274-2283",
+            "year": "2025",
+            "type": "Conference and Workshop Papers",
+            "access": "closed",
+            "key": "conf/mm/LinSXBJTX025",
+            "doi": "10.1145/3746027.3755822",
+            "ee": "https://doi.org/10.1145/3746027.3755822",
+            "url": "https://dblp.org/rec/conf/mm/LinSXBJTX025"
+          },
+          "url": "URL#429030"
+        },
+        {
+          "@score": "1",
+          "@id": "441602",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "123/5258",
+                  "text": "Peiran Zhang"
+                },
+                {
+                  "@pid": "262/0322",
+                  "text": "Ziyuan Tang"
+                },
+                {
+                  "@pid": "298/5236",
+                  "text": "Runze Hu"
+                },
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                }
+              ]
+            },
+            "title": "HydroGrasp: A Hydraulic Multi-Fingered Gripper.",
+            "venue": "ROBIO",
+            "pages": "442-447",
+            "year": "2025",
+            "type": "Conference and Workshop Papers",
+            "access": "closed",
+            "key": "conf/robio/ZhangTHX25",
+            "doi": "10.1109/ROBIO66223.2025.11377340",
+            "ee": "https://doi.org/10.1109/ROBIO66223.2025.11377340",
+            "url": "https://dblp.org/rec/conf/robio/ZhangTHX25"
+          },
+          "url": "URL#441602"
+        },
+        {
+          "@score": "1",
+          "@id": "459962",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "402/7362",
+                  "text": "Mujing Li"
+                },
+                {
+                  "@pid": "166/5270",
+                  "text": "Guanjie Wang"
+                },
+                {
+                  "@pid": "237/9496",
+                  "text": "Xingguang Zhang"
+                },
+                {
+                  "@pid": "159/8798",
+                  "text": "Qifeng Liao"
+                },
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                }
+              ]
+            },
+            "title": "D-LUT: Photorealistic Style Transfer via Diffusion Process.",
+            "venue": "WACV",
+            "pages": "9206-9214",
+            "year": "2025",
+            "type": "Conference and Workshop Papers",
+            "access": "closed",
+            "key": "conf/wacv/LiWZLX25",
+            "doi": "10.1109/WACV61041.2025.00892",
+            "ee": "https://doi.org/10.1109/WACV61041.2025.00892",
+            "url": "https://dblp.org/rec/conf/wacv/LiWZLX25"
+          },
+          "url": "URL#459962"
+        },
+        {
+          "@score": "1",
+          "@id": "514669",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "05/8234",
+                  "text": "Pei Lin"
+                },
+                {
+                  "@pid": "227/2274",
+                  "text": "Yuzhe Huang"
+                },
+                {
+                  "@pid": "157/9072",
+                  "text": "Wanlin Li"
+                },
+                {
+                  "@pid": "21/11018",
+                  "text": "Jianpeng Ma"
+                },
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                },
+                {
+                  "@pid": "217/7660",
+                  "text": "Ziyuan Jiao"
+                }
+              ]
+            },
+            "title": "PP-Tac: Paper Picking Using Tactile Feedback in Dexterous Robotic Hands.",
+            "venue": "CoRR",
+            "volume": "abs/2504.16649",
+            "year": "2025",
+            "type": "Informal and Other Publications",
+            "access": "open",
+            "key": "journals/corr/abs-2504-16649",
+            "doi": "10.48550/ARXIV.2504.16649",
+            "ee": "https://doi.org/10.48550/arXiv.2504.16649",
+            "url": "https://dblp.org/rec/journals/corr/abs-2504-16649"
+          },
+          "url": "URL#514669"
+        },
+        {
+          "@score": "1",
+          "@id": "573787",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "193/8612",
+                  "text": "Xiyan Huang"
+                },
+                {
+                  "@pid": "97/3701",
+                  "text": "Zhe Xu"
+                },
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                }
+              ]
+            },
+            "title": "TwinTac: A Wide-Range, Highly Sensitive Tactile Sensor with Real-to-Sim Digital Twin Sensor Model.",
+            "venue": "CoRR",
+            "volume": "abs/2509.10063",
+            "year": "2025",
+            "type": "Informal and Other Publications",
+            "access": "open",
+            "key": "journals/corr/abs-2509-10063",
+            "doi": "10.48550/ARXIV.2509.10063",
+            "ee": "https://doi.org/10.48550/arXiv.2509.10063",
+            "url": "https://dblp.org/rec/journals/corr/abs-2509-10063"
+          },
+          "url": "URL#573787"
+        },
+        {
+          "@score": "1",
+          "@id": "785853",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "392/9923",
+                  "text": "Yanming Shao"
+                },
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                }
+              ]
+            },
+            "title": "Bimanual Grasp Synthesis for Dexterous Robot Hands.",
+            "venue": "IEEE Robotics Autom. Lett.",
+            "volume": "9",
+            "number": "12",
+            "pages": "11377-11384",
+            "year": "2024",
+            "type": "Journal Articles",
+            "access": "closed",
+            "key": "journals/ral/ShaoX24",
+            "doi": "10.1109/LRA.2024.3490393",
+            "ee": "https://doi.org/10.1109/LRA.2024.3490393",
+            "url": "https://dblp.org/rec/journals/ral/ShaoX24"
+          },
+          "url": "URL#785853"
+        },
+        {
+          "@score": "1",
+          "@id": "951136",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "90/5794-2",
+                  "text": "Ran Duan 0002"
+                },
+                {
+                  "@pid": "47/6534-4",
+                  "text": "Bo Wu 0004"
+                },
+                {
+                  "@pid": "63/778",
+                  "text": "Hao Zhou"
+                },
+                {
+                  "@pid": "336/5453",
+                  "text": "Haobo Zuo"
+                },
+                {
+                  "@pid": "392/0128",
+                  "text": "Zhengshu He"
+                },
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                },
+                {
+                  "@pid": "117/4527",
+                  "text": "Changhong Fu 0001"
+                }
+              ]
+            },
+            "title": "E3-Net: Event-Guided Edge-Enhancement Network for UAV-based Crack Detection.",
+            "venue": "ICARM",
+            "pages": "272-277",
+            "year": "2024",
+            "type": "Conference and Workshop Papers",
+            "access": "closed",
+            "key": "conf/icarm/Duan0ZZHX024",
+            "doi": "10.1109/ICARM62033.2024.10715971",
+            "ee": "https://doi.org/10.1109/ICARM62033.2024.10715971",
+            "url": "https://dblp.org/rec/conf/icarm/Duan0ZZHX024"
+          },
+          "url": "URL#951136"
+        },
+        {
+          "@score": "1",
+          "@id": "1180371",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "25/7019",
+                  "text": "Yifan Wu"
+                },
+                {
+                  "@pid": "221/3320",
+                  "text": "Yuzhou Chen"
+                },
+                {
+                  "@pid": "259/3734",
+                  "text": "Zhengying Zhu"
+                },
+                {
+                  "@pid": "326/8620",
+                  "text": "Xuhao Qin"
+                },
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                }
+              ]
+            },
+            "title": "HumanFT: A Human-like Fingertip Multimodal Visuo-Tactile Sensor.",
+            "venue": "CoRR",
+            "volume": "abs/2410.10353",
+            "year": "2024",
+            "type": "Informal and Other Publications",
+            "access": "open",
+            "key": "journals/corr/abs-2410-10353",
+            "doi": "10.48550/ARXIV.2410.10353",
+            "ee": "https://doi.org/10.48550/arXiv.2410.10353",
+            "url": "https://dblp.org/rec/journals/corr/abs-2410-10353"
+          },
+          "url": "URL#1180371"
+        },
+        {
+          "@score": "1",
+          "@id": "1195763",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "392/9923",
+                  "text": "Yanming Shao"
+                },
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                }
+              ]
+            },
+            "title": "Bimanual Grasp Synthesis for Dexterous Robot Hands.",
+            "venue": "CoRR",
+            "volume": "abs/2411.15903",
+            "year": "2024",
+            "type": "Informal and Other Publications",
+            "access": "open",
+            "key": "journals/corr/abs-2411-15903",
+            "doi": "10.48550/ARXIV.2411.15903",
+            "ee": "https://doi.org/10.48550/arXiv.2411.15903",
+            "url": "https://dblp.org/rec/journals/corr/abs-2411-15903"
+          },
+          "url": "URL#1195763"
+        },
+        {
+          "@score": "1",
+          "@id": "1418104",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                },
+                {
+                  "@pid": "86/241-3",
+                  "text": "Peng Lu 0003"
+                },
+                {
+                  "@pid": "23/7648",
+                  "text": "Qizhi He"
+                }
+              ]
+            },
+            "title": "Flying Through a Narrow Gap Using End-to-End Deep Reinforcement Learning Augmented With Curriculum Learning and Sim2Real.",
+            "venue": "IEEE Trans. Neural Networks Learn. Syst.",
+            "volume": "34",
+            "number": "5",
+            "pages": "2701-2708",
+            "year": "2023",
+            "type": "Journal Articles",
+            "access": "closed",
+            "key": "journals/tnn/XiaoLH23",
+            "doi": "10.1109/TNNLS.2021.3107742",
+            "ee": "https://doi.org/10.1109/TNNLS.2021.3107742",
+            "url": "https://dblp.org/rec/journals/tnn/XiaoLH23"
+          },
+          "url": "URL#1418104"
+        },
+        {
+          "@score": "1",
+          "@id": "1421624",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                },
+                {
+                  "@pid": "358/0076",
+                  "text": "Aaron Benjamin Woeppel"
+                },
+                {
+                  "@pid": "300/8604",
+                  "text": "Gina M. Clepper"
+                },
+                {
+                  "@pid": "38/7233",
+                  "text": "Shengjie Gao"
+                },
+                {
+                  "@pid": "219/1114",
+                  "text": "Shujia Xu"
+                },
+                {
+                  "@pid": "355/5126",
+                  "text": "Johannes F. Rueschen"
+                },
+                {
+                  "@pid": "50/10796",
+                  "text": "Daniel Kruse"
+                },
+                {
+                  "@pid": "275/4349",
+                  "text": "Wenzhuo Wu"
+                },
+                {
+                  "@pid": "22/3398",
+                  "text": "Hong Z. Tan"
+                },
+                {
+                  "@pid": "17/2838",
+                  "text": "Thomas Low"
+                },
+                {
+                  "@pid": "357/9951",
+                  "text": "Stephen P. Beaudoin"
+                },
+                {
+                  "@pid": "335/4438",
+                  "text": "Bryan W. Boudouris"
+                },
+                {
+                  "@pid": "358/0097",
+                  "text": "William G. Haris"
+                },
+                {
+                  "@pid": "89/1212",
+                  "text": "Juan P. Wachs"
+                }
+              ]
+            },
+            "title": "Tactile and Chemical Sensing With Haptic Feedback for a Telepresence Explosive Ordnance Disposal Robot.",
+            "venue": "IEEE Trans. Robotics",
+            "volume": "39",
+            "number": "5",
+            "pages": "3368-3381",
+            "year": "2023",
+            "type": "Journal Articles",
+            "access": "closed",
+            "key": "journals/trob/XiaoWCGXRKWTLBBHW23",
+            "doi": "10.1109/TRO.2023.3278455",
+            "ee": "https://doi.org/10.1109/TRO.2023.3278455",
+            "url": "https://dblp.org/rec/journals/trob/XiaoWCGXRKWTLBBHW23"
+          },
+          "url": "URL#1421624"
+        },
+        {
+          "@score": "1",
+          "@id": "1563359",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                },
+                {
+                  "@pid": "89/1212",
+                  "text": "Juan P. Wachs"
+                }
+              ]
+            },
+            "title": "COMPlacent: A Compliant Whisker Manipulator for Object Tactile Exploration.",
+            "venue": "IROS",
+            "pages": "10184-10190",
+            "year": "2023",
+            "type": "Conference and Workshop Papers",
+            "access": "closed",
+            "key": "conf/iros/XiaoW23",
+            "doi": "10.1109/IROS55552.2023.10341547",
+            "ee": "https://doi.org/10.1109/IROS55552.2023.10341547",
+            "url": "https://dblp.org/rec/conf/iros/XiaoW23"
+          },
+          "url": "URL#1563359"
+        },
+        {
+          "@score": "1",
+          "@id": "1708924",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                },
+                {
+                  "@pid": "39/5423",
+                  "text": "Yuan Tian"
+                }
+              ]
+            },
+            "title": "Encountered-Type Haptic Display via Tracking Calibrated Robot.",
+            "venue": "CoRR",
+            "volume": "abs/2309.16768",
+            "year": "2023",
+            "type": "Informal and Other Publications",
+            "access": "open",
+            "key": "journals/corr/abs-2309-16768",
+            "doi": "10.48550/ARXIV.2309.16768",
+            "ee": "https://doi.org/10.48550/arXiv.2309.16768",
+            "url": "https://dblp.org/rec/journals/corr/abs-2309-16768"
+          },
+          "url": "URL#1708924"
+        },
+        {
+          "@score": "1",
+          "@id": "1861525",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "24/1518",
+                  "text": "Xin Chen"
+                },
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                },
+                {
+                  "@pid": "276/3610",
+                  "text": "Huiwen Shi"
+                },
+                {
+                  "@pid": "317/7162",
+                  "text": "Fangyu Hong"
+                }
+              ]
+            },
+            "title": "Research on Site Selection of Changsha-Zhuzhou-Xiangtan Railway Logistics Center Based on Grey Wolf Optimization Algorithm.",
+            "venue": "J. Uncertain Syst.",
+            "volume": "15",
+            "number": "2",
+            "pages": "2250008:1-2250008:13",
+            "year": "2022",
+            "type": "Journal Articles",
+            "access": "closed",
+            "key": "journals/jus/ChenXSH22",
+            "doi": "10.1142/S1752890922500088",
+            "ee": "https://doi.org/10.1142/S1752890922500088",
+            "url": "https://dblp.org/rec/journals/jus/ChenXSH22"
+          },
+          "url": "URL#1861525"
+        },
+        {
+          "@score": "1",
+          "@id": "1888570",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                },
+                {
+                  "@pid": "89/1212",
+                  "text": "Juan P. Wachs"
+                }
+              ]
+            },
+            "title": "Nonmyopic Informative Path Planning Based on Global Kriging Variance Minimization.",
+            "venue": "IEEE Robotics Autom. Lett.",
+            "volume": "7",
+            "number": "2",
+            "pages": "1768-1775",
+            "year": "2022",
+            "type": "Journal Articles",
+            "access": "closed",
+            "key": "journals/ral/XiaoW22",
+            "doi": "10.1109/LRA.2022.3141458",
+            "ee": "https://doi.org/10.1109/LRA.2022.3141458",
+            "url": "https://dblp.org/rec/journals/ral/XiaoW22"
+          },
+          "url": "URL#1888570"
+        },
+        {
+          "@score": "1",
+          "@id": "1950119",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                },
+                {
+                  "@pid": "219/1114",
+                  "text": "Shujia Xu"
+                },
+                {
+                  "@pid": "275/4349",
+                  "text": "Wenzhuo Wu"
+                },
+                {
+                  "@pid": "89/1212",
+                  "text": "Juan P. Wachs"
+                }
+              ]
+            },
+            "title": "Active Multiobject Exploration and Recognition via Tactile Whiskers.",
+            "venue": "IEEE Trans. Robotics",
+            "volume": "38",
+            "number": "6",
+            "pages": "3479-3497",
+            "year": "2022",
+            "type": "Journal Articles",
+            "access": "closed",
+            "key": "journals/trob/XiaoXWW22",
+            "doi": "10.1109/TRO.2022.3182487",
+            "ee": "https://doi.org/10.1109/TRO.2022.3182487",
+            "url": "https://dblp.org/rec/journals/trob/XiaoXWW22"
+          },
+          "url": "URL#1950119"
+        },
+        {
+          "@score": "1",
+          "@id": "2370868",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                },
+                {
+                  "@pid": "166/1392",
+                  "text": "Naveen Madapana"
+                },
+                {
+                  "@pid": "89/1212",
+                  "text": "Juan P. Wachs"
+                }
+              ]
+            },
+            "title": "Fingers See Things Differently (FIST-D): An Object Aware Visualization and Manipulation Framework Based on Tactile Observations.",
+            "venue": "IEEE Robotics Autom. Lett.",
+            "volume": "6",
+            "number": "3",
+            "pages": "4249-4256",
+            "year": "2021",
+            "type": "Journal Articles",
+            "access": "closed",
+            "key": "journals/ral/XiaoMW21",
+            "doi": "10.1109/LRA.2021.3064211",
+            "ee": "https://doi.org/10.1109/LRA.2021.3064211",
+            "url": "https://dblp.org/rec/journals/ral/XiaoMW21"
+          },
+          "url": "URL#2370868"
+        },
+        {
+          "@score": "1",
+          "@id": "2605366",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                },
+                {
+                  "@pid": "166/1392",
+                  "text": "Naveen Madapana"
+                },
+                {
+                  "@pid": "89/1212",
+                  "text": "Juan P. Wachs"
+                }
+              ]
+            },
+            "title": "One-Shot Image Recognition Using Prototypical Encoders with Reduced Hubness.",
+            "venue": "WACV",
+            "pages": "2251-2260",
+            "year": "2021",
+            "type": "Conference and Workshop Papers",
+            "access": "closed",
+            "key": "conf/wacv/XiaoMW21",
+            "doi": "10.1109/WACV48630.2021.00230",
+            "ee": "https://doi.org/10.1109/WACV48630.2021.00230",
+            "url": "https://dblp.org/rec/conf/wacv/XiaoMW21"
+          },
+          "url": "URL#2605366"
+        },
+        {
+          "@score": "1",
+          "@id": "2605367",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                },
+                {
+                  "@pid": "89/1212",
+                  "text": "Juan P. Wachs"
+                }
+              ]
+            },
+            "title": "Triangle-Net: Towards Robustness in Point Cloud Learning.",
+            "venue": "WACV",
+            "pages": "826-835",
+            "year": "2021",
+            "type": "Conference and Workshop Papers",
+            "access": "closed",
+            "key": "conf/wacv/XiaoW21",
+            "doi": "10.1109/WACV48630.2021.00087",
+            "ee": "https://doi.org/10.1109/WACV48630.2021.00087",
+            "url": "https://dblp.org/rec/conf/wacv/XiaoW21"
+          },
+          "url": "URL#2605367"
+        },
+        {
+          "@score": "1",
+          "@id": "2666681",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                },
+                {
+                  "@pid": "86/241-3",
+                  "text": "Peng Lu 0003"
+                },
+                {
+                  "@pid": "23/7648",
+                  "text": "Qizhi He"
+                }
+              ]
+            },
+            "title": "Flying Through a Narrow Gap Using End-to-end Deep Reinforcement Learning Augmented with Curriculum Learning and Sim2Real.",
+            "venue": "CoRR",
+            "volume": "abs/2108.12869",
+            "year": "2021",
+            "type": "Informal and Other Publications",
+            "access": "open",
+            "key": "journals/corr/abs-2108-12869",
+            "ee": "https://arxiv.org/abs/2108.12869",
+            "url": "https://dblp.org/rec/journals/corr/abs-2108-12869"
+          },
+          "url": "URL#2666681"
+        },
+        {
+          "@score": "1",
+          "@id": "2668733",
+          "info": {
+            "authors": {
+              "author": [
+                {
+                  "@pid": "257/4882",
+                  "text": "Chenxi Xiao"
+                },
+                {
+                  "@pid": "219/1114",
+                  "text": "Shujia Xu"
+                },
+                {
+                  "@pid": "275/4349",
+                  "text": "Wenzhuo Wu"
+                },
+                {
+                  "@pid": "89/1212",
+                  "text": "Juan P. Wachs"
+                }
+              ]
+            },
+            "title": "Active Multi-Object Exploration and Recognition via Tactile Whiskers.",
+            "venue": "CoRR",
+            "volume": "abs/2109.03976",
+            "year": "2021",
+            "type": "Informal and Other Publications",
+            "access": "open",
+            "key": "journals/corr/abs-2109-03976",
+            "ee": "https://arxiv.org/abs/2109.03976",
+            "url": "https://dblp.org/rec/journals/corr/abs-2109-03976"
+          },
+          "url": "URL#2668733"
+        }
+      ]
+    }
+  }
+}

@@ -1,10 +1,20 @@
-<div style="background: white; padding: 8px 10px 4px 10px;">
-    <img src="images/STAR_Center_small.png" height="40px"/>
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Lab's Website
+# Run and deploy your AI Studio app
 
-Visit **[rim-laboratory.github.io](https://rim-laboratory.github.io)** 🚀
+This contains everything you need to run your app locally.
 
-_Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
+View your app in AI Studio: https://ai.studio/apps/6cef6bc9-df92-47e8-b1ed-69ee3f1fdde4
 
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

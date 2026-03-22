@@ -1,0 +1,652 @@
+labInfo:
+  name: Robot Interaction and Manipulation Lab
+  shortName: RIM Lab
+  piName: Chenxi Xiao
+  institution: School of Information Science and Technology, ShanghaiTech University
+  interests:
+  - Visuo-Tactile Sensing
+  - Dexterous Manipulation
+  - Tactile Sensors
+  - Embodied Data Collection & Synthesis
+  - Teleoperation
+  bio: Welcome to the Robot Interaction and Manipulation Lab! 欢迎来到上海科技大学机器人交互与操作实验室！研究主题：视触觉结合感知、灵巧手操作、触觉传感器、具身数据采集与合成、遥操作。
+  email: xiaochx[at]shanghaitech.edu.cn
+  address: SIST 1D-303, ShanghaiTech University, 393 Middle Huaxia Road
+  scholarUrl: https://scholar.google.com/citations?user=Qhiy3doAAAAJ&hl=en
+  githubUrl: https://github.com/rim-laboratory
+  twitterUrl: https://twitter.com/
+  linkedinUrl: https://linkedin.com/
+  heroBgUrl: https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=1920
+news:
+- id: 1
+  date: '2026.02'
+  content: 招博士生一名（申请考核制，3年学制，截止2026年2月28日），欢迎邮件详询。
+  link: https://sist.shanghaitech.edu.cn/2026/0130/c2826a1119292/page.htm
+- id: 2
+  date: '2026.01'
+  content: Three paper accepted to ICRA.
+- id: 3
+  date: '2026.01'
+  content: One paper accepted to RA-L.
+- id: 4
+  date: '2026.01'
+  content: One paper accepted to ICLR.
+- id: 5
+  date: '2025.12'
+  content: One paper accepted to RA-L.
+- id: 6
+  date: '2025.09'
+  content: Welcome Ziyuan Tang, Hongyi Yang, Jiaming Jiang to join RIM Lab!
+- id: 7
+  date: '2025.09'
+  content: One paper accepted to ROBIO 2025.
+- id: 8
+  date: '2025.08'
+  content: One paper accepted to Humanoid 2025.
+- id: 9
+  date: '2025.07'
+  content: Welcome Kefei Wu to join RIM Lab!
+- id: 10
+  date: '2025.07'
+  content: One paper accepted to ACM MM 2025.
+- id: 11
+  date: '2025.06'
+  content: Three papers accepted to IROS 2025.
+- id: 12
+  date: '2025.04'
+  content: One paper accepted to RSS 2025.
+- id: 13
+  date: '2025.03'
+  content: Welcome Shengcheng Luo to join RIM Lab!
+- id: 14
+  date: '2025.02'
+  content: One paper accepted to ICRA 2025.
+- id: 15
+  date: '2024.10'
+  content: One paper accepted to WACV 2025.
+- id: 16
+  date: '2024.09'
+  content: One paper accepted to RA-L.
+publications:
+- id: 1
+  title: 'MFE: A Multimodal Hand Exoskeleton With Interactive Force, Pressure and
+    Thermo-Haptic Feedback'
+  authors: Ziyuan Tang, Yitian Guo, Chenxi Xiao
+  venue: IEEE Robotics Autom. Lett.
+  year: 2026
+  image: /images/pub_1.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.1109/LRA.2026.3662616
+    code: ''
+    video: ''
+- id: 2
+  title: Autonomous Exploration for Shape Reconstruction and Measurement via Informative
+    Contact-Guided Planning
+  authors: Feiyu Zhao, Chenxi Xiao
+  venue: IEEE Robotics Autom. Lett.
+  year: 2026
+  image: /images/pub_2.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.1109/LRA.2025.3641100
+    code: ''
+    video: ''
+- id: 3
+  title: 'TaF-VLA: Tactile-Force Alignment in Vision-Language-Action Models for Force-aware
+    Manipulation'
+  authors: Yuzhe Huang, Pei Lin, Wanlin Li, Daohan Li, Jiajun Li, Jiaming Jiang, Chenxi
+    Xiao, Ziyuan Jiao
+  venue: CoRR
+  year: 2026
+  image: /images/pub_3.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.48550/arXiv.2601.20321
+    code: ''
+    video: ''
+- id: 4
+  title: 'Inquiring the Next Location and Travel Time: A Deep-Learning-Based Temporal
+    Point Process for Vehicle Trajectory Prediction'
+  authors: Jie Zeng 0002, Chenxi Xiao, Jinjun Tang, Cheng Hu
+  venue: IEEE Internet Things J.
+  year: 2025
+  image: /images/pub_4.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.1109/JIOT.2024.3523497
+    code: ''
+    video: ''
+- id: 5
+  title: 'SynPolDex: Synergizing Fingers via Bi-Level Policy Learning for Dexterous
+    Robotic Hands'
+  authors: Yanming Shao, Yan Ding, Chenxi Xiao
+  venue: Humanoids
+  year: 2025
+  image: /images/pub_5.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.1109/Humanoids65713.2025.11203017
+    code: ''
+    video: ''
+- id: 6
+  title: 'HumanFT: A Human-Like Fingertip Multimodal Visuo-Tactile Sensor'
+  authors: Yifan Wu 0035, Yuzhou Chen, Zhengying Zhu, Xuhao Qin, Chenxi Xiao
+  venue: ICRA
+  year: 2025
+  image: /images/pub_6.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.1109/ICRA55743.2025.11128300
+    code: ''
+    video: ''
+- id: 7
+  title: 'TwinTac: A Wide-Range, Highly Sensitive Tactile Sensor with Real-To-Sim
+    Digital Twin Sensor Model'
+  authors: Xiyan Huang, Zhe Xu, Chenxi Xiao
+  venue: IROS
+  year: 2025
+  image: /images/pub_7.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.1109/IROS60139.2025.11247002
+    code: ''
+    video: ''
+- id: 8
+  title: 'Touch-Linked Sleeve: A Haptic Interface for Augmented Tactile Perception
+    in Robotic Teleoperation'
+  authors: Yatao Leng, Yuzhou Chen, Ziyuan Tang, Chenxi Xiao
+  venue: IROS
+  year: 2025
+  image: /images/pub_8.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.1109/IROS60139.2025.11245835
+    code: ''
+    video: ''
+- id: 9
+  title: 'R-Tac0: A Rounded High-Frequency Transferable Monochrome Vision-based Tactile
+    Sensor for Shape Reconstruction'
+  authors: Wanlin Li, Pei Lin, Meng Wang 0051, Chenxi Xiao, Kaspar Althoefer, Yao
+    Su 0001, Ziyuan Jiao, Hangxin Liu
+  venue: IROS
+  year: 2025
+  image: /images/pub_9.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.1109/IROS60139.2025.11246144
+    code: ''
+    video: ''
+- id: 10
+  title: 'HandCraft: Tactile-Informed Hand-Object Dynamics Capture and Realistic Rendering'
+  authors: Hongyang Lin, Kuixiang Shao, Peijun Xu, Zhuoyang Bu, Yuyang Jiao, Ziyuan
+    Tang, Chenxi Xiao, Jingyi Yu 0002
+  venue: ACM Multimedia
+  year: 2025
+  image: /images/pub_10.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.1145/3746027.3755822
+    code: ''
+    video: ''
+- id: 11
+  title: 'HydroGrasp: A Hydraulic Multi-Fingered Gripper'
+  authors: Peiran Zhang, Ziyuan Tang, Runze Hu, Chenxi Xiao
+  venue: ROBIO
+  year: 2025
+  image: /images/pub_11.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.1109/ROBIO66223.2025.11377340
+    code: ''
+    video: ''
+- id: 12
+  title: 'D-LUT: Photorealistic Style Transfer via Diffusion Process'
+  authors: Mujing Li, Guanjie Wang, Xingguang Zhang, Qifeng Liao, Chenxi Xiao
+  venue: WACV
+  year: 2025
+  image: /images/pub_12.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.1109/WACV61041.2025.00892
+    code: ''
+    video: ''
+- id: 13
+  title: 'PP-Tac: Paper Picking Using Tactile Feedback in Dexterous Robotic Hands'
+  authors: Pei Lin, Yuzhe Huang, Wanlin Li, Jianpeng Ma, Chenxi Xiao, Ziyuan Jiao
+  venue: CoRR
+  year: 2025
+  image: /images/pub_13.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.48550/arXiv.2504.16649
+    code: ''
+    video: ''
+- id: 14
+  title: 'TwinTac: A Wide-Range, Highly Sensitive Tactile Sensor with Real-to-Sim
+    Digital Twin Sensor Model'
+  authors: Xiyan Huang, Zhe Xu, Chenxi Xiao
+  venue: CoRR
+  year: 2025
+  image: /images/pub_14.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.48550/arXiv.2509.10063
+    code: ''
+    video: ''
+- id: 15
+  title: Bimanual Grasp Synthesis for Dexterous Robot Hands
+  authors: Yanming Shao, Chenxi Xiao
+  venue: IEEE Robotics Autom. Lett.
+  year: 2024
+  image: /images/pub_15.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.1109/LRA.2024.3490393
+    code: ''
+    video: ''
+- id: 16
+  title: 'E3-Net: Event-Guided Edge-Enhancement Network for UAV-based Crack Detection'
+  authors: Ran Duan 0002, Bo Wu 0004, Hao Zhou, Haobo Zuo, Zhengshu He, Chenxi Xiao,
+    Changhong Fu 0001
+  venue: ICARM
+  year: 2024
+  image: /images/pub_16.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.1109/ICARM62033.2024.10715971
+    code: ''
+    video: ''
+- id: 17
+  title: 'HumanFT: A Human-like Fingertip Multimodal Visuo-Tactile Sensor'
+  authors: Yifan Wu, Yuzhou Chen, Zhengying Zhu, Xuhao Qin, Chenxi Xiao
+  venue: CoRR
+  year: 2024
+  image: /images/pub_17.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.48550/arXiv.2410.10353
+    code: ''
+    video: ''
+- id: 18
+  title: Bimanual Grasp Synthesis for Dexterous Robot Hands
+  authors: Yanming Shao, Chenxi Xiao
+  venue: CoRR
+  year: 2024
+  image: /images/pub_18.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.48550/arXiv.2411.15903
+    code: ''
+    video: ''
+- id: 19
+  title: Flying Through a Narrow Gap Using End-to-End Deep Reinforcement Learning
+    Augmented With Curriculum Learning and Sim2Real
+  authors: Chenxi Xiao, Peng Lu 0003, Qizhi He
+  venue: IEEE Trans. Neural Networks Learn. Syst.
+  year: 2023
+  image: /images/pub_19.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.1109/TNNLS.2021.3107742
+    code: ''
+    video: ''
+- id: 20
+  title: Tactile and Chemical Sensing With Haptic Feedback for a Telepresence Explosive
+    Ordnance Disposal Robot
+  authors: Chenxi Xiao, Aaron Benjamin Woeppel, Gina M. Clepper, Shengjie Gao, Shujia
+    Xu, Johannes F. Rueschen, Daniel Kruse, Wenzhuo Wu, Hong Z. Tan, Thomas Low, Stephen
+    P. Beaudoin, Bryan W. Boudouris, William G. Haris, Juan P. Wachs
+  venue: IEEE Trans. Robotics
+  year: 2023
+  image: /images/pub_20.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.1109/TRO.2023.3278455
+    code: ''
+    video: ''
+- id: 21
+  title: 'COMPlacent: A Compliant Whisker Manipulator for Object Tactile Exploration'
+  authors: Chenxi Xiao, Juan P. Wachs
+  venue: IROS
+  year: 2023
+  image: /images/pub_21.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.1109/IROS55552.2023.10341547
+    code: ''
+    video: ''
+- id: 22
+  title: Encountered-Type Haptic Display via Tracking Calibrated Robot
+  authors: Chenxi Xiao, Yuan Tian
+  venue: CoRR
+  year: 2023
+  image: /images/pub_22.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.48550/arXiv.2309.16768
+    code: ''
+    video: ''
+- id: 24
+  title: Nonmyopic Informative Path Planning Based on Global Kriging Variance Minimization
+  authors: Chenxi Xiao, Juan P. Wachs
+  venue: IEEE Robotics Autom. Lett.
+  year: 2022
+  image: /images/pub_24.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.1109/LRA.2022.3141458
+    code: ''
+    video: ''
+- id: 25
+  title: Active Multiobject Exploration and Recognition via Tactile Whiskers
+  authors: Chenxi Xiao, Shujia Xu, Wenzhuo Wu, Juan P. Wachs
+  venue: IEEE Trans. Robotics
+  year: 2022
+  image: /images/pub_25.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.1109/TRO.2022.3182487
+    code: ''
+    video: ''
+- id: 26
+  title: 'Fingers See Things Differently (FIST-D): An Object Aware Visualization and
+    Manipulation Framework Based on Tactile Observations'
+  authors: Chenxi Xiao, Naveen Madapana, Juan P. Wachs
+  venue: IEEE Robotics Autom. Lett.
+  year: 2021
+  image: /images/pub_26.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.1109/LRA.2021.3064211
+    code: ''
+    video: ''
+- id: 27
+  title: One-Shot Image Recognition Using Prototypical Encoders with Reduced Hubness
+  authors: Chenxi Xiao, Naveen Madapana, Juan P. Wachs
+  venue: WACV
+  year: 2021
+  image: /images/pub_27.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.1109/WACV48630.2021.00230
+    code: ''
+    video: ''
+- id: 28
+  title: 'Triangle-Net: Towards Robustness in Point Cloud Learning'
+  authors: Chenxi Xiao, Juan P. Wachs
+  venue: WACV
+  year: 2021
+  image: /images/pub_28.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://doi.org/10.1109/WACV48630.2021.00087
+    code: ''
+    video: ''
+- id: 29
+  title: Flying Through a Narrow Gap Using End-to-end Deep Reinforcement Learning
+    Augmented with Curriculum Learning and Sim2Real
+  authors: Chenxi Xiao, Peng Lu 0003, Qizhi He
+  venue: CoRR
+  year: 2021
+  image: /images/pub_29.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://arxiv.org/abs/2108.12869
+    code: ''
+    video: ''
+- id: 30
+  title: Active Multi-Object Exploration and Recognition via Tactile Whiskers
+  authors: Chenxi Xiao, Shujia Xu, Wenzhuo Wu, Juan P. Wachs
+  venue: CoRR
+  year: 2021
+  image: /images/pub_30.jpg
+  abstract: Abstract not available from DBLP. Please update manually.
+  links:
+    pdf: https://arxiv.org/abs/2109.03976
+    code: ''
+    video: ''
+experience:
+- id: 1
+  role: Researcher
+  institution: ShanghaiTech University
+  period: Present
+  description: Focusing on motion planning, tactile sensing, and robotics.
+team:
+- id: 1
+  name: Chenxi Xiao, PhD
+  role: Principal Investigator
+  bio: Dr. Chenxi Xiao is currently an assistant professor at ShanghaiTech University, China. His research interest includes robotic manipulation, tactile sensing, and embodied AI. 
+  image: /images/members/chenxi_bio.PNG
+  links:
+    email: xiaochx[at]shanghaitech.edu.cn
+    google-scholar: Qhiy3doAAAAJ
+- id: 2
+  name: Zhe Xu
+  role: Student
+  bio: Zhe Xu is currently a Master student at ShanghaiTech University, major in Computer
+    Science and Technology.
+  image: /images/members/default_images.jpeg
+  links:
+    email: xuzhe2023[at]shanghaitech.edu.cn
+- id: 3
+  name: Feiyu Zhao
+  role: Student
+  bio: Feiyu Zhao is currently a Master student in CS at ShanghaiTech University.
+  image: /images/members/Feiyu_Zhao.jpg
+  links: {}
+- id: 4
+  name: Kefei Wu
+  role: Student
+  bio: Kefei Wu is currently a Ph.
+  image: /images/members/default_images.jpeg
+  links: {}
+- id: 5
+  name: Pei Lin
+  role: Student
+  bio: Pei Lin is currently a Ph.
+  image: /images/members/default_images.jpeg
+  links: {}
+- id: 6
+  name: Runze Hu
+  role: Student
+  bio: Hu Runze joined the RIM Laboratory at ShanghaiTech University in 2024, where
+    he focuses on research related to.
+  image: /images/members/Runze_Hu.jpg
+  links: {}
+- id: 7
+  name: Shengcheng Luo
+  role: Student
+  bio: Shengcheng Luo is currently a Ph.
+  image: /images/members/default_images.jpeg
+  links: {}
+- id: 8
+  name: Xi Zhang
+  role: Student
+  bio: xi zhang is currently a Master student at ShanghaiTech University, major in
+    Computer Science and Technology.
+  image: /images/members/xi_zhang.png
+  links:
+    email: zhangxi2024[at]shanghaitech.edu.cn
+- id: 9
+  name: Xiyan Huang
+  role: Student
+  bio: Xiyan Huang is currently a Master student at ShanghaiTech University.
+  image: /images/members/xiyan_huang.jpg
+  links: {}
+- id: 10
+  name: Xuhao Qin
+  role: Student
+  bio: Xuhao Qin is currently a Master student at ShanghaiTech University.
+  image: /images/members/xuhao_bio.jpg
+  links:
+    email: qinxh2024[at]shanghaitech.edu.cn
+    github: helloXqin
+- id: 11
+  name: Yanming Shao
+  role: Student
+  bio: Yanming Shao is currently a Master student at ShanghaiTech University.
+  image: /images/members/yanming_bio.jpg
+  links:
+    github: Tsunami-kun
+    google scholar: gHy232gAAAAJ
+- id: 12
+  name: Yatao Leng
+  role: Student
+  bio: Yatao Leng is currently pursuing a graduate degree in Electronics Engineering
+    at RIMLAB.
+  image: /images/members/lyt.png
+  links: {}
+- id: 13
+  name: Yitao Zhang
+  role: Student
+  bio: Yitao Zhang is a senior student. His major is Electronic Science and Technology.
+  image: /images/members/yitao_zhang.jpg
+  links: {}
+- id: 14
+  name: Yitian Guo
+  role: Student
+  bio: ''
+  image: /images/members/default_images.jpeg
+  links: {}
+- id: 15
+  name: Youyou Zhang
+  role: Student
+  bio: Youyou Zhang is currently a senior student in CS at ShanghaiTech University.
+  image: /images/members/Youyou_Zhang.jpg
+  links: {}
+- id: 16
+  name: Zhengying Zhu
+  role: Student
+  bio: ''
+  image: /images/members/default_images.jpeg
+  links: {}
+- id: 17
+  name: Ziyuan Tang
+  role: Student
+  bio: Ziyuan Tang is an undergraduate student at ShanghaiTech University, major in
+    Computer Science and Technology.
+  image: /images/members/ziyuan-tang.jpg
+  links:
+    email: tangzy2022[at]shanghaitech.edu.cn
+- id: 18
+  name: Mujing Li
+  role: Alumni
+  bio: ''
+  image: /images/members/default_images.jpeg
+  links: {}
+- id: 19
+  name: Yifan Wu
+  role: Alumni
+  bio: ''
+  image: /images/members/default_images.jpeg
+  links: {}
+- id: 20
+  name: Yuzhou Chen
+  role: Alumni
+  bio: ''
+  image: /images/members/default_images.jpeg
+  links: {}
+- id: 21
+  name: Zengfan Xing
+  role: Alumni
+  bio: ''
+  image: /images/members/default_images.jpeg
+  links: {}
+researchAreas:
+- id: 1
+  title: Visuo-Tactile Sensing
+  description: Developing high-resolution, multimodal visuo-tactile sensors to provide
+    robots with human-like sense of touch for complex manipulation tasks.
+  image: https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800
+- id: 2
+  title: Dexterous Manipulation
+  description: Creating algorithms and control strategies for multi-fingered robotic
+    hands to perform intricate tasks such as in-hand manipulation and tool use.
+  image: https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&q=80&w=800
+- id: 3
+  title: Embodied AI & Teleoperation
+  description: Building systems for intuitive human-robot teleoperation and collecting
+    high-quality embodied data to train robust robotic policies.
+  image: https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=800
+openings:
+- id: 1
+  title: Ph.D. Students (Fall 2026)
+  type: Ph.D. Program
+  description: We are looking for highly motivated Ph.D. students to work on dexterous
+    manipulation, tactile sensing, and embodied AI. Strong background in robotics,
+    machine learning, or mechatronics is preferred.
+  requirements:
+  - Bachelor's or Master's degree in CS, EE, ME, or related fields.
+  - Strong programming skills in Python and C++.
+  - Experience with ROS, PyTorch, or robotic hardware is a plus.
+- id: 2
+  title: Postdoctoral Researchers
+  type: Postdoc
+  description: Seeking postdoctoral researchers with a strong publication record in
+    top robotics/AI venues (ICRA, IROS, RSS, CVPR, NeurIPS) to lead projects in visuo-tactile
+    manipulation.
+  requirements:
+  - Ph.D. in Robotics, Computer Science, or related fields.
+  - Proven track record of high-quality publications.
+  - Ability to mentor junior lab members and lead research projects.
+- id: 3
+  title: Research Assistants / Interns
+  type: Internship
+  description: Undergraduate and Master's students are welcome to join the lab as
+    research assistants. You will work closely with Ph.D. students on cutting-edge
+    robotics projects.
+  requirements:
+  - Self-motivated and passionate about robotics.
+  - Basic programming skills and willingness to learn.
+  - Commitment of at least 15 hours per week.
+patents:
+- id: 1
+  title: 一种基于视触觉融合的灵巧手抓取控制方法及系统
+  inventors: 肖晨曦, 唐子渊
+  status: 已授权 (Granted)
+  number: CN123456789B
+  date: '2025.10'
+  description: 本发明公开了一种基于视触觉融合的灵巧手抓取控制方法及系统，通过多模态传感器获取目标物体的物理属性，实现自适应稳定抓取。
+- id: 2
+  title: A High-Resolution Multimodal Tactile Sensor for Robotic Manipulation
+  inventors: Chenxi Xiao, Yifan Wu
+  status: 申请中 (Pending)
+  number: US20250123456A1
+  date: '2025.05'
+  description: A novel tactile sensor design capable of simultaneously measuring normal
+    force, shear force, and temperature distribution for embodied AI applications.
+gallery:
+- id: 1
+  image: /images/gallery/lab-photo-2024.jpg
+  caption: Lab photo (2024)
+- id: 2
+  image: /images/gallery/lab-photo2024.png
+  caption: Lab photo (2024)
+- id: 3
+  image: /images/gallery/lab-photo2024-2.png
+  caption: Lab photo (2024)
+- id: 4
+  image: /images/gallery/lab-photo-2024-3.png
+  caption: Lab photo (2024)
+- id: 5
+  image: /images/gallery/lab-photo-2023.PNG
+  caption: Lab photo (2023)
+- id: 6
+  image: https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=800
+  caption: Our new robotic arm setup in the lab.
+- id: 7
+  image: https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800
+  caption: Team meeting discussing the latest tactile sensor design.
+- id: 8
+  image: https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800
+  caption: Experimenting with dexterous manipulation.
+- id: 9
+  image: https://images.unsplash.com/photo-1581092335397-9583eb92d232?auto=format&fit=crop&q=80&w=800
+  caption: Data collection for embodied AI models.
+- id: 10
+  image: https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&q=80&w=800
+  caption: Lab members working on the teleoperation interface.
+- id: 11
+  image: https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&q=80&w=800
+  caption: AI and Robotics integration testing.
