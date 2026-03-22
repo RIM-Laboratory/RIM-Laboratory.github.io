@@ -8,7 +8,7 @@ labInfo:
   - Tactile Sensors
   - Embodied Data Collection & Synthesis
   - Teleoperation
-  bio: Welcome to the Robot Interaction and Manipulation Lab! 欢迎来到上海科技大学机器人交互与操作实验室！研究主题：视触觉结合感知、灵巧手操作、触觉传感器、具身数据采集与合成、遥操作。
+  bio: "Welcome to the Robot Interaction and Manipulation Lab! 欢迎来到上海科技大学机器人交互与操作实验室！\n研究主题：视触觉结合感知、灵巧手操作、触觉传感器、具身数据采集与合成、遥操作。"
   email: xiaochx[at]shanghaitech.edu.cn
   address: SIST 1D-303, ShanghaiTech University, 393 Middle Huaxia Road
   scholarUrl: https://scholar.google.com/citations?user=Qhiy3doAAAAJ&hl=en
@@ -26,7 +26,7 @@ news:
   link: https://sist.shanghaitech.edu.cn/2026/0130/c2826a1119292/page.htm
 - id: 3
   date: '2026.01'
-  content: Three paper accepted to ICRA.
+  content: Three papers accepted to ICRA.
 - id: 4
   date: '2026.01'
   content: One paper accepted to RA-L.
