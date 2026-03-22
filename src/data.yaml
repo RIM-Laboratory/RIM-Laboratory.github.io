@@ -20,7 +20,6 @@ news:
 - id: 1
   date: '2026.03'
   content: 招和机器人企业联培专硕一名，要求强动手研究能力，欢迎邮件详询。
-  link: https://sist.shanghaitech.edu.cn/2026/0130/c2826a1119292/page.htm
 - id: 2
   date: '2026.02'
   content: 招博士生一名（申请考核制，3年学制，截止2026年2月28日），欢迎邮件详询。
@@ -129,7 +128,7 @@ publications:
 - id: 13
   title: 'PP-Tac: Paper Picking Using Tactile Feedback in Dexterous Robotic Hands'
   authors: Pei Lin, Yuzhe Huang, Wanlin Li, Jianpeng Ma, Chenxi Xiao, Ziyuan Jiao
-  venue: CoRR
+  venue: RSS
   year: 2025
   image: /images/pub_13.jpg
   abstract: ''
