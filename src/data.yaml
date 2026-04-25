@@ -18,55 +18,51 @@ labInfo:
   heroBgUrl: /images/hero-bg.jpg
 news:
 - id: 1
-  date: '2026.03'
-  content: 招和机器人企业联培专硕一名，要求强动手研究能力，欢迎邮件详询。
+  date: '2026.04'
+  content: 【本科进组实习】招大二年级（本校EE/CS专业）2-3名，要求对机器人研究有浓厚兴趣、有竞赛经历优先，欢迎邮件详询。
 - id: 2
-  date: '2026.02'
-  content: 招博士生一名（申请考核制，3年学制，截止2026年2月28日），欢迎邮件详询。
-  link: https://sist.shanghaitech.edu.cn/2026/0130/c2826a1119292/page.htm
-- id: 3
   date: '2026.01'
   content: Three papers accepted to ICRA.
+- id: 3
+  date: '2026.01'
+  content: One paper accepted to RA-L.
 - id: 4
   date: '2026.01'
-  content: One paper accepted to RA-L.
-- id: 5
-  date: '2026.01'
   content: One paper accepted to ICLR.
-- id: 6
+- id: 5
   date: '2025.12'
   content: One paper accepted to RA-L.
-- id: 7
+- id: 6
   date: '2025.09'
   content: Welcome Ziyuan Tang, Hongyi Yang, Jiaming Jiang to join RIM Lab!
-- id: 8
+- id: 7
   date: '2025.09'
   content: One paper accepted to ROBIO 2025.
-- id: 9
+- id: 8
   date: '2025.08'
   content: One paper accepted to Humanoid 2025.
-- id: 10
+- id: 9
   date: '2025.07'
   content: Welcome Kefei Wu to join RIM Lab!
-- id: 11
+- id: 10
   date: '2025.07'
   content: One paper accepted to ACM MM 2025.
-- id: 12
+- id: 11
   date: '2025.06'
   content: Three papers accepted to IROS 2025.
-- id: 13
+- id: 12
   date: '2025.04'
   content: One paper accepted to RSS 2025.
-- id: 14
+- id: 13
   date: '2025.03'
   content: Welcome Shengcheng Luo to join RIM Lab!
-- id: 15
+- id: 14
   date: '2025.02'
   content: One paper accepted to ICRA 2025.
-- id: 16
+- id: 15
   date: '2024.10'
   content: One paper accepted to WACV 2025.
-- id: 17
+- id: 16
   date: '2024.09'
   content: One paper accepted to RA-L.
 publications:
