@@ -33,12 +33,12 @@ export default function News() {
                   {item.date}
                 </span>
                 <p className="text-gray-700 text-base leading-relaxed flex-1">
-                  {item.link ? (
-                    <a href={item.link} target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:underline">
-                      {item.content}
+                  {item.content}
+                  {item.link && (
+                    <a href={item.link} target="_blank" rel="noopener noreferrer"
+                      className="inline-block ml-2 px-3 py-0.5 text-sm font-medium text-white bg-indigo-600 rounded-full hover:bg-indigo-700 transition-colors">
+                      报名链接
                     </a>
-                  ) : (
-                    item.content
                   )}
                 </p>
               </div>
