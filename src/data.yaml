@@ -18,52 +18,61 @@ labInfo:
   heroBgUrl: /images/hero-bg.jpg
 news:
 - id: 1
-  date: '2026.04'
+  date: '2026.06'
+  content: 【推免】招具身方向直博1名（通计划 北京人工智能研究院），研究方向：触觉操作。邮件详询。
+- id: 2
+  date: '2026.06'
   content: 【推免&本科进组实习】招具身方向推免生2-3名（2027年入学，见链接）；大二年级实习2-3名（EE/CS专业，需本校），欢迎邮件详询。
   link: https://sist.shanghaitech.edu.cn/2026/0511/c7339a1121835/page.htm
-- id: 2
+- id: 3
+  date: '2026.06'
+  content: One paper won the ICRA Best Student Paper Award. Congratulations to Zhe Xu, Feiyu Zhao, and Xiyan Huang!
+- id: 4
+  date: '2026.05'
+  content: Runze Hu won an ICRA travel grant. Congratulations, Runze!
+- id: 5
   date: '2026.01'
   content: Three papers accepted to ICRA.
-- id: 3
+- id: 6
   date: '2026.01'
   content: One paper accepted to RA-L.
-- id: 4
+- id: 7
   date: '2026.01'
   content: One paper accepted to ICLR.
-- id: 5
+- id: 8
   date: '2025.12'
   content: One paper accepted to RA-L.
-- id: 6
+- id: 9
   date: '2025.09'
-  content: Welcome Ziyuan Tang, Hongyi Yang, Jiaming Jiang to join RIM Lab!
-- id: 7
+  content: Welcome Ziyuan Tang, Hongyi Yang, and Jiaming Jiang to RIM Lab!
+- id: 10
   date: '2025.09'
   content: One paper accepted to ROBIO 2025.
-- id: 8
+- id: 11
   date: '2025.08'
-  content: One paper accepted to Humanoid 2025.
-- id: 9
+  content: One paper accepted to Humanoids 2025.
+- id: 12
   date: '2025.07'
-  content: Welcome Kefei Wu to join RIM Lab!
-- id: 10
+  content: Welcome Kefei Wu to RIM Lab!
+- id: 13
   date: '2025.07'
   content: One paper accepted to ACM MM 2025.
-- id: 11
+- id: 14
   date: '2025.06'
   content: Three papers accepted to IROS 2025.
-- id: 12
+- id: 15
   date: '2025.04'
   content: One paper accepted to RSS 2025.
-- id: 13
+- id: 16
   date: '2025.03'
-  content: Welcome Shengcheng Luo to join RIM Lab!
-- id: 14
+  content: Welcome Shengcheng Luo to RIM Lab!
+- id: 17
   date: '2025.02'
   content: One paper accepted to ICRA 2025.
-- id: 15
+- id: 18
   date: '2024.10'
   content: One paper accepted to WACV 2025.
-- id: 16
+- id: 19
   date: '2024.09'
   content: One paper accepted to RA-L.
 publications:
@@ -305,7 +314,7 @@ team:
 - id: 2
   name: Zhe Xu
   role: Student
-  bio: Zhe Xu is currently a master's student at ShanghaiTech University, major in Computer Science and Technology.
+  bio: Zhe Xu is currently a master's student at ShanghaiTech University majoring in Computer Science and Technology.
   image: /images/members/default_male.jpg
   links:
     email: xuzhe2023[at]shanghaitech.edu.cn
@@ -342,7 +351,7 @@ team:
 - id: 8
   name: Xi Zhang
   role: Student
-  bio: xi zhang is currently a master's student at ShanghaiTech University working on robot manipulation.
+  bio: Xi Zhang is currently a master's student at ShanghaiTech University working on robot manipulation.
   image: /images/members/xi_zhang.png
   links:
     email: zhangxi2024[at]shanghaitech.edu.cn
@@ -355,7 +364,7 @@ team:
 - id: 10
   name: Xuhao Qin
   role: Student
-  bio: Xuhao Qin is currently a master's's student at ShanghaiTech University working on robot manipulation and tactile sensing.
+  bio: Xuhao Qin is currently a master's student at ShanghaiTech University working on robot manipulation and tactile sensing.
   image: /images/members/xuhao_bio.jpg
   links:
     email: qinxh2024[at]shanghaitech.edu.cn
@@ -377,19 +386,19 @@ team:
 - id: 13
   name: Yitao Zhang
   role: Student
-  bio: Yitao Zhang is a currently a master's student working on robot tactile perception.
+  bio: Yitao Zhang is currently a master's student working on robot tactile perception.
   image: /images/members/yitao_zhang.jpg
   links: {}
 - id: 14
   name: Yitian Guo
   role: Student
-  bio: Yitian Guo is currrently an Undergraduate student working on haptic interfaces.
+  bio: Yitian Guo is currently an undergraduate student working on haptic interfaces.
   image: /images/members/default_male.jpg
   links: {}
 - id: 15
   name: Youyou Zhang
   role: Student
-  bio: Youyou Zhang is a currently a master's student working on robot perception.
+  bio: Youyou Zhang is currently a master's student working on robot perception.
   image: /images/members/Youyou_Zhang.jpg
   links: {}
 - id: 16
@@ -401,32 +410,32 @@ team:
 - id: 17
   name: Ziyuan Tang
   role: Student
-  bio: Ziyuan Tang is an undergraduate student at ShanghaiTech University, major in Computer Science and Technology working on robot design.
+  bio: Ziyuan Tang is an undergraduate student at ShanghaiTech University majoring in Computer Science and Technology, working on robot design.
   image: /images/members/ziyuan-tang.jpg
   links:
     email: tangzy2022[at]shanghaitech.edu.cn
 - id: 18
   name: Mujing Li
   role: Alumni
-  bio: Mujing Li did an graduate internship at RIMLAB.
+  bio: Mujing Li did a graduate internship at RIM Lab.
   image: /images/members/default_male.jpg
   links: {}
 - id: 19
   name: Yifan Wu
   role: Alumni
-  bio: Yifan Wu did an undergraduate internship at RIMLAB.
+  bio: Yifan Wu did an undergraduate internship at RIM Lab.
   image: /images/members/default_female.jpg
   links: {}
 - id: 20
   name: Yuzhou Chen
   role: Alumni
-  bio: Yifan Wu did an undergraduate internship at RIMLAB.
+  bio: Yuzhou Chen did an undergraduate internship at RIM Lab.
   image: /images/members/default_male.jpg
   links: {}
 - id: 21
   name: Zengfan Xing
   role: Alumni
-  bio: Zengfan Xing did an undergraduate internship at RIMLAB.
+  bio: Zengfan Xing did an undergraduate internship at RIM Lab.
   image: /images/members/default_male.jpg
   links: {}
 researchAreas:
@@ -450,7 +459,7 @@ openings:
   requirements:
   - Bachelor's or Master's degree in CS, EE, ME, or related fields.
   - Willing to conduct challenging top-tier research in robotics and AI.
-  - Tactile sensor, manipulation, computer vision experience is a plus.
+  - Experience with tactile sensors, manipulation, or computer vision is a plus.
 - id: 2
   title: Research Assistants / Interns
   type: Internship
