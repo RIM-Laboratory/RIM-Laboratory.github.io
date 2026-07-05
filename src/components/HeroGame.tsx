@@ -12,6 +12,9 @@ export default function HeroGame() {
     let animationFrameId: number;
     let mouseX = window.innerWidth / 2;
     let score = 0;
+    let globalTotal = 0;
+    const COUNTER_URL = "https://api.counterapi.dev/v1/rim-lab/clawgame-grabs";
+    fetch(COUNTER_URL).then(r => r.ok ? r.json() : Promise.reject()).then((d: { count?: number }) => { if (typeof d.count === "number") globalTotal = d.count; }).catch(() => {});
 
     // Claw state
     const IDLE_Y = 80;
@@ -20,7 +23,7 @@ export default function HeroGame() {
     let clawState: 'idle' | 'dropping' | 'retracting' = 'idle';
     let grabbedItem: any = null;
 
-    const items: { x: number; y: number; speed: number; color: string; width: number; height: number; type: string }[] = [];
+    const items: { x: number; y: number; speed: number; color: string; width: number; height: number; type: string; baseY: number; movement: "slide" | "jump"; phase: number; jumpHeight: number }[] = [];
     const colors = ['#818cf8', '#34d399', '#f472b6', '#fbbf24', '#38bdf8'];
     const itemTypes = ['box', 'circle', 'triangle', 'hexagon', 'diamond'];
 
@@ -126,6 +129,16 @@ export default function HeroGame() {
       ctx.textBaseline = 'middle';
       ctx.fillText(score.toString(), canvas.width / 2, canvas.height / 2);
 
+      // Draw HUD: global counter + your score
+      ctx.fillStyle = "rgba(255, 255, 255, 0.75)";
+      ctx.font = "bold 15px system-ui";
+      ctx.textAlign = "left";
+      ctx.textBaseline = "top";
+      ctx.fillStyle = "rgba(255, 255, 255, 0.85)";
+      ctx.fillText(`Total grabbed (all players): ${globalTotal}`, 16, 74);
+      ctx.fillStyle = "rgba(125, 211, 252, 0.95)";
+      ctx.fillText(`You: ${score}`, 16, 96);
+
       // Conveyor belt
       const beltY = canvas.height - 80;
       ctx.fillStyle = '#1e293b';
@@ -133,9 +146,15 @@ export default function HeroGame() {
       
       // Spawn items
       if (timestamp - lastSpawn > 1500) {
+        const movement = Math.random() < 0.4 ? "jump" : "slide";
+        const baseY = beltY + 20;
         items.push({
           x: -50,
-          y: beltY + 20,
+          y: baseY,
+          baseY,
+          movement,
+          phase: Math.random() * Math.PI * 2,
+          jumpHeight: 45 + Math.random() * 30,
           speed: Math.random() * 2 + 2,
           color: colors[Math.floor(Math.random() * colors.length)],
           width: 40,
@@ -149,6 +168,9 @@ export default function HeroGame() {
       for (let i = items.length - 1; i >= 0; i--) {
         const item = items[i];
         item.x += item.speed;
+        if (item.movement === "jump") {
+          item.y = item.baseY - Math.abs(Math.sin(item.x * 0.04 + item.phase)) * item.jumpHeight;
+        }
 
         drawItem(ctx, item, item.x, item.y);
 
@@ -190,6 +212,8 @@ export default function HeroGame() {
           clawState = 'idle';
           if (grabbedItem) {
             score++;
+            globalTotal++;
+            fetch(COUNTER_URL + "/up").then(r => r.ok ? r.json() : Promise.reject()).then((d: { count?: number }) => { if (typeof d.count === "number") globalTotal = d.count; }).catch(() => {});
             grabbedItem = null;
           }
         }
