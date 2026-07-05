@@ -15,7 +15,13 @@ export default function HeroGame() {
     let globalTotal = 0;
     let globalLoaded = false;
     const COUNTER_URL = "https://api.counterapi.dev/v1/rim-lab/clawgame-grabs";
-    fetch(COUNTER_URL).then(r => r.ok ? r.json() : Promise.reject()).then((d: { count?: number }) => { if (typeof d.count === "number") globalTotal = d.count; globalLoaded = true; }).catch(() => { globalLoaded = true; });
+    const loadTotal = (retries: number) => {
+      fetch(COUNTER_URL)
+        .then(r => r.ok ? r.json() : Promise.reject())
+        .then((d: { count?: number }) => { if (typeof d.count === "number") globalTotal = d.count; globalLoaded = true; })
+        .catch(() => { if (retries > 0) setTimeout(() => loadTotal(retries - 1), 1500); else globalLoaded = true; });
+    };
+    loadTotal(5);
 
     // Claw state
     const IDLE_Y = 80;
@@ -214,7 +220,7 @@ export default function HeroGame() {
           if (grabbedItem) {
             score++;
             globalTotal++;
-            fetch(COUNTER_URL + "/up").then(r => r.ok ? r.json() : Promise.reject()).then((d: { count?: number }) => { if (typeof d.count === "number") globalTotal = d.count; }).catch(() => {});
+            fetch(COUNTER_URL + "/up").then(r => r.ok ? r.json() : Promise.reject()).then((d: { count?: number }) => { if (typeof d.count === "number") globalTotal = d.count; globalLoaded = true; }).catch(() => {});
             grabbedItem = null;
           }
         }
