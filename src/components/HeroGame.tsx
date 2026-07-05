@@ -13,8 +13,9 @@ export default function HeroGame() {
     let mouseX = window.innerWidth / 2;
     let score = 0;
     let globalTotal = 0;
+    let globalLoaded = false;
     const COUNTER_URL = "https://api.counterapi.dev/v1/rim-lab/clawgame-grabs";
-    fetch(COUNTER_URL).then(r => r.ok ? r.json() : Promise.reject()).then((d: { count?: number }) => { if (typeof d.count === "number") globalTotal = d.count; }).catch(() => {});
+    fetch(COUNTER_URL).then(r => r.ok ? r.json() : Promise.reject()).then((d: { count?: number }) => { if (typeof d.count === "number") globalTotal = d.count; globalLoaded = true; }).catch(() => { globalLoaded = true; });
 
     // Claw state
     const IDLE_Y = 80;
@@ -135,7 +136,7 @@ export default function HeroGame() {
       ctx.textAlign = "left";
       ctx.textBaseline = "top";
       ctx.fillStyle = "rgba(255, 255, 255, 0.85)";
-      ctx.fillText(`Total grabbed (all players): ${globalTotal}`, 16, 74);
+      ctx.fillText(`Total grabbed (all players): ${globalLoaded ? globalTotal : "..."}`, 16, 74);
       ctx.fillStyle = "rgba(125, 211, 252, 0.95)";
       ctx.fillText(`You: ${score}`, 16, 96);
 
