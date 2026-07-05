@@ -76,6 +76,39 @@ news:
   date: '2024.09'
   content: One paper accepted to RA-L.
 publications:
+- id: 33
+  title: 'TriCoSphere: A High-Dexterity, Large-Volume, 3-Finger Coaxial Spherical Manipulator'
+  authors: Runze Hu, Zhengying Zhu, Jinyu Li, Yatao Leng, Jingshuai Liu, Chenxi Xiao
+  venue: ICRA
+  year: 2026
+  image: /images/pub_33.jpg
+  abstract: ''
+  links:
+    pdf: ''
+    code: ''
+    video: ''
+- id: 34
+  title: 'ETac: A Lightweight and Efficient Tactile Simulation Framework for Learning Dexterous Manipulation'
+  authors: Zhe Xu, Feiyu Zhao, Xiyan Huang, Chenxi Xiao
+  venue: ICRA
+  year: 2026
+  image: /images/pub_34.jpg
+  abstract: ''
+  links:
+    pdf: https://arxiv.org/abs/2604.20295
+    code: ''
+    video: ''
+- id: 35
+  title: 'CoLI: A Reproducible Platform for Continuum Robot Learning via Monolithic 3D Printing and Isomorphic Teleoperation'
+  authors: Ziyuan Tang, Chenxi Xiao
+  venue: IROS
+  year: 2026
+  image: /images/pub_35.jpg
+  abstract: ''
+  links:
+    pdf: https://arxiv.org/abs/2606.20389
+    code: ''
+    video: ''
 - id: 32
   title: 'NLiPsCalib: An Efficient Calibration Framework for High-Fidelity 3D Reconstruction of Curved Visuotactile Sensors'
   authors: Xuhao Qin, Feiyu Zhao, Yatao Leng, Runze Hu, Chenxi Xiao
