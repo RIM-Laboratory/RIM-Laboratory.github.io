@@ -608,3 +608,8 @@ gallery:
     caption: |-
       实验室部分器材（2024）
       Lab equipment (2024)
+  - id: 9
+    image: /images/gallery/lab-photo-team.jpg
+    caption: |-
+      实验室团队合影
+      Lab team photo
