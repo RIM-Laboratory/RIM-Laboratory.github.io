@@ -613,3 +613,8 @@ gallery:
     caption: |-
       实验室团队合影
       Lab team photo
+  - id: 10
+    image: /images/gallery/lab-photo-campus.jpg
+    caption: |-
+      校园合影（上海科技大学）
+      Campus group photo (ShanghaiTech)
