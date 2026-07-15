@@ -19,6 +19,9 @@ labInfo:
   githubUrl: https://github.com/rim-laboratory
   twitterUrl: https://twitter.com/
   linkedinUrl: https://linkedin.com/
+  bilibiliUrl: https://space.bilibili.com/
+  youtubeUrl: https://www.youtube.com/@RIMLAB-ShanghaiTech
+  institutionUrl: https://sist.shanghaitech.edu.cn/xcx/main.htm
   heroBgUrl: /images/hero-bg.jpg
 news:
   - id: 1
