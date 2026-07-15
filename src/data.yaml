@@ -100,7 +100,7 @@ publications:
     abstract: A reproducible platform for continuum robot learning built from monolithic 3D printing and isomorphic teleoperation. The 3D-printed continuum robot is cheap and easy to reproduce, and the isomorphic teleoperation interface lets humans collect demonstration data to learn continuum-robot control policies.
     links:
       pdf: https://arxiv.org/abs/2606.20389
-      code: ""
+      code: https://github.com/TangRobot/CoLI
       video: ""
   - id: 34
     title: "ETac: A Lightweight and Efficient Tactile Simulation Framework for Learning Dexterous Manipulation"
@@ -115,8 +115,8 @@ publications:
     abstract: A lightweight and efficient tactile simulation framework for learning dexterous manipulation. It models vision-based tactile sensor response at low computational cost, making it practical to train tactile-driven manipulation policies in simulation and transfer them to the real hand.
     links:
       pdf: https://arxiv.org/abs/2604.20295
-      code: ""
-      video: ""
+      code: https://github.com/Crxus/ETac
+      video: https://lassford.github.io/ETac/
   - id: 33
     title: "TriCoSphere: A High-Dexterity, Large-Volume, 3-Finger Coaxial Spherical Manipulator"
     authors: Runze Hu, Zhengying Zhu, Jinyu Li, Yatao Leng, Jingshuai Liu, Chenxi Xiao
@@ -175,7 +175,7 @@ publications:
     abstract: Aligns tactile sensing with physical interaction forces in Vision-Language-Action (VLA) models for force-aware manipulation. It introduces a tactile-force adapter trained on over 10 million synchronized tactile–force samples, enabling robust contact-rich manipulation beyond vision-only VLA baselines.
     links:
       pdf: https://doi.org/10.48550/arXiv.2601.20321
-      code: ""
+      code: https://github.com/mrHuangyz/TaF-VLA
       video: ""
   - id: 2
     title: Autonomous Exploration for Shape Reconstruction and Measurement via Informative Contact-Guided Planning
@@ -205,7 +205,7 @@ publications:
     abstract: A hand exoskeleton that delivers multimodal haptic feedback—force, pressure, and thermal sensations—to the user. Integrated into a teleoperation system, it lets operators feel and manipulate remote deformable objects and distinguish their temperatures.
     links:
       pdf: https://doi.org/10.1109/LRA.2026.3662616
-      code: ""
+      code: https://github.com/TangRobot/MFE
       video: ""
   - id: 13
     title: "PP-Tac: Paper Picking Using Tactile Feedback in Dexterous Robotic Hands"
@@ -220,8 +220,8 @@ publications:
     abstract: A robotic system that picks up paper-like (thin, flat, deformable) objects using a tactile dexterous hand. It detects and controls slip in real time and generates grasp motions with a diffusion-based policy, achieving robust paper grasping where vision-based methods fail.
     links:
       pdf: https://doi.org/10.48550/arXiv.2504.16649
-      code: ""
-      video: ""
+      code: https://github.com/bigai-ai/PP-Tac
+      video: https://youtu.be/-npk0cRKWGI
   - id: 12
     title: "D-LUT: Photorealistic Style Transfer via Diffusion Process"
     authors: Mujing Li, Guanjie Wang, Xingguang Zhang, Qifeng Liao, Chenxi Xiao
@@ -355,7 +355,7 @@ publications:
     abstract: Addresses synthesizing stable, collision-free bimanual grasps for dexterous robot hands. The method jointly optimizes the poses and contacts of both hands while respecting kinematic constraints, producing robust collaborative grasps across objects and hand configurations.
     links:
       pdf: https://doi.org/10.1109/LRA.2024.3490393
-      code: ""
+      code: https://github.com/Tsunami-kun/BimanGrasp-Generation
       video: ""
   - id: 20
     title: Tactile and Chemical Sensing With Haptic Feedback for a Telepresence Explosive Ordnance Disposal Robot
