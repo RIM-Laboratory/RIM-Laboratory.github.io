@@ -21,11 +21,13 @@ const isPlaceholder = (url?: string) => {
 };
 
 export default function Footer() {
+  // Each platform gets its own brand color so the icons are colourful and
+  // easy to tell apart. `cls` = resting chip (bg + text), `hover` = on hover.
   const socials = [
-    { url: labInfo.githubUrl, label: 'GitHub', icon: <Github size={24} /> },
-    { url: labInfo.youtubeUrl, label: 'YouTube', icon: <Youtube size={24} /> },
-    { url: labInfo.bilibiliUrl, label: 'Bilibili', icon: <BilibiliIcon size={24} /> },
-    { url: labInfo.scholarUrl, label: 'Google Scholar', icon: <GraduationCap size={24} /> },
+    { url: labInfo.githubUrl,    label: 'GitHub',         icon: <Github size={32} />,         cls: 'bg-gray-100 text-gray-800',            hover: 'hover:bg-gray-800 hover:text-white hover:shadow-lg' },
+    { url: labInfo.youtubeUrl,   label: 'YouTube',        icon: <Youtube size={32} />,        cls: 'bg-red-50 text-red-600',               hover: 'hover:bg-red-600 hover:text-white hover:shadow-lg' },
+    { url: labInfo.bilibiliUrl,  label: 'Bilibili',       icon: <BilibiliIcon size={32} />,   cls: 'bg-sky-50 text-sky-500',               hover: 'hover:bg-sky-500 hover:text-white hover:shadow-lg' },
+    { url: labInfo.scholarUrl,   label: 'Google Scholar', icon: <GraduationCap size={32} />,  cls: 'bg-indigo-50 text-indigo-600',         hover: 'hover:bg-indigo-600 hover:text-white hover:shadow-lg' },
   ].filter((s) => !isPlaceholder(s.url));
 
   return (
@@ -60,7 +62,7 @@ export default function Footer() {
 
         {/* Social icon row */}
         {socials.length > 0 && (
-          <div className="flex items-center justify-center gap-4">
+          <div className="flex items-center justify-center gap-5">
             {socials.map((s) => (
               <a
                 key={s.label}
@@ -69,7 +71,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 aria-label={s.label}
                 title={s.label}
-                className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-50 border border-gray-200 text-gray-600 hover:text-indigo-600 hover:border-indigo-300 hover:bg-indigo-50 hover:shadow-md transition-all"
+                className={`w-16 h-16 flex items-center justify-center rounded-2xl border border-gray-200 transition-all ${s.cls} ${s.hover}`}
               >
                 {s.icon}
               </a>
