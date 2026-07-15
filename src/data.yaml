@@ -101,7 +101,7 @@ publications:
       video: ""
   - id: 31
     title: "DexMove: Learning Tactile-Guided Non-Prehensile Manipulation with Dexterous Hands"
-    authors: Pei Lin, Yuzhe Huang, Wanlin Li, Chenxi Xiao, Ziyuan Jiao
+    authors: "Pei Lin*, Yuzhe Huang*, Wanlin Li*, Chenxi Xiao†, Ziyuan Jiao†"
     venue: ICLR
     year: 2026
     image: /images/pub_31.jpg
@@ -109,11 +109,11 @@ publications:
       - Dexterous Manipulation
       - Visuotactile
       - Non-Prehensile
-    abstract: A framework that learns tactile-guided non-prehensile manipulation (pushing, rolling, reorienting) for multi-fingered dexterous hands. By grounding the policy in visuotactile feedback, the hand reasons about contact states and object dynamics, improving success over vision-only baselines on contact-rich tasks.
+    abstract: "A tactile-guided non-prehensile manipulation framework for dexterous hands. It combines a scalable simulation pipeline that generates physically plausible wrist–finger trajectories with a wearable device that captures multi-finger contact data from human demonstrations, training a flow-based policy that enables real-time synergistic wrist–finger control and generalizes to language-conditioned long-horizon tasks."
     links:
-      pdf: ""
+      pdf: https://openreview.net/pdf?id=dT3ZciXvNX
       code: ""
-      video: ""
+      video: https://peilin-666.github.io/projects/DexMove/
   - id: 3
     title: "TaF-VLA: Tactile-Force Alignment in Vision-Language-Action Models for Force-aware Manipulation"
     authors: Yuzhe Huang, Pei Lin, Wanlin Li, Daohan Li, Jiajun Li, Jiaming Jiang, Chenxi Xiao, Ziyuan Jiao
