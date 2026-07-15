@@ -22,16 +22,19 @@ labInfo:
   heroBgUrl: /images/hero-bg.jpg
 news:
   - id: 1
-    date: "2026.06"
+    date: "2026.07"
     content: |-
       【推免】招具身方向直博1名（通计划 北京通用人工智能研究院），研究方向：触觉操作。邮件详询。
       [Grad recommendation] Recruiting 1 direct-PhD student in embodied AI (joint program with the Beijing Institute for General Artificial Intelligence, BIGAI); research direction: tactile manipulation. Email for details.
   - id: 2
-    date: "2026.06"
+    date: "2026.07"
     content: |-
       【推免&本科进组实习】招具身方向推免生2-3名（2027年入学，见链接）；大二年级实习2-3名（EE/CS专业，需本校），欢迎邮件详询。
       [Grad recommendation & undergrad internship] Recruiting 2–3 recommended master's/PhD students in embodied AI (enrolling 2027, see link); and 2–3 sophomore interns (EE/CS majors, on-campus only). Email for details.
     link: https://sist.shanghaitech.edu.cn/2026/0511/c7339a1121835/page.htm
+  - id: 20
+    date: "2026.06"
+    content: One paper accepted to IROS 2026.
   - id: 3
     date: "2026.06"
     content: One paper won the ICRA Best Student Paper Award. Congratulations to Zhe Xu, Feiyu Zhao, and Xiyan Huang!
@@ -84,6 +87,51 @@ news:
     date: "2024.09"
     content: One paper accepted to RA-L.
 publications:
+  - id: 35
+    title: "CoLI: A Reproducible Platform for Continuum Robot Learning via Monolithic 3D Printing and Isomorphic Teleoperation"
+    authors: Ziyuan Tang, Chenxi Xiao
+    venue: IROS
+    year: 2026
+    image: /images/pub_35.jpg
+    tags:
+      - Continuum Robot
+      - Teleoperation
+      - Soft Robotics
+    abstract: A reproducible platform for continuum robot learning built from monolithic 3D printing and isomorphic teleoperation. The 3D-printed continuum robot is cheap and easy to reproduce, and the isomorphic teleoperation interface lets humans collect demonstration data to learn continuum-robot control policies.
+    links:
+      pdf: https://arxiv.org/abs/2606.20389
+      code: ""
+      video: ""
+  - id: 34
+    title: "ETac: A Lightweight and Efficient Tactile Simulation Framework for Learning Dexterous Manipulation"
+    authors: Zhe Xu, Feiyu Zhao, Xiyan Huang, Chenxi Xiao
+    venue: ICRA
+    year: 2026
+    image: /images/pub_34.jpg
+    tags:
+      - Tactile Sensor
+      - Sim2Real
+      - Dexterous Manipulation
+    abstract: A lightweight and efficient tactile simulation framework for learning dexterous manipulation. It models vision-based tactile sensor response at low computational cost, making it practical to train tactile-driven manipulation policies in simulation and transfer them to the real hand.
+    links:
+      pdf: https://arxiv.org/abs/2604.20295
+      code: ""
+      video: ""
+  - id: 33
+    title: "TriCoSphere: A High-Dexterity, Large-Volume, 3-Finger Coaxial Spherical Manipulator"
+    authors: Runze Hu, Zhengying Zhu, Jinyu Li, Yatao Leng, Jingshuai Liu, Chenxi Xiao
+    venue: ICRA
+    year: 2026
+    image: /images/pub_33.jpg
+    tags:
+      - Continuum Robot
+      - Gripper Design
+      - Dexterous Manipulation
+    abstract: A high-dexterity, large-volume three-finger coaxial spherical manipulator. Its coaxial spherical mechanism gives the fingers a large workspace and high dexterity while keeping a compact form, enabling versatile grasping and manipulation of diverse objects.
+    links:
+      pdf: ""
+      code: ""
+      video: ""
   - id: 32
     title: "NLiPsCalib: An Efficient Calibration Framework for High-Fidelity 3D Reconstruction of Curved Visuotactile Sensors"
     authors: Xuhao Qin, Feiyu Zhao, Yatao Leng, Runze Hu, Chenxi Xiao
@@ -101,7 +149,7 @@ publications:
       video: ""
   - id: 31
     title: "DexMove: Learning Tactile-Guided Non-Prehensile Manipulation with Dexterous Hands"
-    authors: "Pei Lin*, Yuzhe Huang*, Wanlin Li*, Chenxi Xiao†, Ziyuan Jiao†"
+    authors: Pei Lin*, Yuzhe Huang*, Wanlin Li*, Chenxi Xiao†, Ziyuan Jiao†
     venue: ICLR
     year: 2026
     image: /images/pub_31.jpg
@@ -109,7 +157,7 @@ publications:
       - Dexterous Manipulation
       - Visuotactile
       - Non-Prehensile
-    abstract: "A tactile-guided non-prehensile manipulation framework for dexterous hands. It combines a scalable simulation pipeline that generates physically plausible wrist–finger trajectories with a wearable device that captures multi-finger contact data from human demonstrations, training a flow-based policy that enables real-time synergistic wrist–finger control and generalizes to language-conditioned long-horizon tasks."
+    abstract: A tactile-guided non-prehensile manipulation framework for dexterous hands. It combines a scalable simulation pipeline that generates physically plausible wrist–finger trajectories with a wearable device that captures multi-finger contact data from human demonstrations, training a flow-based policy that enables real-time synergistic wrist–finger control and generalizes to language-conditioned long-horizon tasks.
     links:
       pdf: https://openreview.net/pdf?id=dT3ZciXvNX
       code: ""
