@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { publications, labInfo } from '../data';
-import { FileText, Code, Video, Image as ImageIcon, ChevronDown, ChevronUp } from 'lucide-react';
+import { FileText, Code, Video, Globe, Image as ImageIcon, ChevronDown, ChevronUp } from 'lucide-react';
 
 // Deterministic colored tag: each keyword string hashes to one of a fixed
 // palette, so the same keyword always renders in the same color across all
@@ -139,6 +139,11 @@ function PublicationCard({ pub, index, highlightAuthor }: { key?: number, pub: a
           {pub.links?.code && (
             <a href={pub.links.code} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">
               <Code size={16} /> Code
+            </a>
+          )}
+          {pub.links?.webpage && (
+            <a href={pub.links.webpage} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">
+              <Globe size={16} /> Webpage
             </a>
           )}
           {pub.links?.video && (

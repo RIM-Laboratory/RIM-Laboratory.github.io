@@ -105,6 +105,7 @@ publications:
       pdf: https://arxiv.org/abs/2606.20389
       code: https://github.com/TangRobot/CoLI
       video: ""
+      webpage: https://tangrobot.github.io/CoLI-website/
   - id: 34
     title: "ETac: A Lightweight and Efficient Tactile Simulation Framework for Learning Dexterous Manipulation"
     authors: Zhe Xu, Feiyu Zhao, Xiyan Huang, Chenxi Xiao
@@ -119,7 +120,8 @@ publications:
     links:
       pdf: https://arxiv.org/abs/2604.20295
       code: https://github.com/Crxus/ETac
-      video: https://lassford.github.io/ETac/
+      video: ""
+      webpage: https://lassford.github.io/ETac/
   - id: 33
     title: "TriCoSphere: A High-Dexterity, Large-Volume, 3-Finger Coaxial Spherical Manipulator"
     authors: Runze Hu, Zhengying Zhu, Jinyu Li, Yatao Leng, Jingshuai Liu, Chenxi Xiao
@@ -164,7 +166,8 @@ publications:
     links:
       pdf: https://openreview.net/pdf?id=dT3ZciXvNX
       code: ""
-      video: https://peilin-666.github.io/projects/DexMove/
+      video: ""
+      webpage: https://peilin-666.github.io/projects/DexMove/
   - id: 3
     title: "TaF-VLA: Tactile-Force Alignment in Vision-Language-Action Models for Force-aware Manipulation"
     authors: Yuzhe Huang, Pei Lin, Wanlin Li, Daohan Li, Jiajun Li, Jiaming Jiang, Chenxi Xiao, Ziyuan Jiao
@@ -180,6 +183,7 @@ publications:
       pdf: https://doi.org/10.48550/arXiv.2601.20321
       code: https://github.com/mrHuangyz/TaF-VLA
       video: ""
+      webpage: https://peilin-666.github.io/projects/TaF_VLA/
   - id: 2
     title: Autonomous Exploration for Shape Reconstruction and Measurement via Informative Contact-Guided Planning
     authors: Feiyu Zhao, Chenxi Xiao
@@ -225,6 +229,7 @@ publications:
       pdf: https://doi.org/10.48550/arXiv.2504.16649
       code: https://github.com/bigai-ai/PP-Tac
       video: https://youtu.be/-npk0cRKWGI
+      webpage: https://peilin-666.github.io/projects/PP-Tac/
   - id: 12
     title: "D-LUT: Photorealistic Style Transfer via Diffusion Process"
     authors: Mujing Li, Guanjie Wang, Xingguang Zhang, Qifeng Liao, Chenxi Xiao

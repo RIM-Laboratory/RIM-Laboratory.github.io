@@ -2,7 +2,7 @@ import { useState, type ReactNode } from 'react';
 import { publications, researchAreas, labInfo } from '../data';
 import {
   Mail, GraduationCap, Github, BookOpen, ExternalLink, User, MapPin,
-  ChevronDown, ChevronUp, FileText, Code, Video, Home,
+  ChevronDown, ChevronUp, FileText, Code, Video, Globe, Home,
 } from 'lucide-react';
 
 /**
@@ -181,6 +181,11 @@ export default function CVPage() {
                       {pub.links?.code && (
                         <a href={pub.links.code} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-xs font-semibold text-gray-700 bg-gray-100 px-3 py-1.5 rounded-lg hover:bg-gray-200 transition-colors">
                           <Code size={14} /> Code
+                        </a>
+                      )}
+                      {pub.links?.webpage && (
+                        <a href={pub.links.webpage} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-xs font-semibold text-gray-700 bg-gray-100 px-3 py-1.5 rounded-lg hover:bg-gray-200 transition-colors">
+                          <Globe size={14} /> Webpage
                         </a>
                       )}
                       {pub.links?.video && (
