@@ -3,6 +3,27 @@ import { motion, AnimatePresence } from 'motion/react';
 import { publications, labInfo } from '../data';
 import { FileText, Code, Video, Image as ImageIcon, ChevronDown, ChevronUp } from 'lucide-react';
 
+// Deterministic colored tag: each keyword string hashes to one of a fixed
+// palette, so the same keyword always renders in the same color across all
+// papers — a stable "colored keyword tag" look without a manual lookup table.
+const TAG_PALETTE = [
+  'bg-rose-100 text-rose-700',
+  'bg-indigo-100 text-indigo-700',
+  'bg-emerald-100 text-emerald-700',
+  'bg-amber-100 text-amber-700',
+  'bg-sky-100 text-sky-700',
+  'bg-violet-100 text-violet-700',
+  'bg-teal-100 text-teal-700',
+  'bg-orange-100 text-orange-700',
+  'bg-fuchsia-100 text-fuchsia-700',
+  'bg-cyan-100 text-cyan-700',
+];
+function tagColor(tag: string) {
+  let h = 0;
+  for (let i = 0; i < tag.length; i++) h = (h * 31 + tag.charCodeAt(i)) >>> 0;
+  return TAG_PALETTE[h % TAG_PALETTE.length];
+}
+
 export default function Publications() {
   const [isExpanded, setIsExpanded] = useState(false);
   const displayedPublications = isExpanded ? publications : publications.slice(0, 5);
@@ -94,6 +115,15 @@ function PublicationCard({ pub, index, highlightAuthor }: { key?: number, pub: a
         <p className="text-indigo-600 font-medium text-sm">
           {pub.venue} ({pub.year})
         </p>
+        {pub.tags?.length > 0 && (
+          <div className="flex flex-wrap gap-1.5">
+            {pub.tags.map((tag: string) => (
+              <span key={tag} className={`px-2.5 py-0.5 rounded-full text-xs font-medium ${tagColor(tag)}`}>
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
         {pub.abstract && pub.abstract !== "Abstract not available from DBLP. Please update manually." && (
           <p className="text-gray-500 text-sm leading-relaxed">
             {pub.abstract}

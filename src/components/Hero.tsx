@@ -42,7 +42,7 @@ export default function Hero() {
 
           <div className="pt-12 mt-12 border-t border-white/20">
             <h2 className="text-2xl font-bold text-white mb-6">About Us</h2>
-            <p className="text-lg text-gray-200 leading-relaxed mb-8 max-w-4xl mx-auto">
+            <p className="text-lg text-gray-200 leading-relaxed mb-8 max-w-4xl mx-auto whitespace-pre-line">
               {labInfo.bio}
             </p>
             <div className="flex flex-wrap justify-center gap-3">

@@ -54,7 +54,7 @@ export default function Patents() {
                         {patent.status}
                       </span>
                     </div>
-                    <p className="text-gray-600 leading-relaxed text-sm">
+                    <p className="text-gray-600 leading-relaxed text-sm whitespace-pre-line">
                       {patent.description}
                     </p>
                   </div>

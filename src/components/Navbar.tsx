@@ -13,6 +13,7 @@ export default function Navbar() {
     { name: 'Openings', href: '#openings' },
     { name: 'Team', href: '#team' },
     { name: 'Gallery', href: '#gallery' },
+    { name: 'CV', href: '/?page=cv' },
   ];
 
   return (
@@ -22,7 +23,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <a href="#" className="text-xl font-bold text-gray-900">{labInfo.shortName}</a>
           </div>
-          
+
           <div className="hidden md:flex items-center space-x-8">
             {links.map((link) => (
               <a key={link.name} href={link.href} className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
@@ -41,7 +42,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {isOpen && (
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           className="md:hidden bg-white border-b border-gray-100"

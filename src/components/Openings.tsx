@@ -34,7 +34,7 @@ export default function Openings() {
                     {opening.type}
                   </span>
                 </div>
-                <p className="text-gray-600 mb-6 text-lg">{opening.description}</p>
+                <p className="text-gray-600 mb-6 text-lg whitespace-pre-line">{opening.description}</p>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-3">Requirements:</h4>
                   <ul className="list-disc list-inside space-y-2 text-gray-600">

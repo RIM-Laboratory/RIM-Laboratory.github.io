@@ -13,7 +13,7 @@ export default function About() {
           className="max-w-3xl mx-auto text-center space-y-8"
         >
           <h2 className="text-3xl font-bold text-gray-900">About Us</h2>
-          <p className="text-lg text-gray-600 leading-relaxed">
+          <p className="text-lg text-gray-600 leading-relaxed whitespace-pre-line">
             {labInfo.bio}
           </p>
           

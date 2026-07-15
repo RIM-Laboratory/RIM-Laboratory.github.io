@@ -4,11 +4,15 @@ labInfo:
   piName: Chenxi Xiao
   institution: School of Information Science and Technology, ShanghaiTech University
   interests:
-  - Dexterous Manipulation
-  - Tactile Sensors
-  - Embodied Data Collection & Synthesis
-  - Teleoperation
-  bio: "Welcome to the Robot Interaction and Manipulation Lab! 欢迎来到上海科技大学机器人交互与操作实验室！\n研究主题：视触觉结合感知、灵巧手操作、触觉传感器、具身数据采集与合成、遥操作。"
+    - Dexterous Manipulation
+    - Tactile Sensors
+    - Embodied Data Collection & Synthesis
+    - Teleoperation
+  bio: |-
+    Welcome to the Robot Interaction and Manipulation Lab!
+    欢迎来到上海科技大学机器人交互与操作实验室！
+    研究主题：视触觉结合感知、灵巧手操作、触觉传感器、具身数据采集与合成、遥操作。
+    Research themes: visuo-tactile perception, dexterous manipulation, tactile sensors, embodied data collection & synthesis, and teleoperation.
   email: xiaochx[at]shanghaitech.edu.cn
   address: SIST 1D-303, ShanghaiTech University, 393 Middle Huaxia Road
   scholarUrl: https://scholar.google.com/citations?user=Qhiy3doAAAAJ&hl=en
@@ -17,494 +21,590 @@ labInfo:
   linkedinUrl: https://linkedin.com/
   heroBgUrl: /images/hero-bg.jpg
 news:
-- id: 1
-  date: '2026.06'
-  content: 【推免】招具身方向直博1名（通计划 北京通用人工智能研究院），研究方向：触觉操作。邮件详询。
-- id: 2
-  date: '2026.06'
-  content: 【推免&本科进组实习】招具身方向推免生2-3名（2027年入学，见链接）；大二年级实习2-3名（EE/CS专业，需本校），欢迎邮件详询。
-  link: https://sist.shanghaitech.edu.cn/2026/0511/c7339a1121835/page.htm
-- id: 3
-  date: '2026.06'
-  content: One paper won the ICRA Best Student Paper Award. Congratulations to Zhe Xu, Feiyu Zhao, and Xiyan Huang!
-- id: 4
-  date: '2026.05'
-  content: Runze Hu won an ICRA travel grant. Congratulations, Runze!
-- id: 5
-  date: '2026.01'
-  content: Three papers accepted to ICRA.
-- id: 6
-  date: '2026.01'
-  content: One paper accepted to RA-L.
-- id: 7
-  date: '2026.01'
-  content: One paper accepted to ICLR.
-- id: 8
-  date: '2025.12'
-  content: One paper accepted to RA-L.
-- id: 9
-  date: '2025.09'
-  content: Welcome Ziyuan Tang, Hongyi Yang, and Jiaming Jiang to RIM Lab!
-- id: 10
-  date: '2025.09'
-  content: One paper accepted to ROBIO 2025.
-- id: 11
-  date: '2025.08'
-  content: One paper accepted to Humanoids 2025.
-- id: 12
-  date: '2025.07'
-  content: Welcome Kefei Wu to RIM Lab!
-- id: 13
-  date: '2025.07'
-  content: One paper accepted to ACM MM 2025.
-- id: 14
-  date: '2025.06'
-  content: Three papers accepted to IROS 2025.
-- id: 15
-  date: '2025.04'
-  content: One paper accepted to RSS 2025.
-- id: 16
-  date: '2025.03'
-  content: Welcome Shengcheng Luo to RIM Lab!
-- id: 17
-  date: '2025.02'
-  content: One paper accepted to ICRA 2025.
-- id: 18
-  date: '2024.10'
-  content: One paper accepted to WACV 2025.
-- id: 19
-  date: '2024.09'
-  content: One paper accepted to RA-L.
+  - id: 1
+    date: "2026.06"
+    content: |-
+      【推免】招具身方向直博1名（通计划 北京通用人工智能研究院），研究方向：触觉操作。邮件详询。
+      [Grad recommendation] Recruiting 1 direct-PhD student in embodied AI (joint program with the Beijing Institute for General Artificial Intelligence, BIGAI); research direction: tactile manipulation. Email for details.
+  - id: 2
+    date: "2026.06"
+    content: |-
+      【推免&本科进组实习】招具身方向推免生2-3名（2027年入学，见链接）；大二年级实习2-3名（EE/CS专业，需本校），欢迎邮件详询。
+      [Grad recommendation & undergrad internship] Recruiting 2–3 recommended master's/PhD students in embodied AI (enrolling 2027, see link); and 2–3 sophomore interns (EE/CS majors, on-campus only). Email for details.
+    link: https://sist.shanghaitech.edu.cn/2026/0511/c7339a1121835/page.htm
+  - id: 3
+    date: "2026.06"
+    content: One paper won the ICRA Best Student Paper Award. Congratulations to Zhe Xu, Feiyu Zhao, and Xiyan Huang!
+  - id: 4
+    date: "2026.05"
+    content: Runze Hu won an ICRA travel grant. Congratulations, Runze!
+  - id: 5
+    date: "2026.01"
+    content: Three papers accepted to ICRA.
+  - id: 6
+    date: "2026.01"
+    content: One paper accepted to RA-L.
+  - id: 7
+    date: "2026.01"
+    content: One paper accepted to ICLR.
+  - id: 8
+    date: "2025.12"
+    content: One paper accepted to RA-L.
+  - id: 9
+    date: "2025.09"
+    content: Welcome Ziyuan Tang, Hongyi Yang, and Jiaming Jiang to RIM Lab!
+  - id: 10
+    date: "2025.09"
+    content: One paper accepted to ROBIO 2025.
+  - id: 11
+    date: "2025.08"
+    content: One paper accepted to Humanoids 2025.
+  - id: 12
+    date: "2025.07"
+    content: Welcome Kefei Wu to RIM Lab!
+  - id: 13
+    date: "2025.07"
+    content: One paper accepted to ACM MM 2025.
+  - id: 14
+    date: "2025.06"
+    content: Three papers accepted to IROS 2025.
+  - id: 15
+    date: "2025.04"
+    content: One paper accepted to RSS 2025.
+  - id: 16
+    date: "2025.03"
+    content: Welcome Shengcheng Luo to RIM Lab!
+  - id: 17
+    date: "2025.02"
+    content: One paper accepted to ICRA 2025.
+  - id: 18
+    date: "2024.10"
+    content: One paper accepted to WACV 2025.
+  - id: 19
+    date: "2024.09"
+    content: One paper accepted to RA-L.
 publications:
-- id: 32
-  title: 'NLiPsCalib: An Efficient Calibration Framework for High-Fidelity 3D Reconstruction of Curved Visuotactile Sensors'
-  authors: Xuhao Qin, Feiyu Zhao, Yatao Leng, Runze Hu, Chenxi Xiao
-  venue: ICRA / arXiv
-  year: 2026
-  image: /images/pub_32.jpg
-  abstract: ''
-  links:
-    pdf: https://arxiv.org/abs/2603.09319
-    code: ''
-    video: ''
-- id: 31
-  title: 'DexMove: Learning Tactile-Guided Non-Prehensile Manipulation with Dexterous Hands'
-  authors: Pei Lin, Yuzhe Huang, Wanlin Li, Chenxi Xiao, Ziyuan Jiao
-  venue: ICLR
-  year: 2026
-  image: /images/pub_31.jpg
-  abstract: ''
-  links:
-    pdf: ''
-    code: ''
-    video: ''
-- id: 3
-  title: 'TaF-VLA: Tactile-Force Alignment in Vision-Language-Action Models for Force-aware Manipulation'
-  authors: Yuzhe Huang, Pei Lin, Wanlin Li, Daohan Li, Jiajun Li, Jiaming Jiang, Chenxi Xiao, Ziyuan Jiao
-  venue: CoRR
-  year: 2026
-  image: /images/pub_3.jpg
-  abstract: ''
-  links:
-    pdf: https://doi.org/10.48550/arXiv.2601.20321
-    code: ''
-    video: ''
-- id: 2
-  title: Autonomous Exploration for Shape Reconstruction and Measurement via Informative Contact-Guided Planning
-  authors: Feiyu Zhao, Chenxi Xiao
-  venue: IEEE Robotics Autom. Lett.
-  year: 2026
-  image: /images/pub_2.jpg
-  abstract: ''
-  links:
-    pdf: https://doi.org/10.1109/LRA.2025.3641100
-    code: ''
-    video: ''
-- id: 1
-  title: 'MFE: A Multimodal Hand Exoskeleton With Interactive Force, Pressure and Thermo-Haptic Feedback'
-  authors: Ziyuan Tang, Yitian Guo, Chenxi Xiao
-  venue: IEEE Robotics Autom. Lett.
-  year: 2026
-  image: /images/pub_1.jpg
-  abstract: ''
-  links:
-    pdf: https://doi.org/10.1109/LRA.2026.3662616
-    code: ''
-    video: ''
-- id: 13
-  title: 'PP-Tac: Paper Picking Using Tactile Feedback in Dexterous Robotic Hands'
-  authors: Pei Lin, Yuzhe Huang, Wanlin Li, Jianpeng Ma, Chenxi Xiao, Ziyuan Jiao
-  venue: RSS
-  year: 2025
-  image: /images/pub_13.jpg
-  abstract: ''
-  links:
-    pdf: https://doi.org/10.48550/arXiv.2504.16649
-    code: ''
-    video: ''
-- id: 12
-  title: 'D-LUT: Photorealistic Style Transfer via Diffusion Process'
-  authors: Mujing Li, Guanjie Wang, Xingguang Zhang, Qifeng Liao, Chenxi Xiao
-  venue: WACV
-  year: 2025
-  image: /images/pub_12.jpg
-  abstract: ''
-  links:
-    pdf: https://doi.org/10.1109/WACV61041.2025.00892
-    code: ''
-    video: ''
-- id: 11
-  title: 'HydroGrasp: A Hydraulic Multi-Fingered Gripper'
-  authors: Peiran Zhang, Ziyuan Tang, Runze Hu, Chenxi Xiao
-  venue: ROBIO
-  year: 2025
-  image: /images/pub_11.jpg
-  abstract: ''
-  links:
-    pdf: https://doi.org/10.1109/ROBIO66223.2025.11377340
-    code: ''
-    video: ''
-- id: 10
-  title: 'HandCraft: Tactile-Informed Hand-Object Dynamics Capture and Realistic Rendering'
-  authors: Hongyang Lin, Kuixiang Shao, Peijun Xu, Zhuoyang Bu, Yuyang Jiao, Ziyuan Tang, Chenxi Xiao, Jingyi Yu
-  venue: ACM Multimedia
-  year: 2025
-  image: /images/pub_10.jpg
-  abstract: ''
-  links:
-    pdf: https://doi.org/10.1145/3746027.3755822
-    code: ''
-    video: ''
-- id: 9
-  title: 'R-Tac0: A Rounded High-Frequency Transferable Monochrome Vision-based Tactile Sensor for Shape Reconstruction'
-  authors: Wanlin Li, Pei Lin, Meng Wang 0051, Chenxi Xiao, Kaspar Althoefer, Yao Su 0001, Ziyuan Jiao, Hangxin Liu
-  venue: IROS
-  year: 2025
-  image: /images/pub_9.jpg
-  abstract: ''
-  links:
-    pdf: https://doi.org/10.1109/IROS60139.2025.11246144
-    code: ''
-    video: ''
-- id: 8
-  title: 'Touch-Linked Sleeve: A Haptic Interface for Augmented Tactile Perception in Robotic Teleoperation'
-  authors: Yatao Leng, Yuzhou Chen, Ziyuan Tang, Chenxi Xiao
-  venue: IROS
-  year: 2025
-  image: /images/pub_8.jpg
-  abstract: ''
-  links:
-    pdf: https://doi.org/10.1109/IROS60139.2025.11245835
-    code: ''
-    video: ''
-- id: 7
-  title: 'TwinTac: A Wide-Range, Highly Sensitive Tactile Sensor with Real-To-Sim Digital Twin Sensor Model'
-  authors: Xiyan Huang, Zhe Xu, Chenxi Xiao
-  venue: IROS
-  year: 2025
-  image: /images/pub_7.jpg
-  abstract: ''
-  links:
-    pdf: https://doi.org/10.1109/IROS60139.2025.11247002
-    code: ''
-    video: ''
-- id: 6
-  title: 'HumanFT: A Human-Like Fingertip Multimodal Visuo-Tactile Sensor'
-  authors: Yifan Wu 0035, Yuzhou Chen, Zhengying Zhu, Xuhao Qin, Chenxi Xiao
-  venue: ICRA
-  year: 2025
-  image: /images/pub_6.jpg
-  abstract: ''
-  links:
-    pdf: https://doi.org/10.1109/ICRA55743.2025.11128300
-    code: ''
-    video: ''
-- id: 5
-  title: 'SynPolDex: Synergizing Fingers via Bi-Level Policy Learning for Dexterous Robotic Hands'
-  authors: Yanming Shao, Yan Ding, Chenxi Xiao
-  venue: Humanoids
-  year: 2025
-  image: /images/pub_5.jpg
-  abstract: ''
-  links:
-    pdf: https://doi.org/10.1109/Humanoids65713.2025.11203017
-    code: ''
-    video: ''
-- id: 15
-  title: Bimanual Grasp Synthesis for Dexterous Robot Hands
-  authors: Yanming Shao, Chenxi Xiao
-  venue: IEEE Robotics Autom. Lett.
-  year: 2024
-  image: /images/pub_15.jpg
-  abstract: ''
-  links:
-    pdf: https://doi.org/10.1109/LRA.2024.3490393
-    code: ''
-    video: ''
-- id: 20
-  title: Tactile and Chemical Sensing With Haptic Feedback for a Telepresence Explosive Ordnance Disposal Robot
-  authors: Chenxi Xiao, Aaron Benjamin Woeppel, Gina M. Clepper, Shengjie Gao, Shujia Xu, Johannes F. Rueschen, Daniel Kruse, Wenzhuo Wu, Hong Z. Tan, Thomas Low, Stephen P. Beaudoin, Bryan W. Boudouris, William G. Haris, Juan P. Wachs
-  venue: IEEE Trans. Robotics
-  year: 2023
-  image: /images/pub_20.jpg
-  abstract: ''
-  links:
-    pdf: https://doi.org/10.1109/TRO.2023.3278455
-    code: ''
-    video: ''
-- id: 25
-  title: Active Multiobject Exploration and Recognition via Tactile Whiskers
-  authors: Chenxi Xiao, Shujia Xu, Wenzhuo Wu, Juan P. Wachs
-  venue: IEEE Trans. Robotics
-  year: 2022
-  image: /images/pub_25.jpg
-  abstract: ''
-  links:
-    pdf: https://doi.org/10.1109/TRO.2022.3182487
-    code: ''
-    video: ''
-- id: 24
-  title: Nonmyopic Informative Path Planning Based on Global Kriging Variance Minimization
-  authors: Chenxi Xiao, Juan P. Wachs
-  venue: IEEE Robotics Autom. Lett.
-  year: 2022
-  image: /images/pub_24.jpg
-  abstract: ''
-  links:
-    pdf: https://doi.org/10.1109/LRA.2022.3141458
-    code: ''
-    video: ''
-- id: 28
-  title: 'Triangle-Net: Towards Robustness in Point Cloud Learning'
-  authors: Chenxi Xiao, Juan P. Wachs
-  venue: WACV
-  year: 2021
-  image: /images/pub_28.jpg
-  abstract: ''
-  links:
-    pdf: https://doi.org/10.1109/WACV48630.2021.00087
-    code: ''
-    video: ''
-- id: 19
-  title: Flying Through a Narrow Gap Using End-to-End Deep Reinforcement Learning Augmented With Curriculum Learning and Sim2Real
-  authors: Chenxi Xiao, Peng Lu, Qizhi He
-  venue: IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
-  year: 2021
-  image: /images/pub_19.jpg
-  abstract: ''
-  links:
-    pdf: https://ieeexplore.ieee.org/abstract/document/9530254/
-    code: ''
-    video: ''
+  - id: 32
+    title: "NLiPsCalib: An Efficient Calibration Framework for High-Fidelity 3D Reconstruction of Curved Visuotactile Sensors"
+    authors: Xuhao Qin, Feiyu Zhao, Yatao Leng, Runze Hu, Chenxi Xiao
+    venue: ICRA / arXiv
+    year: 2026
+    image: /images/pub_32.jpg
+    tags:
+      - Calibration
+      - 3D Reconstruction
+      - Visuotactile
+    abstract: Recent advances in visuotactile sensors increasingly employ biomimetic curved surfaces to enhance sensorimotor capabilities. Although such curved visuotactile sensors enable more conformal object contact, their perceptual quality is often degraded by non-uniform illumination, which reduces reconstruction accuracy and typically necessitates calibration. Existing calibration methods commonly rely on customized indenters and specialized devices to collect large-scale photometric data, but these processes are expensive and labor-intensive. To overcome these calibration challenges, we present NLiPsCalib, a physics-consistent and efficient calibration framework for curved visuotactile sensors. NLiPsCalib integrates controllable near-field light sources and leverages Near-Light Photometric Stereo (NLiPs) to estimate contact geometry, simplifying calibration to just a few simple contacts with everyday objects. We further introduce NLiPsTac, a controllable-light-source tactile sensor developed to validate our framework. Experimental results demonstrate that our approach enables high-fidelity 3D reconstruction across diverse curved form factors with a simple calibration procedure. We emphasize that our approach lowers the barrier to developing customized visuotactile sensors of diverse geometries, thereby making visuotactile sensing more accessible to the broader community.
+    links:
+      pdf: https://arxiv.org/abs/2603.09319
+      code: ""
+      video: ""
+  - id: 31
+    title: "DexMove: Learning Tactile-Guided Non-Prehensile Manipulation with Dexterous Hands"
+    authors: Pei Lin, Yuzhe Huang, Wanlin Li, Chenxi Xiao, Ziyuan Jiao
+    venue: ICLR
+    year: 2026
+    image: /images/pub_31.jpg
+    tags:
+      - Dexterous Manipulation
+      - Visuotactile
+      - Non-Prehensile
+    abstract: Learning dexterous, non-prehensile manipulation skills—such as pushing, rolling, and reorienting objects without grasping them—is challenging because it requires rich contact reasoning that vision alone cannot provide. We present DexMove, a framework that learns tactile-guided non-prehensile manipulation policies for multi-fingered dexterous hands. By grounding the policy in visuotactile feedback, DexMove enables the hand to infer contact states and object dynamics during non-prehensile motions and to adapt its behavior accordingly. We demonstrate that tactile guidance substantially improves the success and robustness of non-prehensile dexterous manipulation over vision-only baselines across a range of contact-rich tasks.
+    links:
+      pdf: ""
+      code: ""
+      video: ""
+  - id: 3
+    title: "TaF-VLA: Tactile-Force Alignment in Vision-Language-Action Models for Force-aware Manipulation"
+    authors: Yuzhe Huang, Pei Lin, Wanlin Li, Daohan Li, Jiajun Li, Jiaming Jiang, Chenxi Xiao, Ziyuan Jiao
+    venue: CoRR
+    year: 2026
+    image: /images/pub_3.jpg
+    tags:
+      - VLA
+      - Tactile Sensor
+      - Force Sensing
+    abstract: Vision-Language-Action (VLA) models have recently emerged as powerful generalists for robotic manipulation. However, due to their predominant reliance on visual modalities, they fundamentally lack the physical intuition required for contact-rich tasks that require precise force regulation and physical reasoning. Existing attempts to incorporate vision-based tactile sensing into VLA models typically treat tactile inputs as auxiliary visual textures, thereby overlooking the underlying correlation between surface deformation and interaction dynamics. To bridge this gap, we propose a paradigm shift from tactile-vision alignment to tactile-force alignment. Here, we introduce TaF-VLA, a framework that explicitly grounds high-dimensional tactile observations in physical interaction forces. To facilitate this, we develop an automated tactile-force data acquisition device and curate the TaF-Dataset, comprising over 10 million synchronized tactile observations, 6-axis force/torque, and matrix force map. To align sequential tactile observations with interaction forces, the central component of our approach is the Tactile-Force Adapter (TaF-Adapter), a tactile sensor encoder that extracts discretized latent information for encoding tactile observations. This mechanism ensures that the learned representations capture history-dependent, noise-insensitive physical dynamics rather than static visual textures. Finally, we integrate this force-aligned encoder into a VLA backbone. Extensive real-world experiments demonstrate that TaF-VLA policy significantly outperforms state-of-the-art tactile-vision-aligned and vision-only baselines on contact-rich tasks, verifying its ability to achieve robust, force-aware manipulation through cross-modal physical reasoning.
+    links:
+      pdf: https://doi.org/10.48550/arXiv.2601.20321
+      code: ""
+      video: ""
+  - id: 2
+    title: Autonomous Exploration for Shape Reconstruction and Measurement via Informative Contact-Guided Planning
+    authors: Feiyu Zhao, Chenxi Xiao
+    venue: IEEE Robotics Autom. Lett.
+    year: 2026
+    image: /images/pub_2.jpg
+    tags:
+      - Exploration
+      - Shape Reconstruction
+      - Path Planning
+    abstract: Coordinate Measuring Machines (CMMs) are widely used for high-precision inspection of industrial parts, particularly in scenarios where visual systems are ineffective or cost-prohibitive. However, conventional CMMs rely on CAD model priors and user-defined probing paths, which limit their applicability and efficiency in measuring freeform parts. To overcome these limitations, we present a fully autonomous, CAD model-free, tactile-based framework that enables dense 3D shape reconstruction to facilitate subsequent measurements. Our approach leverages a dual Gaussian Process Implicit Surface architecture, termed Exploration-Reconstruction GPIS (ER-GPIS), which enables both high-fidelity shape reconstruction and uncertainty estimation on the object’s surface. A hybrid exploration motion planner is then employed to adaptively sample surface geometries by integrating local surface exploration, global exploration, and contact recovery policies for robust shape estimation. Extensive real-world experiments demonstrate that the proposed method effectively reconstructs object geometries across diverse shapes, highlighting its ability to autonomously reconstruct and measure both surfaces and internal features without relying on CAD model priors.
+    links:
+      pdf: https://doi.org/10.1109/LRA.2025.3641100
+      code: ""
+      video: ""
+  - id: 1
+    title: "MFE: A Multimodal Hand Exoskeleton With Interactive Force, Pressure and Thermo-Haptic Feedback"
+    authors: Ziyuan Tang, Yitian Guo, Chenxi Xiao
+    venue: IEEE Robotics Autom. Lett.
+    year: 2026
+    image: /images/pub_1.jpg
+    tags:
+      - Haptics
+      - Exoskeleton
+      - Multimodal Feedback
+    abstract: Recent advancements in virtual reality and robotic teleoperation have greatly increased the variety of haptic information that must be conveyed to users. While existing haptic devices typically provide unimodal feedback to enhance situational awareness, a gap remains in their ability to deliver rich, multimodal sensory feedback encompassing force, pressure, and thermal sensations. To address this limitation, we present the Multimodal Feedback Exoskeleton (MFE), a hand exoskeleton designed to deliver hybrid haptic feedback. The MFE features 20 degrees of freedom for capturing hand pose. For force feedback, it employs an active mechanism capable of generating 3.5-8.1 N of pushing and pulling forces, enabling realistic interaction with deformable objects. The fingertips are equipped with flat actuators based on the electro-osmotic principle, providing pressure and vibration stimuli and achieving up to 2.47 kPa of contact pressure to render tactile sensations. For thermal feedback, the MFE integrates thermoelectric heat pumps capable of rendering temperatures from 10 ^\circC to 55 ^\circC. We validated the MFE by integrating it into a robotic teleoperation system using the X-Arm 6 and Inspire Hand manipulator. In user studies, participants successfully recognized and manipulated deformable objects and differentiated remote objects with varying temperatures. These results demonstrate that the MFE enhances situational awareness, as well as the usability and transparency of robotic teleoperation systems.
+    links:
+      pdf: https://doi.org/10.1109/LRA.2026.3662616
+      code: ""
+      video: ""
+  - id: 13
+    title: "PP-Tac: Paper Picking Using Tactile Feedback in Dexterous Robotic Hands"
+    authors: Pei Lin, Yuzhe Huang, Wanlin Li, Jianpeng Ma, Chenxi Xiao, Ziyuan Jiao
+    venue: RSS
+    year: 2025
+    image: /images/pub_13.jpg
+    tags:
+      - Dexterous Manipulation
+      - Visuotactile
+      - Grasping
+    abstract: "Robots are increasingly envisioned as human companions, assisting with everyday tasks that often involve manipulating deformable objects. Although recent advances in robotic hardware and embodied AI have expanded their capabilities, current systems still struggle with handling thin, flat, and deformable objects such as paper and fabric. This limitation arises from the lack of suitable perception techniques for robust state estimation under diverse object appearances, as well as the absence of planning techniques for generating appropriate grasp motions. To bridge these gaps, this paper introduces PP-Tac, a robotic system for picking up paper-like objects. PP-Tac features a multi-fingered robotic hand with high-resolution omnidirectional tactile sensors \\sensorname. This hardware configuration enables real-time slip detection and online frictional force control that mitigates such slips. Furthermore, grasp motion generation is achieved through a trajectory synthesis pipeline, which first constructs a dataset of finger's pinching motions. Based on this dataset, a diffusion-based policy is trained to control the hand-arm robotic system. Experiments demonstrate that PP-Tac can effectively grasp paper-like objects of varying material, thickness, and stiffness, achieving an overall success rate of 87.5\\%. To our knowledge, this work is the first attempt to grasp paper-like deformable objects using a tactile dexterous hand. Our project webpage can be found at: https://peilin-666.github.io/projects/PP-Tac/"
+    links:
+      pdf: https://doi.org/10.48550/arXiv.2504.16649
+      code: ""
+      video: ""
+  - id: 12
+    title: "D-LUT: Photorealistic Style Transfer via Diffusion Process"
+    authors: Mujing Li, Guanjie Wang, Xingguang Zhang, Qifeng Liao, Chenxi Xiao
+    venue: WACV
+    year: 2025
+    image: /images/pub_12.jpg
+    tags:
+      - Style Transfer
+      - Diffusion
+      - Rendering
+    abstract: Photorealistic style transfer aims to transfer the artistic style of a reference image onto a content image while preserving photorealistic structure and detail—something classic style-transfer methods often fail to maintain. We propose D-LUT, an approach that casts photorealistic style transfer as a diffusion process. By modeling the transfer as a denoising trajectory within a diffusion framework, D-LUT progressively reconciles style and content, yielding high-fidelity, photorealistic results that avoid common artifacts such as distortion and color bleeding. Qualitative and quantitative experiments demonstrate that D-LUT produces visually pleasing and structurally consistent stylizations compared with prior methods.
+    links:
+      pdf: https://doi.org/10.1109/WACV61041.2025.00892
+      code: ""
+      video: ""
+  - id: 11
+    title: "HydroGrasp: A Hydraulic Multi-Fingered Gripper"
+    authors: Peiran Zhang, Ziyuan Tang, Runze Hu, Chenxi Xiao
+    venue: ROBIO
+    year: 2025
+    image: /images/pub_11.jpg
+    tags:
+      - Grasping
+      - Soft Robotics
+      - Gripper Design
+    abstract: Soft, compliant actuation can greatly improve a gripper's ability to conform to objects of varying shape and fragility. We present HydroGrasp, a hydraulic multi-fingered gripper whose fingers are driven by hydraulic actuators. The hydraulic mechanism provides inherent compliance and high force output, enabling the gripper to grasp a wide variety of objects—from delicate to heavy—while passively adapting to their geometry. We describe the mechanical design, modeling, and control of HydroGrasp, and evaluate its grasping performance across objects of different shapes, sizes, and weights, demonstrating robust and adaptive grasping with a simple control strategy.
+    links:
+      pdf: https://doi.org/10.1109/ROBIO66223.2025.11377340
+      code: ""
+      video: ""
+  - id: 10
+    title: "HandCraft: Tactile-Informed Hand-Object Dynamics Capture and Realistic Rendering"
+    authors: Hongyang Lin, Kuixiang Shao, Peijun Xu, Zhuoyang Bu, Yuyang Jiao, Ziyuan Tang, Chenxi Xiao, Jingyi Yu
+    venue: ACM Multimedia
+    year: 2025
+    image: /images/pub_10.jpg
+    tags:
+      - Visuotactile
+      - Rendering
+      - Hand-Object Interaction
+    abstract: Capturing the intricate dynamics of hand-object interaction and rendering them realistically is important for mixed reality, robotics, and graphics, yet it remains difficult due to the tight coupling between contact, deformation, and appearance. We present HandCraft, a framework for tactile-informed hand-object dynamics capture and realistic rendering. By fusing visuotactile sensing with visual capture, HandCraft reconstructs dense contact and deformation during interaction, which in turn guides physically plausible rendering of the hand and object. Our results show that tactile information substantially improves the fidelity of captured dynamics and the realism of the resulting renderings.
+    links:
+      pdf: https://doi.org/10.1145/3746027.3755822
+      code: ""
+      video: ""
+  - id: 9
+    title: "R-Tac0: A Rounded High-Frequency Transferable Monochrome Vision-based Tactile Sensor for Shape Reconstruction"
+    authors: Wanlin Li, Pei Lin, Meng Wang 0051, Chenxi Xiao, Kaspar Althoefer, Yao Su 0001, Ziyuan Jiao, Hangxin Liu
+    venue: IROS
+    year: 2025
+    image: /images/pub_9.jpg
+    tags:
+      - Tactile Sensor
+      - Shape Reconstruction
+      - Visuotactile
+    abstract: Vision-based tactile sensors often use flat, square membranes that limit conformal contact and high-frequency transferability across geometries. We present R-Tac0, a rounded, high-frequency, transferable, monochrome vision-based tactile sensor designed for shape reconstruction. The rounded form factor improves contact with curved surfaces, while the monochrome imaging design enables high acquisition frame rates suitable for capturing fast contact events. We describe the sensor's optical and mechanical design and demonstrate that R-Tac0 supports accurate and robust tactile shape reconstruction across diverse object geometries, and that its design transfers readily to different sensor housings.
+    links:
+      pdf: https://doi.org/10.1109/IROS60139.2025.11246144
+      code: ""
+      video: ""
+  - id: 8
+    title: "Touch-Linked Sleeve: A Haptic Interface for Augmented Tactile Perception in Robotic Teleoperation"
+    authors: Yatao Leng, Yuzhou Chen, Ziyuan Tang, Chenxi Xiao
+    venue: IROS
+    year: 2025
+    image: /images/pub_8.jpg
+    tags:
+      - Haptics
+      - Teleoperation
+      - Wearable Interface
+    abstract: In robotic teleoperation, operators receive limited tactile feedback from the remote environment, degrading their situational awareness and manipulation performance. We present the Touch-Linked Sleeve, a wearable haptic interface that augments the operator's tactile perception during robotic teleoperation. The sleeve links tactile information sensed at the remote robot's fingertips to corresponding locations on the human arm, delivering spatially distributed contact cues. We show that this linked, body-location-mapped feedback improves the operator's ability to perceive and respond to remote contacts, enhancing the transparency and immersion of teleoperation.
+    links:
+      pdf: https://doi.org/10.1109/IROS60139.2025.11245835
+      code: ""
+      video: ""
+  - id: 7
+    title: "TwinTac: A Wide-Range, Highly Sensitive Tactile Sensor with Real-To-Sim Digital Twin Sensor Model"
+    authors: Xiyan Huang, Zhe Xu, Chenxi Xiao
+    venue: IROS
+    year: 2025
+    image: /images/pub_7.jpg
+    tags:
+      - Tactile Sensor
+      - Sim2Real
+      - Digital Twin
+    abstract: Tactile sensors with a wide force range and high sensitivity are essential for tasks spanning gentle touch to firm grasping, and their utility grows further when an accurate simulation model is available. We present TwinTac, a wide-range, highly sensitive tactile sensor accompanied by a real-to-sim digital twin sensor model. The sensor achieves both high sensitivity and a broad measurement range, while the digital twin faithfully reproduces the sensor's response in simulation, enabling sim-to-real transfer of tactile-driven policies. Experiments validate the sensor's performance and the fidelity of its digital twin across contact conditions.
+    links:
+      pdf: https://doi.org/10.1109/IROS60139.2025.11247002
+      code: ""
+      video: ""
+  - id: 6
+    title: "HumanFT: A Human-Like Fingertip Multimodal Visuo-Tactile Sensor"
+    authors: Yifan Wu 0035, Yuzhou Chen, Zhengying Zhu, Xuhao Qin, Chenxi Xiao
+    venue: ICRA
+    year: 2025
+    image: /images/pub_6.jpg
+    tags:
+      - Tactile Sensor
+      - Visuotactile
+      - Multimodal
+    abstract: The human fingertip integrates multiple sensory modalities—geometry, force, and vibration—within a compact, compliant structure, setting a benchmark for tactile sensor design. We present HumanFT, a human-like fingertip multimodal visuo-tactile sensor that emulates this structure. Combining vision-based geometry sensing with embedded force and vibration sensing, HumanFT captures rich contact information at human-like spatial resolution and sensitivity. We describe the bio-inspired design and demonstrate that the multimodal, human-like fingertip enables more discriminative and reliable tactile perception than single-modality designs.
+    links:
+      pdf: https://doi.org/10.1109/ICRA55743.2025.11128300
+      code: ""
+      video: ""
+  - id: 5
+    title: "SynPolDex: Synergizing Fingers via Bi-Level Policy Learning for Dexterous Robotic Hands"
+    authors: Yanming Shao, Yan Ding, Chenxi Xiao
+    venue: Humanoids
+    year: 2025
+    image: /images/pub_5.jpg
+    tags:
+      - Dexterous Manipulation
+      - Policy Learning
+      - Grasping
+    abstract: Coordinating the many degrees of freedom of dexterous robotic hands is a difficult reinforcement-learning problem with a large, redundant action space. We present SynPolDex, a framework that synergizes the fingers of dexterous robotic hands via bi-level policy learning. The bi-level structure separates high-level synergy planning from low-level finger control, encouraging coordinated, synergistic finger motion and improving sample efficiency. Experiments on dexterous manipulation tasks show that SynPolDex learns effective coordination policies that generalize better and train more efficiently than flat, monolithic policies.
+    links:
+      pdf: https://doi.org/10.1109/Humanoids65713.2025.11203017
+      code: ""
+      video: ""
+  - id: 15
+    title: Bimanual Grasp Synthesis for Dexterous Robot Hands
+    authors: Yanming Shao, Chenxi Xiao
+    venue: IEEE Robotics Autom. Lett.
+    year: 2024
+    image: /images/pub_15.jpg
+    tags:
+      - Grasping
+      - Dexterous Manipulation
+      - Bimanual
+    abstract: Generating stable, collision-free bimanual grasps for dexterous robot hands is challenging due to the high-dimensional, coupled configuration space of two hands operating on a single object. We address the bimanual grasp synthesis problem for dexterous robot hands, proposing a method that jointly optimizes the poses and contacts of both hands to form stable, collaborative grasps. Our approach accounts for kinematic constraints and inter-hand collisions while seeking grasps that maximize stability. Experiments demonstrate that the method synthesizes robust bimanual grasps across a range of objects and hand configurations.
+    links:
+      pdf: https://doi.org/10.1109/LRA.2024.3490393
+      code: ""
+      video: ""
+  - id: 20
+    title: Tactile and Chemical Sensing With Haptic Feedback for a Telepresence Explosive Ordnance Disposal Robot
+    authors: Chenxi Xiao, Aaron Benjamin Woeppel, Gina M. Clepper, Shengjie Gao, Shujia Xu, Johannes F. Rueschen, Daniel Kruse, Wenzhuo Wu, Hong Z. Tan, Thomas Low, Stephen P. Beaudoin, Bryan W. Boudouris, William G. Haris, Juan P. Wachs
+    venue: IEEE Trans. Robotics
+    year: 2023
+    image: /images/pub_20.jpg
+    tags:
+      - Teleoperation
+      - Haptics
+      - Telerobotics
+    abstract: Telepresence robots operating in hazardous domains such as explosive ordnance disposal (EOD) must convey rich physical information about the remote environment to keep human operators informed and safe. We present a system that integrates tactile and chemical sensing with haptic feedback on a telepresence EOD robot. The robot is equipped with sensors that measure contact forces, pressure, and chemical signatures, and this information is rendered to the operator through haptic interfaces. Field-relevant experiments demonstrate that multimodal physical sensing, combined with haptic feedback, improves the operator's situational awareness and manipulation performance during hazardous remote tasks.
+    links:
+      pdf: https://doi.org/10.1109/TRO.2023.3278455
+      code: ""
+      video: ""
+  - id: 25
+    title: Active Multiobject Exploration and Recognition via Tactile Whiskers
+    authors: Chenxi Xiao, Shujia Xu, Wenzhuo Wu, Juan P. Wachs
+    venue: IEEE Trans. Robotics
+    year: 2022
+    image: /images/pub_25.jpg
+    tags:
+      - Exploration
+      - Tactile Sensor
+      - Object Recognition
+    abstract: Recognizing objects through touch alone is valuable when vision is occluded or unavailable, but most tactile exploration methods consider only a single object at a time. We present an approach for active multiobject exploration and recognition via tactile whiskers. Arrays of whisker-like tactile sensors are actively swept across a scene to contact multiple objects, and the resulting contact sequences are used to recognize the objects. By reasoning about where to explore next, the active strategy reduces the number of contacts needed for confident recognition. Experiments demonstrate effective multiobject recognition through active tactile whisker sensing.
+    links:
+      pdf: https://doi.org/10.1109/TRO.2022.3182487
+      code: ""
+      video: ""
+  - id: 24
+    title: Nonmyopic Informative Path Planning Based on Global Kriging Variance Minimization
+    authors: Chenxi Xiao, Juan P. Wachs
+    venue: IEEE Robotics Autom. Lett.
+    year: 2022
+    image: /images/pub_24.jpg
+    tags:
+      - Path Planning
+      - Exploration
+      - Gaussian Process
+    abstract: Informative path planning seeks trajectories that reduce uncertainty about an unknown field, but myopic planners that greedily maximize local information often get trapped and fail to account for long-range effects. We present a nonmyopic informative path planning method based on global Kriging variance minimization. By modeling the field with Gaussian-process (Kriging) regression and planning paths that minimize the integrated posterior variance over the entire domain, our approach explicitly optimizes global information gain. Experiments show that the global, nonmyopic strategy achieves lower reconstruction error and more efficient exploration than myopic alternatives.
+    links:
+      pdf: https://doi.org/10.1109/LRA.2022.3141458
+      code: ""
+      video: ""
+  - id: 28
+    title: "Triangle-Net: Towards Robustness in Point Cloud Learning"
+    authors: Chenxi Xiao, Juan P. Wachs
+    venue: WACV
+    year: 2021
+    image: /images/pub_28.jpg
+    tags:
+      - Point Cloud
+      - Deep Learning
+      - 3D Perception
+    abstract: Learning from 3D point clouds is hampered by their unstructured, irregular, and often noisy nature, and learned models can be brittle under geometric perturbations. We present Triangle-Net, a network architecture designed to improve robustness in point cloud learning. By representing local geometric structure through triangle-based features, Triangle-Net captures stable, invariant cues that are less sensitive to noise and sampling variations than pointwise features. Experiments on standard point cloud benchmarks show that Triangle-Net improves robustness to perturbations while maintaining competitive accuracy.
+    links:
+      pdf: https://doi.org/10.1109/WACV48630.2021.00087
+      code: ""
+      video: ""
+  - id: 19
+    title: Flying Through a Narrow Gap Using End-to-End Deep Reinforcement Learning Augmented With Curriculum Learning and Sim2Real
+    authors: Chenxi Xiao, Peng Lu, Qizhi He
+    venue: IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
+    year: 2021
+    image: /images/pub_19.jpg
+    tags:
+      - Deep RL
+      - Sim2Real
+      - Autonomous Flight
+    abstract: Flying an autonomous aerial vehicle through a narrow, irregular gap is a challenging control problem that demands precise, aggressive maneuvering under partial observability. We present an end-to-end deep reinforcement learning approach augmented with curriculum learning and sim-to-real transfer. The agent learns a control policy directly from sensory observations, with a curriculum that progressively increases task difficulty to stabilize training; sim-to-real techniques then bridge the gap between simulation and the physical platform. Real-world experiments demonstrate that the trained policy enables a quadrotor to reliably fly through narrow gaps, validating the end-to-end learning pipeline.
+    links:
+      pdf: https://ieeexplore.ieee.org/abstract/document/9530254/
+      code: ""
+      video: ""
 experience:
-- id: 1
-  role: Researcher
-  institution: ShanghaiTech University
-  period: Present
-  description: Focusing on motion planning, tactile sensing, and robotics.
+  - id: 1
+    role: Researcher
+    institution: ShanghaiTech University
+    period: Present
+    description: Focusing on motion planning, tactile sensing, and robotics.
 team:
-- id: 1
-  name: Chenxi Xiao, PhD
-  role: Principal Investigator
-  bio: Dr. Chenxi Xiao is currently an assistant professor at ShanghaiTech University, China.
-  image: /images/members/chenxi_bio.PNG
-  links:
-    email: xiaochx[at]shanghaitech.edu.cn
-    google-scholar: Qhiy3doAAAAJ
-- id: 2
-  name: Zhe Xu
-  role: Student
-  bio: Zhe Xu is currently a master's student at ShanghaiTech University majoring in Computer Science and Technology.
-  image: /images/members/default_male.jpg
-  links:
-    email: xuzhe2023[at]shanghaitech.edu.cn
-- id: 3
-  name: Feiyu Zhao
-  role: Student
-  bio: Feiyu Zhao is currently a master's student in CS at ShanghaiTech University, working on robot tactile manipulation.
-  image: /images/members/Feiyu_Zhao.jpg
-  links: {}
-- id: 4
-  name: Kefei Wu
-  role: Student
-  bio: Kefei Wu is currently a Ph.D. student working on robot manipulation.
-  image: /images/members/default_male.jpg
-  links: {}
-- id: 5
-  name: Pei Lin
-  role: Student
-  bio: Pei Lin is currently a Ph.D. student working on embodied intelligence.
-  image: /images/members/default_male.jpg
-  links: {}
-- id: 6
-  name: Runze Hu
-  role: Student
-  bio: Runze Hu is currently a master's student working on design of robot manipulators.
-  image: /images/members/Runze_Hu.jpg
-  links: {}
-- id: 7
-  name: Shengcheng Luo
-  role: Student
-  bio: Shengcheng Luo is currently a Ph.D. student working on robot manipulation.
-  image: /images/members/default_male.jpg
-  links: {}
-- id: 8
-  name: Xi Zhang
-  role: Student
-  bio: Xi Zhang is currently a master's student at ShanghaiTech University working on robot manipulation.
-  image: /images/members/xi_zhang.png
-  links:
-    email: zhangxi2024[at]shanghaitech.edu.cn
-- id: 9
-  name: Xiyan Huang
-  role: Student
-  bio: Xiyan Huang is currently a master's student at ShanghaiTech University working on robot manipulation.
-  image: /images/members/xiyan_huang.jpg
-  links: {}
-- id: 10
-  name: Xuhao Qin
-  role: Student
-  bio: Xuhao Qin is currently a master's student at ShanghaiTech University working on robot manipulation and tactile sensing.
-  image: /images/members/xuhao_bio.jpg
-  links:
-    email: qinxh2024[at]shanghaitech.edu.cn
-    github: helloXqin
-- id: 11
-  name: Yanming Shao
-  role: Student
-  bio: Yanming Shao is currently a master's student at ShanghaiTech University, working on dexterous manipulation.
-  image: /images/members/yanming_bio.jpg
-  links:
-    github: Tsunami-kun
-    google scholar: gHy232gAAAAJ
-- id: 12
-  name: Yatao Leng
-  role: Student
-  bio: Yatao Leng is currently a master's student at ShanghaiTech University, working on tactile sensors.
-  image: /images/members/lyt.png
-  links: {}
-- id: 13
-  name: Yitao Zhang
-  role: Student
-  bio: Yitao Zhang is currently a master's student working on robot tactile perception.
-  image: /images/members/yitao_zhang.jpg
-  links: {}
-- id: 14
-  name: Yitian Guo
-  role: Student
-  bio: Yitian Guo is currently an undergraduate student working on haptic interfaces.
-  image: /images/members/default_male.jpg
-  links: {}
-- id: 15
-  name: Youyou Zhang
-  role: Student
-  bio: Youyou Zhang is currently a master's student working on robot perception.
-  image: /images/members/Youyou_Zhang.jpg
-  links: {}
-- id: 16
-  name: Zhengying Zhu
-  role: Student
-  bio: ''
-  image: /images/members/default_female.jpg
-  links: {}
-- id: 17
-  name: Ziyuan Tang
-  role: Student
-  bio: Ziyuan Tang is an undergraduate student at ShanghaiTech University majoring in Computer Science and Technology, working on robot design.
-  image: /images/members/ziyuan-tang.jpg
-  links:
-    email: tangzy2022[at]shanghaitech.edu.cn
-- id: 18
-  name: Mujing Li
-  role: Alumni
-  bio: Mujing Li did a graduate internship at RIM Lab.
-  image: /images/members/default_male.jpg
-  links: {}
-- id: 19
-  name: Yifan Wu
-  role: Alumni
-  bio: Yifan Wu did an undergraduate internship at RIM Lab.
-  image: /images/members/default_female.jpg
-  links: {}
-- id: 20
-  name: Yuzhou Chen
-  role: Alumni
-  bio: Yuzhou Chen did an undergraduate internship at RIM Lab.
-  image: /images/members/default_male.jpg
-  links: {}
-- id: 21
-  name: Zengfan Xing
-  role: Alumni
-  bio: Zengfan Xing did an undergraduate internship at RIM Lab.
-  image: /images/members/default_male.jpg
-  links: {}
+  - id: 1
+    name: Chenxi Xiao, PhD
+    role: Principal Investigator
+    bio: Dr. Chenxi Xiao is currently an assistant professor at ShanghaiTech University, China.
+    image: /images/members/chenxi_bio.PNG
+    links:
+      email: xiaochx[at]shanghaitech.edu.cn
+      google-scholar: Qhiy3doAAAAJ
+  - id: 2
+    name: Zhe Xu
+    role: Student
+    bio: Zhe Xu is currently a master's student at ShanghaiTech University majoring in Computer Science and Technology.
+    image: /images/members/default_male.jpg
+    links:
+      email: xuzhe2023[at]shanghaitech.edu.cn
+  - id: 3
+    name: Feiyu Zhao
+    role: Student
+    bio: Feiyu Zhao is currently a master's student in CS at ShanghaiTech University, working on robot tactile manipulation.
+    image: /images/members/Feiyu_Zhao.jpg
+    links: {}
+  - id: 4
+    name: Kefei Wu
+    role: Student
+    bio: Kefei Wu is currently a Ph.D. student working on robot manipulation.
+    image: /images/members/default_male.jpg
+    links: {}
+  - id: 5
+    name: Pei Lin
+    role: Student
+    bio: Pei Lin is currently a Ph.D. student working on embodied intelligence.
+    image: /images/members/default_male.jpg
+    links: {}
+  - id: 6
+    name: Runze Hu
+    role: Student
+    bio: Runze Hu is currently a master's student working on design of robot manipulators.
+    image: /images/members/Runze_Hu.jpg
+    links: {}
+  - id: 7
+    name: Shengcheng Luo
+    role: Student
+    bio: Shengcheng Luo is currently a Ph.D. student working on robot manipulation.
+    image: /images/members/default_male.jpg
+    links: {}
+  - id: 8
+    name: Xi Zhang
+    role: Student
+    bio: Xi Zhang is currently a master's student at ShanghaiTech University working on robot manipulation.
+    image: /images/members/xi_zhang.png
+    links:
+      email: zhangxi2024[at]shanghaitech.edu.cn
+  - id: 9
+    name: Xiyan Huang
+    role: Student
+    bio: Xiyan Huang is currently a master's student at ShanghaiTech University working on robot manipulation.
+    image: /images/members/xiyan_huang.jpg
+    links: {}
+  - id: 10
+    name: Xuhao Qin
+    role: Student
+    bio: Xuhao Qin is currently a master's student at ShanghaiTech University working on robot manipulation and tactile sensing.
+    image: /images/members/xuhao_bio.jpg
+    links:
+      email: qinxh2024[at]shanghaitech.edu.cn
+      github: helloXqin
+  - id: 11
+    name: Yanming Shao
+    role: Student
+    bio: Yanming Shao is currently a master's student at ShanghaiTech University, working on dexterous manipulation.
+    image: /images/members/yanming_bio.jpg
+    links:
+      github: Tsunami-kun
+      google scholar: gHy232gAAAAJ
+  - id: 12
+    name: Yatao Leng
+    role: Student
+    bio: Yatao Leng is currently a master's student at ShanghaiTech University, working on tactile sensors.
+    image: /images/members/lyt.png
+    links: {}
+  - id: 13
+    name: Yitao Zhang
+    role: Student
+    bio: Yitao Zhang is currently a master's student working on robot tactile perception.
+    image: /images/members/yitao_zhang.jpg
+    links: {}
+  - id: 14
+    name: Yitian Guo
+    role: Student
+    bio: Yitian Guo is currently an undergraduate student working on haptic interfaces.
+    image: /images/members/default_male.jpg
+    links: {}
+  - id: 15
+    name: Youyou Zhang
+    role: Student
+    bio: Youyou Zhang is currently a master's student working on robot perception.
+    image: /images/members/Youyou_Zhang.jpg
+    links: {}
+  - id: 16
+    name: Zhengying Zhu
+    role: Student
+    bio: ""
+    image: /images/members/default_female.jpg
+    links: {}
+  - id: 17
+    name: Ziyuan Tang
+    role: Student
+    bio: Ziyuan Tang is an undergraduate student at ShanghaiTech University majoring in Computer Science and Technology, working on robot design.
+    image: /images/members/ziyuan-tang.jpg
+    links:
+      email: tangzy2022[at]shanghaitech.edu.cn
+  - id: 18
+    name: Mujing Li
+    role: Alumni
+    bio: Mujing Li did a graduate internship at RIM Lab.
+    image: /images/members/default_male.jpg
+    links: {}
+  - id: 19
+    name: Yifan Wu
+    role: Alumni
+    bio: Yifan Wu did an undergraduate internship at RIM Lab.
+    image: /images/members/default_female.jpg
+    links: {}
+  - id: 20
+    name: Yuzhou Chen
+    role: Alumni
+    bio: Yuzhou Chen did an undergraduate internship at RIM Lab.
+    image: /images/members/default_male.jpg
+    links: {}
+  - id: 21
+    name: Zengfan Xing
+    role: Alumni
+    bio: Zengfan Xing did an undergraduate internship at RIM Lab.
+    image: /images/members/default_male.jpg
+    links: {}
 researchAreas:
-- id: 1
-  title: Tactile Sensing
-  description: Developing a broad range of tactile sensors (vision-based, force/pressure, multimodal, and more) to give robots rich touch perception for dexterous manipulation and physical interaction.
-  image: /images/research-tactile-sensing.jpg
-- id: 2
-  title: Dexterous Manipulation
-  description: Creating algorithms and control strategies for multi-fingered robotic hands to perform intricate tasks such as in-hand manipulation and tool use.
-  image: /images/research-dexterous-manipulation.jpg
-- id: 3
-  title: Embodied AI & Teleoperation
-  description: Building systems for intuitive human-robot teleoperation and collecting high-quality embodied data to train robust robotic policies.
-  image: /images/research-embodied-ai-teleoperation.jpg
+  - id: 1
+    title: Tactile Sensing
+    description: Developing a broad range of tactile sensors (vision-based, force/pressure, multimodal, and more) to give robots rich touch perception for dexterous manipulation and physical interaction.
+    image: /images/research-tactile-sensing.jpg
+  - id: 2
+    title: Dexterous Manipulation
+    description: Creating algorithms and control strategies for multi-fingered robotic hands to perform intricate tasks such as in-hand manipulation and tool use.
+    image: /images/research-dexterous-manipulation.jpg
+  - id: 3
+    title: Embodied AI & Teleoperation
+    description: Building systems for intuitive human-robot teleoperation and collecting high-quality embodied data to train robust robotic policies.
+    image: /images/research-embodied-ai-teleoperation.jpg
 openings:
-- id: 1
-  title: Master / PhD Students (Fall 2026 or Fall 2027)
-  type: Master / PhD Program
-  description: 实验室每年约招收2-3名硕士/博士生，且有和北京通用人工智能研究院联培机会。我们欢迎对机器人与人工智能方向的最前沿、最有挑战性的研究课题感兴趣的同学加入。请发邮件详询。
-  requirements:
-  - Bachelor's or Master's degree in CS, EE, ME, or related fields.
-  - Willing to conduct challenging top-tier research in robotics and AI.
-  - Experience with tactile sensors, manipulation, or computer vision is a plus.
-- id: 2
-  title: Research Assistants / Interns
-  type: Internship
-  description: 我们接收每年2-3名有志于从事机器人研究的本校实习生，以及希望在本实验室开展科研并在未来攻读博士学位的外访学生。你将与实验室成员紧密合作，参与前沿机器人课题研究。请发邮件详询。
-  requirements:
-  - Self-motivated and passionate about robotics.
-  - Experience in relevant competitions or prerequisite coursework in robotics, AI, electronics, mechanical engineering, or related fields.
-  - Commitment of at least 15 hours per week.
+  - id: 1
+    title: Master / PhD Students (Fall 2026 or Fall 2027)
+    type: Master / PhD Program
+    description: |-
+      实验室每年约招收2-3名硕士/博士生，且有和北京通用人工智能研究院联培机会。我们欢迎对机器人与人工智能方向的最前沿、最有挑战性的研究课题感兴趣的同学加入。请发邮件详询。
+      The lab recruits about 2–3 master's/PhD students each year, with a joint-training opportunity through the Beijing Institute for General Artificial Intelligence (BIGAI). We welcome students interested in the most cutting-edge and challenging research in robotics and AI. Please email for details.
+    requirements:
+      - Bachelor's or Master's degree in CS, EE, ME, or related fields.
+      - Willing to conduct challenging top-tier research in robotics and AI.
+      - Experience with tactile sensors, manipulation, or computer vision is a plus.
+  - id: 2
+    title: Research Assistants / Interns
+    type: Internship
+    description: |-
+      我们接收每年2-3名有志于从事机器人研究的本校实习生，以及希望在本实验室开展科研并在未来攻读博士学位的外访学生。你将与实验室成员紧密合作，参与前沿机器人课题研究。请发邮件详询。
+      Each year we accept 2–3 on-campus interns committed to robotics research, as well as visiting students who wish to conduct research in our lab and pursue a PhD in the future. You will work closely with lab members on cutting-edge robotics projects. Please email for details.
+    requirements:
+      - Self-motivated and passionate about robotics.
+      - Experience in relevant competitions or prerequisite coursework in robotics, AI, electronics, mechanical engineering, or related fields.
+      - Commitment of at least 15 hours per week.
 patents:
-- id: 1
-  title: XXX
-  inventors: 肖晨曦, XXX
-  status: 已授权 (Granted)
-  number: CN123456789B
-  date: '2025.10'
-  description: 本发明公开了一种基于视触觉融合的灵巧手抓取控制方法及系统，通过多模态传感器获取目标物体的物理属性，实现自适应稳定抓取。
-- id: 2
-  title: A High-Resolution Multimodal Tactile Sensor for Robotic Manipulation
-  inventors: Chenxi Xiao, XXX
-  status: 申请中 (Pending)
-  number: XXX
-  date: '2025.05'
-  description: A novel tactile sensor design capable of simultaneously measuring normal force, shear force, and temperature distribution for embodied AI applications.
+  - id: 1
+    title: XXX
+    inventors: 肖晨曦 (Chenxi Xiao), XXX
+    status: 已授权 (Granted)
+    number: CN123456789B
+    date: "2025.10"
+    description: |-
+      本发明公开了一种基于视触觉融合的灵巧手抓取控制方法及系统，通过多模态传感器获取目标物体的物理属性，实现自适应稳定抓取。
+      This invention discloses a visuo-tactile-fusion-based grasp control method and system for dexterous hands. It acquires the physical properties of target objects through multimodal sensors to achieve adaptive stable grasping.
+  - id: 2
+    title: A High-Resolution Multimodal Tactile Sensor for Robotic Manipulation
+    inventors: Chenxi Xiao, XXX
+    status: 申请中 (Pending)
+    number: XXX
+    date: "2025.05"
+    description: A novel tactile sensor design capable of simultaneously measuring normal force, shear force, and temperature distribution for embodied AI applications.
 gallery:
-- id: 1
-  image: /images/gallery/lab-photo2024.png
-  caption: Lab photo (2024)
-- id: 2
-  image: /images/gallery/lab-photo2024-2.png
-  caption: Lab photo (2024)
-- id: 3
-  image: /images/gallery/lab-photo-2024-3.png
-  caption: Lab photo (2024)
-- id: 4
-  image: /images/gallery/lab-photo-2023.PNG
-  caption: Lab photo (2023)
-- id: 5
-  image: /images/gallery/lab-photo-2026-03.jpg
-  caption: Lab activity (2026.03)
-- id: 6
-  image: /images/gallery/EE291.png
-  caption: 板级电路设计实践
-- id: 7
-  image: /images/gallery/EE291-2.png
-  caption: 板级电路设计实践
-- id: 8
-  image: /images/gallery/equipment.jpg
-  caption: 实验室部分器材（2024）
+  - id: 1
+    image: /images/gallery/lab-photo2024.png
+    caption: Lab photo (2024)
+  - id: 2
+    image: /images/gallery/lab-photo2024-2.png
+    caption: Lab photo (2024)
+  - id: 3
+    image: /images/gallery/lab-photo-2024-3.png
+    caption: Lab photo (2024)
+  - id: 4
+    image: /images/gallery/lab-photo-2023.PNG
+    caption: Lab photo (2023)
+  - id: 5
+    image: /images/gallery/lab-photo-2026-03.jpg
+    caption: Lab activity (2026.03)
+  - id: 6
+    image: /images/gallery/EE291.png
+    caption: |-
+      板级电路设计实践
+      Board-Level Circuit Design Practice
+  - id: 7
+    image: /images/gallery/EE291-2.png
+    caption: |-
+      板级电路设计实践
+      Board-Level Circuit Design Practice
+  - id: 8
+    image: /images/gallery/equipment.jpg
+    caption: |-
+      实验室部分器材（2024）
+      Lab equipment (2024)
