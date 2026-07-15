@@ -243,7 +243,7 @@ publications:
     abstract: Casts photorealistic style transfer as a diffusion process. By modeling the transfer as a denoising trajectory, it reconciles style and content to produce high-fidelity, artifact-free photorealistic stylization.
     links:
       pdf: https://doi.org/10.1109/WACV61041.2025.00892
-      code: ""
+      code: https://github.com/leemojiang/D-LUT
       video: ""
   - id: 11
     title: "HydroGrasp: A Hydraulic Multi-Fingered Gripper"
@@ -258,7 +258,7 @@ publications:
     abstract: A hydraulic multi-fingered gripper whose fingers are driven by hydraulic actuators. The hydraulic mechanism provides inherent compliance and high force, letting the gripper adapt to and grasp objects ranging from delicate to heavy.
     links:
       pdf: https://doi.org/10.1109/ROBIO66223.2025.11377340
-      code: ""
+      code: https://github.com/m31-1612/HydroGrasp
       video: ""
   - id: 10
     title: "HandCraft: Tactile-Informed Hand-Object Dynamics Capture and Realistic Rendering"
@@ -408,7 +408,7 @@ publications:
     abstract: A nonmyopic informative path-planning method that minimizes global Kriging (Gaussian-process) variance. Rather than greedily maximizing local information, it plans paths that reduce integrated posterior variance over the whole field, lowering reconstruction error than myopic planners.
     links:
       pdf: https://doi.org/10.1109/LRA.2022.3141458
-      code: ""
+      code: https://github.com/MegaYEye/Nonmyopic-GKVM-planner
       video: ""
   - id: 28
     title: "Triangle-Net: Towards Robustness in Point Cloud Learning"
@@ -423,7 +423,7 @@ publications:
     abstract: A network architecture that improves robustness in 3D point-cloud learning. It represents local geometry with triangle-based features that are stable and invariant, making the model less sensitive to noise and sampling variations than pointwise features.
     links:
       pdf: https://doi.org/10.1109/WACV48630.2021.00087
-      code: ""
+      code: https://github.com/MegaYEye/Triangle-Net
       video: ""
   - id: 19
     title: Flying Through a Narrow Gap Using End-to-End Deep Reinforcement Learning Augmented With Curriculum Learning and Sim2Real
