@@ -13,7 +13,7 @@ export default function Navbar() {
     { name: 'Openings', href: '#openings' },
     { name: 'Team', href: '#team' },
     { name: 'Gallery', href: '#gallery' },
-    { name: 'Profile', href: '/?page=cv' },
+    { name: 'About PI', href: '/?page=cv' },
   ];
 
   return (
