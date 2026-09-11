@@ -24,16 +24,29 @@ labInfo:
   institutionUrl: https://sist.shanghaitech.edu.cn/xcx/main.htm
   heroBgUrl: /images/hero-bg.jpg
 news:
+  - id: 21
+    date: "2026.09"
+    content: Our AURORA, BlindGrasp, and Ego2Robot accepted to CoRL 2026.
+  - id: 22
+    date: "2026.09"
+    content: |-
+      【推免】招具身方向联培专硕（与上海创芯学院联合培养），培养机器人+芯片设计流片双领域能力。邮件详询。
+      [Grad recommendation] Recruiting professional master's students in embodied AI (jointly trained with the Shanghai Institute of Semiconductor Innovation, SISI), building expertise in both robotics and chip design & tape-out. Email for details.
+  - id: 23
+    date: "2026.09"
+    content: |-
+      【本科进组实习】招大二年级实习生2-3名（EE/CS专业，需本校），欢迎邮件详询。
+      [Undergrad internship] Recruiting 2–3 sophomore interns (EE/CS majors, on-campus only). Email for details.
   - id: 1
     date: "2026.07"
     content: |-
-      【推免】招具身方向直博1名（通计划 北京通用人工智能研究院），研究方向：触觉操作。邮件详询。
-      [Grad recommendation] Recruiting 1 direct-PhD student in embodied AI (joint program with the Beijing Institute for General Artificial Intelligence, BIGAI); research direction: tactile manipulation. Email for details.
+      【推免】招具身方向直博1名（通计划 北京通用人工智能研究院），研究方向：触觉操作。已招满。
+      [Grad recommendation] Recruiting 1 direct-PhD student in embodied AI (joint program with the Beijing Institute for General Artificial Intelligence, BIGAI); research direction: tactile manipulation. (Filled)
   - id: 2
     date: "2026.07"
     content: |-
-      【推免&本科进组实习】招具身方向推免生2-3名（2027年入学，见链接）；大二年级实习2-3名（EE/CS专业，需本校），欢迎邮件详询。
-      [Grad recommendation & undergrad internship] Recruiting 2–3 recommended master's/PhD students in embodied AI (enrolling 2027, see link); and 2–3 sophomore interns (EE/CS majors, on-campus only). Email for details.
+      【推免】招具身方向推免生2-3名（2027年入学，见链接）。已招满。
+      [Grad recommendation] Recruiting 2–3 recommended master's/PhD students in embodied AI (enrolling 2027, see link). (Filled)
     link: https://sist.shanghaitech.edu.cn/2026/0511/c7339a1121835/page.htm
   - id: 20
     date: "2026.06"
@@ -600,8 +613,8 @@ openings:
     title: Master / PhD Students (Fall 2026 or Fall 2027)
     type: Master / PhD Program
     description: |-
-      实验室每年约招收2-3名硕士/博士生，且有和北京通用人工智能研究院联培机会。我们欢迎对机器人与人工智能方向的最前沿、最有挑战性的研究课题感兴趣的同学加入。请发邮件详询。
-      The lab recruits about 2–3 master's/PhD students each year, with a joint-training opportunity through the Beijing Institute for General Artificial Intelligence (BIGAI). We welcome students interested in the most cutting-edge and challenging research in robotics and AI. Please email for details.
+      实验室每年约招收2-3名硕士/博士生，且有和北京通用人工智能研究院、上海创芯学院的联培机会（创芯学院联培专硕培养机器人+芯片设计流片双领域能力）。我们欢迎对机器人与人工智能方向的最前沿、最有挑战性的研究课题感兴趣的同学加入。请发邮件详询。
+      The lab recruits about 2–3 master's/PhD students each year, with joint-training opportunities through the Beijing Institute for General Artificial Intelligence (BIGAI) and the Shanghai Institute of Semiconductor Innovation (SISI; SISI joint-program professional master's students build expertise in both robotics and chip design & tape-out). We welcome students interested in the most cutting-edge and challenging research in robotics and AI. Please email for details.
     requirements:
       - Bachelor's or Master's degree in CS, EE, ME, or related fields.
       - Willing to conduct challenging top-tier research in robotics and AI.
