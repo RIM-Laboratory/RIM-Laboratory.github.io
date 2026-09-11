@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { publications, labInfo } from '../data';
+import { publications } from '../data';
 import { FileText, Code, Video, Globe, Image as ImageIcon, ChevronDown, ChevronUp } from 'lucide-react';
 
 // Deterministic colored tag: each keyword string hashes to one of a fixed
@@ -28,15 +28,6 @@ export default function Publications() {
   const [isExpanded, setIsExpanded] = useState(false);
   const displayedPublications = isExpanded ? publications : publications.slice(0, 5);
 
-  const highlightAuthor = (authorsStr: string) => {
-    const parts = authorsStr.split(new RegExp(`(${labInfo.piName})`, 'gi'));
-    return parts.map((part, i) => 
-      part.toLowerCase() === labInfo.piName.toLowerCase() ? 
-        <strong key={i} className="text-gray-900 font-semibold">{part}</strong> : 
-        part
-    );
-  };
-
   return (
     <section id="publications" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -48,7 +39,7 @@ export default function Publications() {
         <div className="space-y-8">
           <AnimatePresence initial={false}>
             {displayedPublications.map((pub, index) => (
-              <PublicationCard key={pub.id} pub={pub} index={index} highlightAuthor={highlightAuthor} />
+              <PublicationCard key={pub.id} pub={pub} index={index} />
             ))}
           </AnimatePresence>
         </div>
@@ -76,7 +67,7 @@ export default function Publications() {
   );
 }
 
-function PublicationCard({ pub, index, highlightAuthor }: { key?: number, pub: any, index: number, highlightAuthor: (str: string) => any }) {
+function PublicationCard({ pub, index }: { key?: number, pub: any, index: number }) {
   const [imgError, setImgError] = useState(false);
 
   return (
@@ -87,13 +78,13 @@ function PublicationCard({ pub, index, highlightAuthor }: { key?: number, pub: a
       transition={{ duration: 0.3 }}
       className="flex flex-col md:flex-row gap-8 bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
     >
-      <div className="w-full md:w-1/3 flex-shrink-0">
+      <div className="w-full md:w-1/3 flex-shrink-0 flex items-center">
         {!imgError ? (
-          <img 
-            src={pub.image} 
-            alt={pub.title} 
+          <img
+            src={pub.image}
+            alt={pub.title}
             onError={() => setImgError(true)}
-            className="w-full h-48 md:h-full object-cover rounded-xl bg-gray-50"
+            className="w-full max-h-72 object-contain rounded-xl bg-white"
             referrerPolicy="no-referrer"
           />
         ) : (
@@ -110,7 +101,7 @@ function PublicationCard({ pub, index, highlightAuthor }: { key?: number, pub: a
           {pub.title}
         </h3>
         <p className="text-gray-600">
-          {highlightAuthor(pub.authors)}
+          {pub.authors}
         </p>
         <p className="text-indigo-600 font-medium text-sm">
           {pub.venue} ({pub.year})
