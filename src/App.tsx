@@ -49,7 +49,7 @@ export default function App() {
         <Openings />
         <Research />
         <Publications />
-        <Team />
+        {/* <Team /> */}{/* Team section hidden for now */}
         <Gallery />
       </main>
       <Footer />

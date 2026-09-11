@@ -11,7 +11,7 @@ export default function Navbar() {
     { name: 'Research', href: '#research' },
     { name: 'Publications', href: '#publications' },
     { name: 'Openings', href: '#openings' },
-    { name: 'Team', href: '#team' },
+    // { name: 'Team', href: '#team' }, // hidden for now
     { name: 'Gallery', href: '#gallery' },
     { name: 'About PI', href: '/?page=cv' },
   ];
