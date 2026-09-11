@@ -104,6 +104,54 @@ news:
     date: "2024.09"
     content: One paper accepted to RA-L.
 publications:
+  - id: 36
+    title: "AURORA: Active Uncertainty-Driven Re-Orientation for In-Hand Reconstruction"
+    authors: Feiyu Zhao, Yuetong Li, Chenxi Xiao
+    venue: CoRL
+    year: 2026
+    image: /images/pub_36.jpg
+    tags:
+      - Active Reconstruction
+      - Dexterous Manipulation
+      - Uncertainty
+    abstract: An active 3D reconstruction framework that closes the loop between online object-centric reconstruction and in-hand reorientation. Ray-GPIS estimates direction-wise reconstruction uncertainty along candidate viewing rays and selects next-best-view targets, exposing under-observed surfaces of occluded objects.
+    links:
+      pdf: https://arxiv.org/abs/2609.08493
+      code: ""
+      video: ""
+      webpage: https://aurorahand.github.io/
+  - id: 37
+    title: "Blind Dexterous Grasping via Real2Sim2Real Tactile Policy Learning"
+    authors: Shengcheng Luo, Xiyan Huang, Zhe Xu, Wanlin Li, Ziyuan Jiao, Chenxi Xiao
+    venue: CoRL
+    year: 2026
+    image: /images/pub_37.jpg
+    tags:
+      - Tactile
+      - Grasping
+      - Sim2Real
+    abstract: A tactile-only blind grasping framework deployable on a physical multi-fingered hand. A Real2Sim pipeline builds a contact-calibrated digital-twin simulator that reproduces real tactile signals, enabling sim-to-real transfer of dexterous grasping policies without vision.
+    links:
+      pdf: https://arxiv.org/abs/2606.11767
+      code: ""
+      video: ""
+      webpage: https://dex-blind-grasp.github.io/
+  - id: 38
+    title: "Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data"
+    authors: Ye Wang, Pei Lin, Xiong-Hui Chen, Haoqi Yuan, Zhixuan Liang, Yiyang Huang, Anzhe Chen, Zixing Lei, Jie Zhang, Tao Zhang, Haoyang Li, Tong Zhang, Chenxi Xiao, Ziyuan Jiao, Qin Jin
+    venue: CoRL
+    year: 2026
+    image: /images/pub_38.jpg
+    tags:
+      - VLA
+      - Data Synthesis
+      - Egocentric
+    abstract: A scalable pipeline that converts egocentric human manipulation videos into robot training data through action retargeting and rendering, providing pretraining data for vision-language-action models that improves generalization across scenes, objects, and robot embodiments.
+    links:
+      pdf: https://arxiv.org/abs/2608.02580
+      code: ""
+      video: ""
+      webpage: https://www-ye.github.io/ego2robot_blog/
   - id: 35
     title: "CoLI: A Reproducible Platform for Continuum Robot Learning via Monolithic 3D Printing and Isomorphic Teleoperation"
     authors: Ziyuan Tang, Chenxi Xiao
