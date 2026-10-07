@@ -644,6 +644,22 @@ team:
     bio: Zengfan Xing did an undergraduate internship at RIM Lab.
     image: /images/members/default_male.jpg
     links: {}
+alumniDestinations:
+  - name: Yifan Wu
+    destination: University of Pennsylvania (uPenn)
+    info: Undergraduate researcher · 2024
+  - name: Xiyan Huang
+    destination: 智元机器人 AgiBot
+    info: M.S. · 2026
+  - name: Yanming Shao
+    destination: HKU MMLab
+    info: M.S. · 2026
+  - name: Yatao Leng
+    destination: 穹彻智能 Noematrix
+    info: M.S. · 2026
+  - name: Zhe Xu
+    destination: 银河通用 Galbot
+    info: M.S. · 2026
 researchAreas:
   - id: 1
     title: Tactile Sensing

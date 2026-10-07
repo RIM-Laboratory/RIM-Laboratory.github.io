@@ -10,6 +10,7 @@ export default function Navbar() {
     { name: 'News', href: '#news' },
     { name: 'Research', href: '#research' },
     { name: 'Publications', href: '#publications' },
+    { name: 'Alumni', href: '#alumni' },
     { name: 'Openings', href: '#openings' },
     // { name: 'Team', href: '#team' }, // hidden for now
     { name: 'Gallery', href: '#gallery' },

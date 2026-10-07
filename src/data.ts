@@ -8,6 +8,7 @@ export const news = parsedData.news;
 export const publications = parsedData.publications;
 export const experience = parsedData.experience;
 export const team = parsedData.team;
+export const alumniDestinations = parsedData.alumniDestinations;
 export const researchAreas = parsedData.researchAreas;
 export const openings = parsedData.openings;
 export const patents = parsedData.patents;

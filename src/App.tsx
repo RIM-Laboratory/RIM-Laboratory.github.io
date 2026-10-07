@@ -9,6 +9,7 @@ import Hero from './components/Hero';
 import News from './components/News';
 import Research from './components/Research';
 import Team from './components/Team';
+import Alumni from './components/Alumni';
 import Publications from './components/Publications';
 import Patents from './components/Patents';
 import Openings from './components/Openings';
@@ -49,6 +50,7 @@ export default function App() {
         <Openings />
         <Research />
         <Publications />
+        <Alumni />
         {/* <Team /> */}{/* Team section hidden for now */}
         <Gallery />
       </main>
